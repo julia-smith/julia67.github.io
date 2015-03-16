@@ -1,66 +1,44 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Sat, 14 Mar 2015 05:53:52 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 16 Mar 2015 05:22:51 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Cool fellowships at cool places</title><description>&lt;p&gt;Last August, I was sharing a bottle of wine with the amazing &lt;a href="http://jmac.creighton.edu/?page_id=234" target="_blank"&gt;Dr. Carol Zuegner&lt;/a&gt;, my friend and former j-school advisor, as we discussed how my newish job was going. I was working as a web developer for a &lt;a href="http://oxidedesign.com/" target="_blank"&gt;small graphic design studio&lt;/a&gt; and was feeling mostly content but somewhat underwhelmed with the work. And Carol, in all her wisdom, reminded me that I have “a very particular set of skills” …&lt;/p&gt;
 
-&lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/03/taken.jpg" alt="Liam Neeson in 'Taken'"&gt;
+&lt;span class="caption"&gt;Not those kinds of skills.&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Ghost uses something called Markdown for writing. Essentially, it's a shorthand way to manage your post formatting as you write!&lt;/p&gt;
+&lt;p&gt;…that news organizations are hungrily seeking. She asked if I'd considered applying for opportunities outside of Omaha – perhaps grad school, perhaps something else.&lt;/p&gt;
 
-&lt;p&gt;Writing in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use &lt;em&gt;shortcuts&lt;/em&gt; to &lt;strong&gt;style&lt;/strong&gt; your content. For example, a list:&lt;/p&gt;
+&lt;p&gt;I didn’t put too much thought into the suggestion – I was living quite the comfortable life in Omaha and was hesitant to disrupt it. I had also been working outside the news industry for the last three or four years and wasn't sure if my journalism degree was still relevant.&lt;/p&gt;
+
+&lt;p&gt;The next day, Carol sent me an email entitled “cool fellowships at cool places,” containing a link to the &lt;a href="http://opennews.org/what/fellowships/" target="_blank"&gt;Knight-Mozilla fellowship program&lt;/a&gt;. I was surprised I was so drawn to it. It seemed like a perfect opportunity from a skills and interests perspective. And, incredibly, it included a reasonable stipend and time commitment. &lt;/p&gt;
+
+&lt;p&gt;I had two days to apply. &lt;/p&gt;
+
+&lt;p&gt;NBD.&lt;/p&gt;
+
+&lt;p&gt;I drafted my responses to the application fairly quickly but spent most of those two days reading blog posts about the fellowship experience. Notable reading material included:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Item number one&lt;/li&gt;
-&lt;li&gt;Item number two
-&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;A final item&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://veltman.tumblr.com/post/94827905007/opennews-t-minus-36-hours" target="_blank"&gt;This one&lt;/a&gt; via &lt;a href="http://twitter.com/@veltman target=" _blank"=""&gt;@veltman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://veltman.tumblr.com/post/56132893301/code-the-newsroom-and-self-doubt" target="_blank"&gt;This one&lt;/a&gt; also via &lt;a href="http://twitter.com/@veltman target=" _blank"=""&gt;@veltman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://erikaowens.com/blog/who-should-apply-knight-mozilla-fellowship-you" target="_blank"&gt;This one&lt;/a&gt; via &lt;a href="http://twitter.com/@erika_owens" target="_blank"&gt;@erika_owens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://briantjacobs.com/john-cusack-on-becoming-a-2015-knight-mozilla-fellow/" target="_blank"&gt;This one&lt;/a&gt; via &lt;a href="http://twitter.com/@btjakes target=" _blank"=""&gt;@btjakes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;or with numbers!&lt;/p&gt;
+&lt;p&gt;I decided this was actually something I really really really wanted to do.&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Remember to buy some milk  &lt;/li&gt;
-&lt;li&gt;Drink the milk  &lt;/li&gt;
-&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;A few hours before the deadline (not a record, BTW), I hit the submit button and hoped for the best.&lt;/p&gt;
 
-&lt;h3 id="links"&gt;Links&lt;/h3&gt;
+&lt;p&gt;The waiting game began. I cycled between ultra-confidence and crippling self-doubt on a near-daily basis as I anticipated a response from OpenNews. When I was feeling level-headed, I estimated I would make it into the group of semifinalists but probably not any further than that. When I made it past that point, I had no more expectations. &lt;/p&gt;
 
-&lt;p&gt;Want to link to a source? No problem. If you paste in a URL, like &lt;a href="http://ghost.org"&gt;http://ghost.org&lt;/a&gt; - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to &lt;a href="http://ghost.org"&gt;the Ghost website&lt;/a&gt;. Neat.&lt;/p&gt;
+&lt;p&gt;The two months leading up to the final fellowship decision felt like this:&lt;/p&gt;
 
-&lt;h3 id="whataboutimages"&gt;What about Images?&lt;/h3&gt;
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/03/positivity-chart-1.jpg" alt="Chart: Positivity over Time"&gt;
+&lt;span class="caption"&gt;I'm just trying to have fun here.&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:&lt;/p&gt;
+&lt;p&gt;Here's a timeline of some tweet-sized feels:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://ghost.org/images/ghost.png" alt="The Ghost Logo"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="callout"&gt;&lt;strong&gt;Aug. 14&lt;/strong&gt; &lt;br&gt;Beginning to read about the fellowship. Very excited.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Aug. 16&lt;/strong&gt; &lt;br&gt;Application submitted. Feeling super confident because I thought my application materials turned out awesome.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 5&lt;/strong&gt; &lt;br&gt;Semifinalist notification. Happy but trying to stay realistic.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 10&lt;/strong&gt; &lt;br&gt;Prepping for first interview. Feeling confident; I usually interview pretty well.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 11&lt;/strong&gt; &lt;br&gt;Interviewed with OpenNews. Thought it went horribly. Had too much coffee and felt like I couldn’t keep my thoughts straight.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 19&lt;/strong&gt; &lt;br&gt;Finalist notification. Very pleasantly surprised. &lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 25&lt;/strong&gt; &lt;br&gt;Interview with CIR. Feeling pretty good about it.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 1&lt;/strong&gt; &lt;br&gt;Still feeling good. Blind hope is balancing any lack of confidence. Should receive a final decision tomorrow.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 2&lt;/strong&gt; &lt;br&gt;A day full of anxious excitement and anticipation. I am very jumpy.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 3&lt;/strong&gt; &lt;br&gt;Received news that a decision hasn’t been made yet. I'm convinced the fellowship was offered to another. Sad. Reevaluating all life decisions.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 6&lt;/strong&gt; &lt;br&gt;Received another email. Still no news. At least this isn’t a rejection. I'm still in the running. Feeling slightly better.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 10&lt;/strong&gt; &lt;br&gt;Oh happy day! 2015 Knight-Mozilla fellow at the Center for Investigative Reporting. So excite!!&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:&lt;/p&gt;
+&lt;p&gt;And that's the brief overview of my experience with the fellowship selection process. &lt;/p&gt;
 
-&lt;h3 id="quoting"&gt;Quoting&lt;/h3&gt;
+&lt;p&gt;One other thing to note – one reason my pre-semifinalist positivity remained high – is that I kept a close eye on the Google Analytics report for my personal website. I received very little traffic prior to applying for the fellowship, and visits to my site were almost entirely from Nebraska. After I applied, I started getting hits from other locations – New York, Chicago, D.C., London – places that definitely had a host news organization or other OpenNews presence. Occassionally, the ISP even said something super informative, like "National Public Radio." So I had a nice quantitative measure that my application likely made it past the first round of cuts, which took some of the edge off. &lt;/p&gt;
 
-&lt;p&gt;Sometimes a link isn't enough, you want to quote someone on what they've said. It was probably very wisdomous. Is wisdomous a word? Find out in a future release when we introduce spellcheck! For now - it's definitely a word.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Wisdomous - it's definitely a word.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id="workingwithcode"&gt;Working with Code&lt;/h3&gt;
-
-&lt;p&gt;Got a streak of geek? We've got you covered there, too. You can write inline &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.awesome-thing {
-    display: block;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="readyforabreak"&gt;Ready for a Break?&lt;/h3&gt;
-
-&lt;p&gt;Throw 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h3 id="advancedusage"&gt;Advanced Usage&lt;/h3&gt;
-
-&lt;p&gt;There's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.&lt;/p&gt;
-
-&lt;p&gt;&lt;input type="text" placeholder="I'm an input field!"&gt;&lt;/p&gt;
-
-&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">5170319b-aa6b-447e-8a90-f817160b5c00</guid><category>Getting Started</category><dc:creator>Julia</dc:creator><pubDate>Thu, 12 Mar 2015 20:21:15 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Gotta love data!&lt;/p&gt;</description><link>http://localhost:2368/cool-fellowships-at-cool-places/</link><guid isPermaLink="false">19a22a94-044e-4ea8-a0d2-ae9de2293d21</guid><dc:creator>Julia</dc:creator><pubDate>Tue, 06 Jan 2015 06:15:00 GMT</pubDate></item></channel></rss>
