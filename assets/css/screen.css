@@ -203,7 +203,7 @@ h4, h5, h6 {
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
     line-height: 1.15em;
-    margin: 0 0 0.4em 0;
+    margin: 1.8em 0 0.6em 0;
     font-family: "Roboto Condensed", sans-serif;
     text-rendering: geometricPrecision;
     text-transform:uppercase;
@@ -245,11 +245,41 @@ a:hover {
     color: #111;
 }
 
+/*.post-content*/
+.post-content a {
+    color: rgb(70,70,70);
+    transition: border-bottom 0.3s ease;
+    text-decoration:none;
+    border-bottom:1px dotted rgb(70,70,70);
+}
+
+.post-content a:hover {
+    border-bottom:none;
+}
+
+.post-content h1 a, .post-content h2 a, .post-content h3 a,
+.post-content h4 a, .post-content h5 a, .post-content h6 a {
+    color:#2E2E2E;
+    text-decoration:none;
+    border-bottom:1px dotted rgb(70,70,70);
+}
+
+.post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover,
+.post-content h4 a:hover, .post-content h5 a:hover, .post-content h6 a:hover {
+    text-decoration:none;
+    border-bottom:none;
+}
+
+
+
+
+
 p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.75em 0;
+    /*margin: 0 0 1.75em 0;*/
+    margin:0 0 1.4em 0;
     text-rendering: geometricPrecision;
 }
 
@@ -259,7 +289,7 @@ ol, ul {
 
 ol ol, ul ul,
 ul ol, ol ul {
-    margin: 0 0 0.4em 0;
+    margin: 0 0 1.4em 0;
     padding-left: 2em;
 }
 

@@ -1,4 +1,152 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Sat, 21 Mar 2015 00:08:30 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Cool fellowships at cool places</title><description>&lt;p&gt;Last August, I was sharing a bottle of wine with the amazing &lt;a href="http://jmac.creighton.edu/?page_id=234" target="_blank"&gt;Dr. Carol Zuegner&lt;/a&gt;, my friend and former j-school advisor, as we discussed how my newish job was going. I was working as a web developer for a &lt;a href="http://oxidedesign.com/" target="_blank"&gt;small graphic design studio&lt;/a&gt; and was feeling mostly content but somewhat underwhelmed with the work. And Carol, in all her wisdom, reminded me that I have “a very particular set of skills” …&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 01 Apr 2015 08:05:08 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The First Month</title><description>&lt;p&gt;I've just wrapped up the first month (plus a week, because I'm slow) of my fellowship at the Center for Investigative Reporting.&lt;/p&gt;
+
+&lt;p&gt;It has been grand.&lt;/p&gt;
+
+&lt;p&gt;I've been working on a variety of projects – some for the newsroom, some for my own research – and I am consuming a crazy amount of new information. I have a decent grasp on python now. I've collected a lot of great info about style guides and front-end best practices that I'm condensing into documentation for the team. I've been developing a component-driven framework to help build consistent user interfaces for &lt;a href="http://revealnews.org"&gt;Reveal&lt;/a&gt;'s interactive news apps. And I've been banging my head against a wall trying to figure out what I should focus on for conference session proposals. Woo!&lt;/p&gt;
+
+&lt;p&gt;I also attended my first &lt;a href="http://ire.org/conferences/nicar2015/"&gt;NICAR&lt;/a&gt; and had – in all honesty – too good a time. It's been weeks now and I'm still having post-NICAR withdrawals.&lt;/p&gt;
+
+&lt;p&gt;But the most amazing thing about the fellowship so far has been witnessing the inner workings of an investigative news organization. I had very little exposure to the process behind data-driven journalism prior to the fellowship, so it's been eye-opening to see how everyone tracks down sources and data sets, cleans and verifies the data, and then turns their findings into awesome, compelling stories. I still haven't felt ready to pitch my own investigation, but thanks to the rest of the data team and some sessions at NICAR, I'm confident and excited to venture into that realm in the coming weeks.&lt;/p&gt;
+
+&lt;p&gt;Gotta get some bylines.&lt;/p&gt;
+
+&lt;p&gt;And beyond the work produced at CIR, the amount of passion, talent, and skill my coworkers have is really inspiring. Everyone has so much expertise and puts so much energy into their projects. (I realize it sounds like this should be a given, but I've worked at a few places where it seemed like most people were essentially checked out. Not so at CIR, which is pretty cool.)&lt;/p&gt;
+
+&lt;p&gt;Overall, I'm quite happy with my fellowship experience so far, and I'm excited to start sharing information at a more rapid pace. I've done a lot of pre-work (researching the brand and various best practices, completing a lot of tutorials, trying out different tools, helping out as needed) and I feel like I'm about to hit my stride on all the style guide work I've been doing. Plus this week I'm starting work on my first data viz project for publication in April, and I am super excited to get something out in the open. (Shout out to &lt;a href="http://twitter.com/aboutaaron"&gt;Aaron&lt;/a&gt; for bringing me onto the project.)&lt;/p&gt;
+
+&lt;p&gt;Good things are on the way.&lt;/p&gt;</description><link>http://julia67.github.io/the-first-month/</link><guid isPermaLink="false">a9718317-5212-4cf7-80a3-09ba15b4ba32</guid><category>opennews</category><dc:creator>Julia</dc:creator><pubDate>Wed, 25 Mar 2015 21:36:57 GMT</pubDate></item><item><title>#NICAR15 Part 1: A List</title><description>&lt;p&gt;NICAR 2015 was fantastic.&lt;/p&gt;
+
+&lt;p&gt;The following is simply a dump of notes from the sessions I attended. I'll give a brief overview of my thoughts on the conference as a whole (and a couple areas of opportunity that stood out to me) in a subsequent post. &lt;/p&gt;
+
+&lt;h2 id="wednesday"&gt;Wednesday&lt;/h2&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941695target_blanktechraking10bootstrappingthenewsa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1695/" target="_blank"&gt;Techraking &amp;lt;=10: Bootstrapping the News&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;This was a pre-conference workshop presented by my lovely CIR coworkers. The goal was to get the participants' computers set up with a VM running Xubuntu 14.04, complete with all the goodies anyone might need for other hands-on sessions. After getting the machines set up, the class was mostly an introduction to the command line. My job was to help anyone who got stuck, which I thought was a little funny because I barely ever use the command line in my day-to-day experience. However, I quickly realized that my sporadic usage over the last couple years was plenty enough to help out with this training. So that felt good. And I was able to drop a little knowledge bomb regarding using nano to edit files: you can use &lt;code&gt;Ctrl + O&lt;/code&gt; to save a file without closing it. That'll save your work in progress, which is a small but mighty time-and-headache-saver. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/03/nano.jpg" alt="" title=""&gt;&lt;span class="caption"&gt;The more you know.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id="thursday"&gt;Thursday&lt;/h2&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941700target_blankfromwordstopicturestextanalysisandvisualizationa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1700/" target="_blank"&gt;From words to pictures: Text analysis and visualization&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;I enjoyed this session and thought it was a good one to start with. It was an interesting look at visual presentations of text-based data – really good for inspiration. I left wondering how much of it would be useful on mobile devices. Will investigate. Here's the &lt;a href="https://www.dropbox.com/s/283djj27aea1ut4/From-words-to-pictures_text-analysis-and-visualization_diakopoulos.pptx?dl=0"&gt;presentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941701target_blanktheforgottenhistoryofdatajournalisma"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1701/" target="_blank"&gt;The forgotten history of data journalism&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;It was fun looking at all the firsts in data visualization. Much of the session covered this &lt;a href="http://www.propublica.org/nerds/item/antebellum-data-journalism-busted-abe-lincoln"&gt;report about Abraham Lincoln&lt;/a&gt;. I thought it would have been cool if the presentation went a little further, maybe into the early stages of computer-based visualisations, maybe something about Muriel Cooper...perhaps that's still too recent.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941706target_blankuncoveringracialandeconomicdividesusingdataa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1706/" target="_blank"&gt;Uncovering racial and economic divides using data&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;This session was great, particularly Nikole Hannah-Jones' portion of it. She presented her &lt;a href="http://projects.propublica.org/segregation-now/"&gt;investigation&lt;/a&gt; of the resegregation that occurced after many states' desegregation orders expired. I'd like to see a project along the same lines specificaly for Omaha, which was released from a desegregation order in 1984 and is becoming more and more segregated.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941714target_blankspacejournalismusingsatelliteimageryfordataprojectsa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1714/" target="_blank"&gt;Space journalism: Using satellite imagery for data projects&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;I missed Brian's session at MozFest, so I was really happy to see it at NICAR. Here's the info:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/briantjacobs/ae5510ca84ef172b2f5f?nicar" target="_blank"&gt;GitHub repo from speaker Brian Jacobs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://shaw.al.s3.amazonaws.com/nicar15/nicar-louisiana.pdf" target="_blank"&gt;Presentation from speaker Al Shaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dl.dropboxusercontent.com/u/18281116/nicar-space.pdf" target="_blank"&gt;Presentation from Brian T. Jacobs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941719target_blankhumanizingnumbersa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1719/" target="_blank"&gt;Humanizing numbers&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;This was a great session about the &lt;em&gt;who&lt;/em&gt; and the &lt;em&gt;why&lt;/em&gt; behind visualizing data. Katie Parks' &lt;a href="http://www.katie-park.com/nicar-2015.pdf"&gt;projects&lt;/a&gt; were some of my favorites – they're great examples of alternative ways to display information. I particularly loved the concept behind the &lt;a href="http://hungerreport.org/missingdata/"&gt;2015 Hunger Report&lt;/a&gt; – how the interesting story is in the data that's &lt;em&gt;missing&lt;/em&gt; rather than the data that's available. The photo treatment in that story is pretty awesome too. Overall, I liked how this session focused on how to identify a human-centric story rather than how, technically, to create a graphic.&lt;/p&gt;
+
+&lt;h6 id="fellowshipmeetup"&gt;Fellowship Meetup&lt;/h6&gt;
+
+&lt;p&gt;The 2015 cohort met up to discuss our experiences so far. It's always nice to hear from everybody. Afterwards, we attended the Knight Foundation happy hour.&lt;/p&gt;
+
+&lt;h2 id="friday"&gt;Friday&lt;/h2&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941732target_blankvisualjournalismfortinynewsdesksa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1732/" target="_blank"&gt;Visual journalism for tiny news desks&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;This was a session full of things to consider when working in a small newsroom. The audience had some good questions and feedback, including how to avoid performance issues with Google Sheets-powered graphics, and how to consider mobile when developing interactives on the cheap. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To avoid performance problems with Google Sheets, write a script to export a snapshot of the data from Google at a specified interval. Don't rely on the live feed from Google – because if your doc goes down, so does your graphic.&lt;/li&gt;
+&lt;li&gt;Quick ways to account for mobile are to 1) always provide data in an alternate format that's more accessible (like a table) and 2) export your graphics so the user doesn't have to run all the javascript to generate the graphic on the fly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941740target_blankjobsandcareerstraighttalkforandbyyoungunsa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1740/" target="_blank"&gt;Jobs and career straight-talk: For (and by) young'uns&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;I very awkwardly got myself signed up to mentor j-students during this session. (Thanks, &lt;a href="https://twitter.com/jeremybmerrill"&gt;Jeremy Merrill&lt;/a&gt;, for being gracious!) I thought I might have a unique perspective, considering that I found my way to an awesome newsroom in a relatively unconventional way. Perhaps I'll elaborate on the things I hoped to share with journalism's youngins in another post. &lt;/p&gt;
+
+&lt;p&gt;Anyway, the session ended up being more "Q&amp;amp;A with the panelists" and less "small group discussion with the mentors" than I was expecting, but it was still really interesting to hear what other mentors has to say about their own experiences getting to where they are today. At points the conversation devolved into a debate about whether or not grad school is necessary, and another debate about whether or not it was hard to find a job after graduating. In both those conversations, I thought the people who landed their dream job with ease, right out of undergrad, were a little insensitive to everyone else. I mean, I'm glad they're so talented that all the pieces fell into place for them, but that's pretty rare – so it'd be good to at least acknowledge that other people have had different experiences. And I don't mean that in a bitter way at all (I have been quite privileged myself), I'm just well aware that things don't always work out and opportunities aren't available to everyone equally, so it's not accurate or right to expect things to come as easily to others as they did to you. If that makes sense.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941750target_blankusingabstractiontogainknowledgefromnumbersa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1750/" target="_blank"&gt;Using abstraction to gain knowledge from numbers&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;This is probably the session where I absorbed the most. I had never heard data abstraction explained in such a concise way, which was awesome. Here are a couple quick takeaways, just for kicks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To show difference between two metrics: Consider plotting the difference itself instead of plotting two lines on a chart&lt;/li&gt;
+&lt;li&gt;To show long-term trends: Averages are good, smoothing is better, but plotting the change in trend over time is even better.&lt;/li&gt;
+&lt;li&gt;Use a cycle plot to show long-term, cyclical data&lt;/li&gt;
+&lt;li&gt;To illustrate change in spatial data: Use a slope graph instead of a map&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.dropbox.com/s/6c6gkblukaou8li/NICAR_2015_tip_sheet.pdf?dl=0"&gt;Presentation from Robert Simmon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="ahrefhttpireorgconferencesnicar2015lightningtalkstarget_blanklightningtalksa"&gt;&lt;a href="http://ire.org/conferences/nicar2015/lightning-talks/" target="_blank"&gt;Lightning Talks&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;I enjoyed the lightning talks, particularly the bit about the NYTimes' crazy-awesome dataviz tool, Mr. Chartmaker. They have done it. I worked on a similar project with a previous employer, and it was nowhere near as comprehensive or user friendly. Gives us all something to work towards.&lt;/p&gt;
+
+&lt;h2 id="saturday"&gt;Saturday&lt;/h2&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941756target_blankdesignvizwhattodoandwhatnottodoa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1756/" target="_blank"&gt;Design/Viz: What to do, and what not to do&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;This session was pretty standard and had good advice, which you can read about &lt;a href="http://moiz.ca/talks/2015/nicar.pdf"&gt;here&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;During the Q&amp;amp;A portion of the event, an audience member asked a question about accessibility and mobile performance, since most of the examples from the presentation were fairly heavy desktop-sized visualizations. The answer from one of the presenters was less than satisfactory: They don't worry accessibility for news applications because they don't think it's worth it. &lt;/p&gt;
+
+&lt;p&gt;I disagree with that stance. Accessibility and mobile performance are becoming more and more important, especially as mobile audiences grow and &lt;a href="http://webaim.org/articles/laws/world/"&gt;global web accessibility legislation&lt;/a&gt; becomes more prominent. News organizations, as entities dedicated to informing the public, need to be conscious of the implicit biases that come from inaccessible content. Ignoring accessibility limits the reach of your reporting and discriminates against a &lt;em&gt;not insignificant&lt;/em&gt; number of people. I'm not arguing that people should avoid experimentation with modern techniques or large-scale projects – I just think it's increasingly important to provide alternative means to access information...I'll talk more about this later. Aaron Williams and I may submit a session proposal about this topic for &lt;a href="http://srccon.org/"&gt;SRCCON&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941759target_blanksensorjournalismbuzzorbsa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1759/" target="_blank"&gt;Sensor journalism: Buzz or BS?&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;A fun session that was spoiled by an overtly sexist (and entirely avoidable) question during the Q&amp;amp;A.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941766target_blankmakingdatainformeddesigndecisionsa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1766/" target="_blank"&gt;Making data-informed design decisions&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;I loved this session. Using Google Analytics for multivariate testing is a thing I've been very interested in but have never had a chance to implement. Here are some key takeaways from the NPR's analysis:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Users don’t need share buttons&lt;/li&gt;
+&lt;li&gt;Use a “care question” to help encourage users to take action after consuming a story.&lt;/li&gt;
+&lt;li&gt;Users are more likely to take action if presented with a yes or no question asking them how the story made them feel.&lt;/li&gt;
+&lt;li&gt;For NPR, the care question made a huge difference in their conversion rates (significantly more users clicked on a button to donate to NPR)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/presentation/d/1Lysx8Nr_lA3eDE1uQ7ZCiTDDiteGtV1b_DY9KQaHpMw/preview?sle=true&amp;amp;slide=id.p"&gt;PowerPoint from Tyler Fisher &amp;amp; Josh Kadis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For a great read on the methodology behind NPR's multivariate testing, check out &lt;a href="http://blog.apps.npr.org/2015/02/26/multivariate-testing.html"&gt;this piece&lt;/a&gt;, cowritten by my fellow Fellow &lt;a href="http://twitter.com/livlab"&gt;Livia Labate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941678target_blankwebinspectorforcomplexscrapesa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1678/" target="_blank"&gt;Web Inspector for Complex Scrapes&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;I had a great time during this session, which was presented by the wonderful &lt;a href="http://twitter.com/esagara"&gt;Eric Sagara&lt;/a&gt;. It was all about how to reverse engineer awful ASP.NET and Flash-based web applications in order to scrape the data from them. This was a lot of fun for me because I've spent many years building awful .NET and Flash/Flex apps. It was super fun to approach it &lt;em&gt;from the other side&lt;/em&gt;. Plus there was a bit of a competition – who could find the data on a certain website first – and I was happy to remind the class that if you can't find any data in the HTTP requests, &lt;em&gt;look for it in the HTML source&lt;/em&gt;. It's probably embeded in a &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; block somewhere. &lt;/p&gt;
+
+&lt;h6 id="womenofnicardinner"&gt;Women of NICAR Dinner&lt;/h6&gt;
+
+&lt;p&gt;This was lovely. I didn't manage to talk to everyone I had hoped to – but Linda, Livia, Kavya, Tara and I had some great conversation! &lt;/p&gt;
+
+&lt;h2 id="sunday"&gt;Sunday&lt;/h2&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941785target_blankgameoflifedatafromdayonetothedayyoudiea"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1785/" target="_blank"&gt;Game of life: Data from day one to the day you die&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;This was somehow my first session about generating story ideas. It was fun.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941724target_blankdeepdivesa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1724/" target="_blank"&gt;Deep dives&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Looking at a few examples of data-driven news apps. Here's a &lt;a href="https://docs.google.com/a/ire.org/document/d/17kdPo5qXz-HOn418vQQUaFinnaQI2sWgJ_wGLz0EvXg/edit" target="_blank"&gt;tipsheet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="ahrefhttpireorgeventsandtrainingevent14941787target_blankminingsearchabledatabasesforstoriesa"&gt;&lt;a href="http://ire.org/events-and-training/event/1494/1787/" target="_blank"&gt;Mining searchable databases for stories&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;I thought this sessions was really quite useful. I do wish it would've been a Thursday session though – it was a great introduction to what people actually mean when they say "computer-assisted reporting," which embarrassingly took me too long to really grasp. The session simply walked everyone through some go-to data sources, which are available on the tipsheet. &lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;!--For some of my overall thoughts on the conference, see [Part 2](../nicar15-part-2-the-analysis).--&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For notes from all the other sessions at NICAR, check out the &lt;a href="http://ire.org/conferences/nicar2015/tipsheets-and-links/" target="_blank"&gt;tipsheets and links&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/nicar/</link><guid isPermaLink="false">cb966cc8-b50b-498a-a796-b2600e2f39ee</guid><category>opennews</category><category>nicar</category><dc:creator>Julia</dc:creator><pubDate>Tue, 17 Mar 2015 23:04:00 GMT</pubDate></item><item><title>Cool fellowships at cool places</title><description>&lt;p&gt;Last August, I was sharing a bottle of wine with the amazing &lt;a href="http://jmac.creighton.edu/?page_id=234" target="_blank"&gt;Dr. Carol Zuegner&lt;/a&gt;, my friend and former j-school advisor, as we discussed how my newish job was going. I was working as a web developer for a &lt;a href="http://oxidedesign.com/" target="_blank"&gt;small graphic design studio&lt;/a&gt; and was feeling mostly content but somewhat underwhelmed with the work. And Carol, in all her wisdom, reminded me that I have “a very particular set of skills” …&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/03/taken.jpg" alt="Liam Neeson in 'Taken'"&gt;
 &lt;span class="caption"&gt;Not those kinds of skills.&lt;/span&gt;&lt;/p&gt;
