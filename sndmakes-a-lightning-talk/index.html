@@ -1,0 +1,215 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>#SNDMakes: A Lightning Talk</title>
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e186076504">
+    <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7CRoboto:300,500,700">
+
+    <link rel="canonical" href="http://julia67.github.io/sndmakes-a-lightning-talk/">
+    
+    <meta property="og:site_name" content="musings">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="#SNDMakes: A Lightning Talk">
+    <meta property="og:description" content="This is my (essentially verbatim) lightning talk on Designing for Performance from #SNDMakes DC.  Designing for Performance Hi, I’m going to chat for a minute about Designing for Performance – or as I like to call it: Keeping People Happy....">
+    <meta property="og:url" content="http://julia67.github.io/sndmakes-a-lightning-talk/">
+    <meta property="article:published_time" content="2015-04-12T18:01:00.000Z">
+    <meta property="article:modified_time" content="2015-04-14T18:17:11.654Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="#SNDMakes: A Lightning Talk">
+    <meta name="twitter:description" content="This is my (essentially verbatim) lightning talk on Designing for Performance from #SNDMakes DC.  Designing for Performance Hi, I’m going to chat for a minute about Designing for Performance – or as I like to call it: Keeping People Happy....">
+    <meta name="twitter:url" content="http://julia67.github.io/sndmakes-a-lightning-talk/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "musings",
+    "author": {
+        "@type": "Person",
+        "name": "Julia",
+        "url": "http://julia67.github.io/author/julia",
+        "sameAs": null
+    },
+    "headline": "#SNDMakes: A Lightning Talk",
+    "url": "http://julia67.github.io/sndmakes-a-lightning-talk/",
+    "datePublished": "2015-04-12T18:01:00.000Z",
+    "dateModified": "2015-04-14T18:17:11.654Z",
+    "description": "This is my (essentially verbatim) lightning talk on Designing for Performance from #SNDMakes DC.  Designing for Performance Hi, I’m going to chat for a minute about Designing for Performance – or as I like to call it: Keeping People Happy...."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.5">
+    <link rel="alternate" type="application/rss+xml" title="musings" href="http://julia67.github.io/rss/">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://julia67.github.io//">Home</a></li>
+            <li class="nav-about" role="presentation"><a href="http://julia67.github.io//julia-who/">About</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button" href="index.html#"><span class="burger">☰</span><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">#SNDMakes: A Lightning Talk</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-04-12">12 April 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <blockquote>
+  <p>This is my (essentially verbatim) lightning talk on Designing for Performance from <a href="https://twitter.com/search?q=%23SNDMakes&amp;src=tyah" target="_blank">#SNDMakes</a> DC. </p>
+</blockquote>
+
+<h2 id="designingforperformance">Designing for Performance</h2>
+
+<p>Hi, I’m going to chat for a minute about Designing for Performance – or as I like to call it: <strong>Keeping People Happy</strong>.</p>
+
+<p>We like to talk a lot about building robust, delightful user experiences. After all, we’ve all spent the last day and a half reimagining visual storytelling.</p>
+
+<p>We're trying to make picture stories more contextual and engaging – and that’s awesome! But what we frequently forget to note is that the easiest way to ruin an awesome interactive experience for your user comes from one pesky, underemphasized problem: <strong>Performance...or lack thereof</strong>.</p>
+
+<p>So I’m going to go over a list of problematic performance issues and supply some strategies to help keep people happy. These are pretty basic tips, but a quick refresher never hurt!</p>
+
+<h2 id="problemarea1giganticimages">Problem Area 1: Gigantic Images</h2>
+
+<p>As we all know, images are the biggest hit to website performance. There's a couple things you can do to help combat the problem.</p>
+
+<p>First of all, <strong>reevaluate the design</strong> to see if you really need them. Sometimes they’re necessary; sometimes they’re not. And if you definitely need the whole full-screen immersive experience, <strong>make sure you optimize</strong>!</p>
+
+<ul>
+<li>Size your images for both screen width and device type. If your set-up allows you to <strong>serve scaled images</strong>, you should absolutely do so.</li>
+<li>Consider image quality. Don’t serve images that are a billion times more dense than they need to be. <a href="https://kraken.io/web-interface" taret="_blank">Kraken.io</a> has a free web interface to <strong>losslessly compress images</strong>. You should use it. It works a heck of a lot better than just saving for web in Photoshop.</li>
+<li>If you have a seriously image-heavy piece, <strong>preload your images</strong>. </li>
+<li>And <strong>don’t forget about caching</strong>. Don’t make people download unchanged files over and over again.</li>
+</ul>
+
+<h2 id="problemarea2fancypantsfonts">Problem Area 2: Fancy-pants Fonts</h2>
+
+<p>Web fonts are also big and heavy and slow down your page.</p>
+
+<ul>
+<li>The number one thing is to <strong>keep the number of web fonts to a minimum</strong>. This includes different font weights. Loads web fonts just aren’t necessary. </li>
+<li>Subset your font resources so you <strong>only deliver the glyphs you actually need</strong> on a page.</li>
+<li><strong>Make sure your custom fonts are compressed</strong> before you serve them. TrueType formats aren’t compressed by default, so you should GZIP those.</li>
+</ul>
+
+<h2 id="problemarea3css">Problem Area 3: CSS</h2>
+
+<ul>
+<li><strong>Preprocessors are awesome</strong>, but they can bloat your code pretty significantly, so be careful. </li>
+<li>Always <strong>minify</strong>.</li>
+<li>Remember to <strong>avoid CSS properties that repaint the screen</strong> on scroll. These include:
+<ul><li>CSS filters  </li>
+<li>overzealous box-shadows and transforms</li></ul></li>
+<li><p>A note on responsive: <strong>The fewer media queries you need the better.</strong> If your project can get away with a single-column layout, perfect.</p></li>
+</ul>
+
+<h2 id="problemarea4js">Problem Area 4: JS</h2>
+
+<ul>
+<li>This is a huge one that I’m not going to get into right now.</li>
+<li>But I will say this: <strong>Audit your dependencies.</strong> Make sure you’re not including unnecessary code on the page – and try to ensure the rest of your code is as efficient as possible.</li>
+</ul>
+
+<h2 id="keytakeawayperformanceisafeature">Key Takeaway: Performance is a Feature</h2>
+
+<p>Remember that performance is a feature, and it has a huge impact on user experience. A fast site leads to happy users – let's <strong>keep people happy</strong>.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>A handful of performance resources, for those interested. <a href="https://t.co/DCizODACh3">https://t.co/DCizODACh3</a> <a href="https://twitter.com/hashtag/SNDMakes?src=hash">#SNDMakes</a></p>— Julia Smith (@julia67) <a href="https://twitter.com/julia67/status/586242052960161792">April 9, 2015</a></blockquote>  
+
+<p><script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script><br></p>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/julia/">Julia</a></h4>
+
+                    <p>Read <a href="../author/julia/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=%23SNDMakes%3A%20A%20Lightning%20Talk&amp;url=http://julia67.github.io/sndmakes-a-lightning-talk/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://julia67.github.io/sndmakes-a-lightning-talk/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://julia67.github.io/sndmakes-a-lightning-talk/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://julia67.github.io">musings</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=e186076504"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e186076504"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e186076504"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54002010-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>

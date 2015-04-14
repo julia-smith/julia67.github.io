@@ -1,4 +1,65 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 14 Apr 2015 17:43:52 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The First Month</title><description>&lt;p&gt;I've just wrapped up the first month (plus a week, because I'm slow) of my fellowship at the Center for Investigative Reporting.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 14 Apr 2015 18:18:37 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SNDMakes: A Lightning Talk</title><description>&lt;blockquote&gt;
+  &lt;p&gt;This is my (essentially verbatim) lightning talk on Designing for Performance from &lt;a href="https://twitter.com/search?q=%23SNDMakes&amp;amp;src=tyah" target="_blank"&gt;#SNDMakes&lt;/a&gt; DC. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="designingforperformance"&gt;Designing for Performance&lt;/h2&gt;
+
+&lt;p&gt;Hi, I’m going to chat for a minute about Designing for Performance – or as I like to call it: &lt;strong&gt;Keeping People Happy&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We like to talk a lot about building robust, delightful user experiences. After all, we’ve all spent the last day and a half reimagining visual storytelling.&lt;/p&gt;
+
+&lt;p&gt;We're trying to make picture stories more contextual and engaging – and that’s awesome! But what we frequently forget to note is that the easiest way to ruin an awesome interactive experience for your user comes from one pesky, underemphasized problem: &lt;strong&gt;Performance...or lack thereof&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;So I’m going to go over a list of problematic performance issues and supply some strategies to help keep people happy. These are pretty basic tips, but a quick refresher never hurt!&lt;/p&gt;
+
+&lt;h2 id="problemarea1giganticimages"&gt;Problem Area 1: Gigantic Images&lt;/h2&gt;
+
+&lt;p&gt;As we all know, images are the biggest hit to website performance. There's a couple things you can do to help combat the problem.&lt;/p&gt;
+
+&lt;p&gt;First of all, &lt;strong&gt;reevaluate the design&lt;/strong&gt; to see if you really need them. Sometimes they’re necessary; sometimes they’re not. And if you definitely need the whole full-screen immersive experience, &lt;strong&gt;make sure you optimize&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Size your images for both screen width and device type. If your set-up allows you to &lt;strong&gt;serve scaled images&lt;/strong&gt;, you should absolutely do so.&lt;/li&gt;
+&lt;li&gt;Consider image quality. Don’t serve images that are a billion times more dense than they need to be. &lt;a href="https://kraken.io/web-interface" taret="_blank"&gt;Kraken.io&lt;/a&gt; has a free web interface to &lt;strong&gt;losslessly compress images&lt;/strong&gt;. You should use it. It works a heck of a lot better than just saving for web in Photoshop.&lt;/li&gt;
+&lt;li&gt;If you have a seriously image-heavy piece, &lt;strong&gt;preload your images&lt;/strong&gt;. &lt;/li&gt;
+&lt;li&gt;And &lt;strong&gt;don’t forget about caching&lt;/strong&gt;. Don’t make people download unchanged files over and over again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="problemarea2fancypantsfonts"&gt;Problem Area 2: Fancy-pants Fonts&lt;/h2&gt;
+
+&lt;p&gt;Web fonts are also big and heavy and slow down your page.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The number one thing is to &lt;strong&gt;keep the number of web fonts to a minimum&lt;/strong&gt;. This includes different font weights. Loads web fonts just aren’t necessary. &lt;/li&gt;
+&lt;li&gt;Subset your font resources so you &lt;strong&gt;only deliver the glyphs you actually need&lt;/strong&gt; on a page.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make sure your custom fonts are compressed&lt;/strong&gt; before you serve them. TrueType formats aren’t compressed by default, so you should GZIP those.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="problemarea3css"&gt;Problem Area 3: CSS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Preprocessors are awesome&lt;/strong&gt;, but they can bloat your code pretty significantly, so be careful. &lt;/li&gt;
+&lt;li&gt;Always &lt;strong&gt;minify&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Remember to &lt;strong&gt;avoid CSS properties that repaint the screen&lt;/strong&gt; on scroll. These include:
+&lt;ul&gt;&lt;li&gt;CSS filters  &lt;/li&gt;
+&lt;li&gt;overzealous box-shadows and transforms&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A note on responsive: &lt;strong&gt;The fewer media queries you need the better.&lt;/strong&gt; If your project can get away with a single-column layout, perfect.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="problemarea4js"&gt;Problem Area 4: JS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is a huge one that I’m not going to get into right now.&lt;/li&gt;
+&lt;li&gt;But I will say this: &lt;strong&gt;Audit your dependencies.&lt;/strong&gt; Make sure you’re not including unnecessary code on the page – and try to ensure the rest of your code is as efficient as possible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="keytakeawayperformanceisafeature"&gt;Key Takeaway: Performance is a Feature&lt;/h2&gt;
+
+&lt;p&gt;Remember that performance is a feature, and it has a huge impact on user experience. A fast site leads to happy users – let's &lt;strong&gt;keep people happy&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;A handful of performance resources, for those interested. &lt;a href="https://t.co/DCizODACh3"&gt;https://t.co/DCizODACh3&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/SNDMakes?src=hash"&gt;#SNDMakes&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julia Smith (@julia67) &lt;a href="https://twitter.com/julia67/status/586242052960161792"&gt;April 9, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;p&gt;&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;br&gt;&lt;/p&gt;</description><link>http://julia67.github.io/sndmakes-a-lightning-talk/</link><guid isPermaLink="false">aad38c46-52eb-455f-885c-8f31ec9f5c55</guid><dc:creator>Julia</dc:creator><pubDate>Sun, 12 Apr 2015 18:01:00 GMT</pubDate></item><item><title>The First Month</title><description>&lt;p&gt;I've just wrapped up the first month (plus a week, because I'm slow) of my fellowship at the Center for Investigative Reporting.&lt;/p&gt;
 
 &lt;p&gt;It has been grand.&lt;/p&gt;
 
