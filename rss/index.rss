@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 02 Apr 2015 16:51:04 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The First Month</title><description>&lt;p&gt;I've just wrapped up the first month (plus a week, because I'm slow) of my fellowship at the Center for Investigative Reporting.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 14 Apr 2015 17:38:18 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The First Month</title><description>&lt;p&gt;I've just wrapped up the first month (plus a week, because I'm slow) of my fellowship at the Center for Investigative Reporting.&lt;/p&gt;
 
 &lt;p&gt;It has been grand.&lt;/p&gt;
 
@@ -14,9 +14,58 @@
 
 &lt;p&gt;Overall, I'm quite happy with my fellowship experience so far, and I'm excited to start sharing information at a more rapid pace. I've done a lot of pre-work (researching the brand and various best practices, completing a lot of tutorials, trying out different tools, helping out as needed) and I feel like I'm about to hit my stride on all the style guide work I've been doing. Plus this week I'm starting work on my first data viz project for publication in April, and I am super excited to get something out in the open. (Shout out to &lt;a href="http://twitter.com/aboutaaron"&gt;Aaron&lt;/a&gt; for bringing me onto the project.)&lt;/p&gt;
 
-&lt;p&gt;Good things are on the way.&lt;/p&gt;</description><link>http://julia67.github.io/the-first-month/</link><guid isPermaLink="false">a9718317-5212-4cf7-80a3-09ba15b4ba32</guid><category>opennews</category><dc:creator>Julia</dc:creator><pubDate>Wed, 25 Mar 2015 21:36:57 GMT</pubDate></item><item><title>#NICAR15 Part 1: A List</title><description>&lt;p&gt;NICAR 2015 was fantastic.&lt;/p&gt;
+&lt;p&gt;Good things are on the way.&lt;/p&gt;</description><link>http://julia67.github.io/the-first-month/</link><guid isPermaLink="false">a9718317-5212-4cf7-80a3-09ba15b4ba32</guid><category>opennews</category><dc:creator>Julia</dc:creator><pubDate>Wed, 25 Mar 2015 21:36:57 GMT</pubDate></item><item><title>#NICAR15: Underserved Topics</title><description>&lt;blockquote&gt;
+  &lt;p&gt;This is Part 2 of my comments on NICAR 2015. If you want to read about specific sessions, see &lt;a href="http://julia67.github.io/nicar15-part-2-the-analysis/../nicar/"&gt;Part 1&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;The following is simply a dump of notes from the sessions I attended. I'll give a brief overview of my thoughts on the conference as a whole (and a couple areas of opportunity that stood out to me) in a subsequent post. &lt;/p&gt;
+&lt;p&gt;While I was sitting in sessions at NICAR, I took mental notes of topics that I thought deserved additional attention from the “news nerd” community. I’m hoping to use this list to inspire sessions proposals for conferences through the rest of the year.&lt;/p&gt;
+
+&lt;h2 id="1accessibilityperformance"&gt;1) Accessibility &amp;amp; Performance&lt;/h2&gt;
+
+&lt;p&gt;I thought many of the sessions could’ve put more emphasis (or could at least &lt;em&gt;mentioned&lt;/em&gt;) these two aspects of web development that are often ignored. I touched on this in my &lt;a href="http://julia67.github.io/nicar15-part-2-the-analysis/../nicar/"&gt;last post&lt;/a&gt;, and I’ll say it again:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;News organizations, as entities dedicated to informing the public, need to be conscious of the implicit biases that come from inaccessible content. Ignoring accessibility limits the reach of your reporting and discriminates against a &lt;em&gt;not insignificant&lt;/em&gt; number of people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Accessibility and performance go hand-in-hand. Cool, flashy, dynamic elements are frequently also resource-heavy, slow, and inaccessible – but they don’t need to be that way. There are a bunch of relatively easy ways to make our interactives faster and more readable, and we need to incorporate these techniques into our development processes. Accessibility and performance shouldn’t be an afterthought, and I think it would be in the best interest of the community to talk about it more often. &lt;/p&gt;
+
+&lt;h2 id="2mobilefriendlydataviz"&gt;2) Mobile-Friendly Data Viz&lt;/h2&gt;
+
+&lt;p&gt;This is another topic that seems to get pushed aside. I’ve heard a lot of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“It’s not possible to make good interactives on mobile.”&lt;/li&gt;
+&lt;li&gt;“It’ll hurt our work on desktop.”&lt;/li&gt;
+&lt;li&gt;“It’s not worth the effort.”&lt;/li&gt;
+&lt;li&gt;“It’s too hard.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s bullshit. &lt;/p&gt;
+
+&lt;p&gt;Sure, to make a news app work well on mobile requires &lt;em&gt;different&lt;/em&gt; methodology than is commonly utilized today – but that doesn’t necessarily mean a &lt;em&gt;worse&lt;/em&gt; process or an inferior product. In fact, I’d argue that trying to make mobile-friendly interactives will significantly better serve your audience. &lt;/p&gt;
+
+&lt;p&gt;I wrote about this in my fellowship application last August:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We need more engaging mobile news content – and a design pattern to present it. Online storytelling has made great strides, but the percentage of users who access content via their mobile device has increased significantly, and these newer forms of online storytelling aren’t keeping pace. Either performance on mobile is substandard, or the visual design and user experience is less than ideal. I’d like to work on a framework to better present and share data-driven content on the mobile web.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I don’t have a great solution to this problem yet – but it's definitely worth discussing in detail during events like NICAR, SRCCON, MozFest, etc.&lt;/p&gt;
+
+&lt;h2 id="3nativemobileapps"&gt;3) Native Mobile Apps&lt;/h2&gt;
+
+&lt;p&gt;I’ve heard very little talk about native mobile apps for news. I haven’t thought about it much from my end either, but I am curious why this topic doesn’t get much traction. My assumption is that developing and maintaining native mobile apps could very quickly get expensive for news orgs, so I assume cost is the limiting factor. But does it have to be? Would it ever be worth producing small, single-purpose native apps? I’m thinking about news games and monetization. Curious.&lt;/p&gt;</description><link>http://julia67.github.io/nicar15-part-2-the-analysis/</link><guid isPermaLink="false">d91cec66-a48e-414f-a435-9dc5ba507deb</guid><category>opennews</category><category>nicar</category><dc:creator>Julia</dc:creator><pubDate>Wed, 18 Mar 2015 23:05:00 GMT</pubDate></item><item><title>#NICAR15: The Sessions</title><description>&lt;p&gt;NICAR 2015 was fantastic.&lt;/p&gt;
+
+&lt;p&gt;I liked the way the conference was organized. I liked the variety and quality of sessions offered. And I really liked meeting all sorts of awesome people over those five days.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;So &lt;a href="https://twitter.com/hashtag/NICAR15?src=hash"&gt;#NICAR15&lt;/a&gt; is cool. Super fun meeting people I previously thought only existed on Twitter.&lt;/p&gt;&amp;mdash; Julia Smith (@julia67) &lt;a href="https://twitter.com/julia67/status/573383571592880128"&gt;March 5, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The following is simply a dump of notes from the sessions I attended. I'll give a brief overview of my thoughts on the conference as a whole (and a couple areas of opportunity that stood out to me) in a &lt;a href="http://julia67.github.io/nicar/../nicar15-part-2-the-analysis/"&gt;subsequent post&lt;/a&gt;. &lt;/p&gt;
 
 &lt;h2 id="wednesday"&gt;Wednesday&lt;/h2&gt;
 
