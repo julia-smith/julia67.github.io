@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 28 Apr 2015 23:00:15 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 28 Apr 2015 23:25:29 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -100,7 +100,54 @@
 &lt;ul&gt;&lt;li&gt;Solution: nest svgs. This creates a new coordinate system.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
- &lt;hr&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
+ &lt;hr&gt;
+
+&lt;h2 id="trentwaltonarewehavingfunyet"&gt;Trent Walton: Are we having fun yet?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://twitter.com/TrentWalton"&gt;@TrentWalton&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Perception vs. Reality: Is what we perceive actually the way it is?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on background or role on a project, everyone evaluates the quality of a design from a different perspective:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Content&lt;/li&gt;
+&lt;li&gt;Performance&lt;/li&gt;
+&lt;li&gt;Aesthetics&lt;/li&gt;
+&lt;li&gt;SEO&lt;/li&gt;
+&lt;li&gt;Accessibility&lt;/li&gt;
+&lt;li&gt;Etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It isn’t that anybody is right or wrong, but they’re coming at it from different places. &lt;/p&gt;
+
+&lt;p&gt;The web is edgeless. Organizations should seek to be edgeless as well. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Edgelessness means blurred lines between the disciplines that work together to make things for the web. Everyone that I’ve spoken with that’s worked on a large responsive project with a big client says that the process disrupts workflows, expectations, and work culture.” &lt;/p&gt;
+  
+  &lt;p&gt;– Frank Chimero, &lt;em&gt;&lt;a href="http://julia67.github.io/smashingconf-notes/“http://frankchimero.com/talks/the-webs-grain/transcript/“" target="“_blank”"&gt;The Web Grain&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How do you start working together on a project? &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You prototype.&lt;/strong&gt; You build something from scratch, without any of the waterfall processes in place. It provides a foundation to build on top of, which can set the whole process up for success. If we’re all working on something in the browser, it helps us to see things in the same way. Our perceptions are going to be less and less compartmentalized. It shifts the way we work and the things we do from “mine” to “ours.” If we’re working together on a prototype, it’s &lt;em&gt;our&lt;/em&gt; thing. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If a picture is worth 1,000 words, &lt;strong&gt;a prototype is worth 1,000 meetings.&lt;/strong&gt;”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Helpful things to keep in mind:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;People get really practical when you show them the code that renders something.&lt;/li&gt;
+&lt;li&gt;Encourages designers to dive into code. That’s when perceptions overlaps.&lt;/li&gt;
+&lt;li&gt;If team members see each other as competitors, things go south quickly. &lt;/li&gt;
+&lt;li&gt;You need to get to the point where you see things the same way and you trust each other.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Audience Question:&lt;/strong&gt; How is it different than design by committee? &lt;br&gt;
+&lt;strong&gt;Answer:&lt;/strong&gt; Strong leadership. Respecting everyone’s expertise. &lt;/p&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
 
 &lt;p&gt;My team designed &lt;a href="http://sixfoot6.com/emojinius/" target="_blank"&gt;EMOJINIUS&lt;/a&gt;, an emoji annotation system. We were exploring how we could add value to a story by making audience engagement easier and more visual – so we designed a Medium-style, in-line commenting solution that uses emoji instead of text comments.&lt;/p&gt;
 
