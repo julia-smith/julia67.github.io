@@ -293,6 +293,10 @@ ul ol, ol ul {
     padding-left: 2em;
 }
 
+ul ul {
+  margin-bottom: 0;
+}
+
 dl dt {
     float: left;
     width: 180px;

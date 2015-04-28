@@ -1,4 +1,106 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 23 Apr 2015 21:19:59 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 28 Apr 2015 22:57:25 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+  &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
+  
+  &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="stevesoudersdesignperformance"&gt;Steve Souders: Design + Performance&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://twitter.com/souders"&gt;@souders&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tricks to marry design and performance:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create small interdisciplinary teams.&lt;/strong&gt; Bring all players into the mix early in the process&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Define guiding principles.&lt;/strong&gt; What's most important for producing a successful use experience? Speed is more important than design embellishment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prototype early.&lt;/strong&gt; Have designers work on individual assets. An early prototype helps identify areas where performance will likely be a challenge&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create a performance budget.&lt;/strong&gt; Surface the metrics for the team, and display a clear baseline for what's acceptable. 
+&lt;ul&gt;&lt;li&gt;Define the most important elements on the page and define custom metrics for those elements. Use user timing API. Track when the image gets rendered.&lt;/li&gt;
+&lt;li&gt;Create a bookmarklet to analyze page performance against your specific project metrics.&lt;/li&gt;
+&lt;li&gt;Window.onload is not the best metric for analyzing performance. It's more important to optimize for above-the-fold content. Use &lt;a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index"&gt;SpeedIndex&lt;/a&gt; from &lt;a href="http://www.webpagetest.org/"&gt;WebPageTest&lt;/a&gt; for this. Also &lt;a href="https://speedcurve.com/"&gt;SpeedCurve&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hero Image Delay (HID) problem.&lt;/strong&gt;
+&lt;ul&gt;&lt;li&gt;Don't define giant bg images in external CSS. Inline it. Make sure hero IMG is first IMG tag in the page.&lt;/li&gt;
+&lt;li&gt;Browsers promote importance of scripts and CSS over images, which blocks rendering. Use async and deferred instead of sticking scripts at the bottom of the page.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Takeaways:&lt;/strong&gt; 
+&lt;ul&gt;&lt;li&gt;Identify what matters must. &lt;/li&gt;
+&lt;li&gt;Prioritize ux performance. &lt;/li&gt;
+&lt;li&gt;Track custom metrics.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;"I'm not a big fan of frameworks."&lt;/strong&gt; Good for prototyping, but write your own code for production. &lt;em&gt;I agree!&lt;/em&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="samanthawarrenguerrilladesigntactics"&gt;Samantha Warren: Guerrilla Design Tactics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://twitter.com/SamanthaToy"&gt;@SamanthaToy&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Design systems, not pages.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get buy-in.&lt;/strong&gt; They took their stakeholders and other teams out to events to get everyone on board with their small team's project – to define styles and make the company's various sites more consistent and on-brand.
+&lt;ul&gt;&lt;li&gt;Used atomic design to create a template&lt;/li&gt;
+&lt;li&gt;Developed a component library for front-end developers&lt;/li&gt;
+&lt;li&gt;…and nothing changed, despite a ton of buy in. &lt;em&gt;This all sounds very familiar.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Once stakeholders and affected teams realized that they actually had to change their processes, they became aggressive.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt;
+&lt;ul&gt;&lt;li&gt;Didn't adapt tools to culture of the organization (people used Photoshop, didn't understand atomic design)&lt;/li&gt;
+&lt;li&gt;Didn't speak the language of the executive leadership. Like David and Goliath.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design problems can be organizational problems.&lt;/strong&gt; A designer's responsibility is that ideas get through, and projects get shipped. Not just to design pretty interfaces/experiences.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be flexible, fast, and persistent.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Artists for inspiration:&lt;/strong&gt; Olek, Banksy, Invader…using premade sweaters, stencils, tiles - because they're fast! And reusable. They just do it; the don't ask for permission. Don't wait for an invitation to do the work you want. Or the work you need. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create a strategy.&lt;/strong&gt; And tactics for use during the project. Crete a framework and break down the problem into smaller chucks. Attack those chicks with your tactics.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Build a robust toolbox.&lt;/strong&gt; The best tools are those you know well and can access quickly. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Map things out.&lt;/strong&gt; Use a story map/wire flow map to walk through product design &lt;em&gt;&amp;lt;-- I've always loved making these.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do what's best for the user.&lt;/strong&gt; Use style tiles to get away from having stakeholder fall in love with the look of the wireframe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speak the language.&lt;/strong&gt; $$$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be persistent.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Share your experience&lt;/strong&gt; with community and your organization.&lt;/li&gt;
+&lt;li&gt;...She has never been successful at automating a pattern library. &lt;em&gt;…uhoh for me.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="petesmartfutureofthewebis"&gt;Pete Smart: Future of the web is…&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://twitter.com/petewsmart"&gt;@petewsmart&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The intersection of science, technology, and design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tangible.&lt;/strong&gt; Haptics. Electrostatic manipulation. Consider possible impact on: shopping, education (embodied cognition), usability (braille), communication (Skype)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Adaptive.&lt;/strong&gt; Wearables. Internet of Things. Security/authentication (digital footprint, passwords). Mutation (responsive, the grid - machine learning) – analytical, personal, human (adaptive to mood). Are you in the mood for a long read or a short one? Photos or text? Avatar.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Invisible.&lt;/strong&gt; The web is fluid and unconstrained. Zeros and ones. Ambient interfaces. Ambient beer pong?&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;For interesting thought experiments reminiscent of this Future of the Web talk, watch Black Mirror. &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julia Smith (@julia67) &lt;a href="https://twitter.com/julia67/status/593132177321164800"&gt;April 28, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="sarasoueidanavoidingsvgpitfalls"&gt;Sara Soueidan: Avoiding SVG Pitfalls&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/sarasoueidan"&gt;@SaraSoueidan&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You should probably just read &lt;a href="http://sarasoueidan.com/articles/"&gt;everything Sara has ever written&lt;/a&gt;, because it is significantly better than these notes!&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Presentation attributes will override inherited store specified on a parent element.
+&lt;ul&gt;&lt;li&gt;CSS overrides inline, which overrides parent attributes&lt;/li&gt;
+&lt;li&gt;CSS all: property&lt;/li&gt;
+&lt;li&gt;CSS variables (only in FF now)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Anchor tags inside the SVG will open inside SVG.
+&lt;ul&gt;&lt;li&gt;Use xlink-target attribute&lt;/li&gt;
+&lt;li&gt;Set xlink namespace on root SVG element&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Don't try to use jquery with SVG.&lt;/li&gt;
+&lt;li&gt;Certain CSS and JS characters will break inside svg (&amp;lt;, &gt;, &amp;amp;, etc.). 
+&lt;ul&gt;&lt;li&gt;Solution: wrap CSS and js in [CDATA] block.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;The viewbox. Always use it because it's super powerful. &lt;a href="http://sarasoueidan.com/demos/interactive-svg-coordinate-system/index.html"&gt;Check out the demo&lt;/a&gt;. Use a clippath to crop svg to viewbox. X and Y of clippath need to be same value as X and Y on viewbox.&lt;/li&gt;
+&lt;li&gt;CSSOM methods use coordinates of the page, not of the SVG. Use bbox methods instead.&lt;/li&gt;
+&lt;li&gt;No relative positioning, because there's no box model for SVG. 
+&lt;ul&gt;&lt;li&gt;Solution: nest svgs. This creates a new coordinate system.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+ &lt;hr&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
 
 &lt;p&gt;My team designed &lt;a href="http://sixfoot6.com/emojinius/" target="_blank"&gt;EMOJINIUS&lt;/a&gt;, an emoji annotation system. We were exploring how we could add value to a story by making audience engagement easier and more visual – so we designed a Medium-style, in-line commenting solution that uses emoji instead of text comments.&lt;/p&gt;
 

@@ -1,0 +1,256 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>#SmashingConf: Note Dump</title>
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e186076504">
+    <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7CRoboto:300,500,700">
+
+    <link rel="canonical" href="http://julia67.github.io/smashingconf-notes/">
+    
+    <meta property="og:site_name" content="musings">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="#SmashingConf: Note Dump">
+    <meta property="og:description" content="CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles....">
+    <meta property="og:url" content="http://julia67.github.io/smashingconf-notes/">
+    <meta property="article:published_time" content="2015-04-28T22:04:48.233Z">
+    <meta property="article:modified_time" content="2015-04-28T22:57:20.692Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="#SmashingConf: Note Dump">
+    <meta name="twitter:description" content="CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles....">
+    <meta name="twitter:url" content="http://julia67.github.io/smashingconf-notes/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "musings",
+    "author": {
+        "@type": "Person",
+        "name": "Julia Smith",
+        "url": "http://julia67.github.io/author/julia",
+        "sameAs": null
+    },
+    "headline": "#SmashingConf: Note Dump",
+    "url": "http://julia67.github.io/smashingconf-notes/",
+    "datePublished": "2015-04-28T22:04:48.233Z",
+    "dateModified": "2015-04-28T22:57:20.692Z",
+    "description": "CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles...."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.5">
+    <link rel="alternate" type="application/rss+xml" title="musings" href="http://julia67.github.io/rss/">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://julia67.github.io/">Home</a></li>
+            <li class="nav-about" role="presentation"><a href="http://julia67.github.io/julia-who/">About</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button" href="index.html#"><span class="burger">☰</span><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">#SmashingConf: Note Dump</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-04-28">28 April 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <blockquote>
+  <p>CONFERENCE NOTE DUMP! YEAH! </p>
+  
+  <p>My commentary is in <em>italics</em>. Updates are ongoing.</p>
+</blockquote>
+
+<h2 id="stevesoudersdesignperformance">Steve Souders: Design + Performance</h2>
+
+<p><a href="http://twitter.com/souders">@souders</a></p>
+
+<p><strong>Tricks to marry design and performance:</strong></p>
+
+<ul>
+<li><strong>Create small interdisciplinary teams.</strong> Bring all players into the mix early in the process</li>
+<li><strong>Define guiding principles.</strong> What's most important for producing a successful use experience? Speed is more important than design embellishment</li>
+<li><strong>Prototype early.</strong> Have designers work on individual assets. An early prototype helps identify areas where performance will likely be a challenge</li>
+<li><strong>Create a performance budget.</strong> Surface the metrics for the team, and display a clear baseline for what's acceptable. 
+<ul><li>Define the most important elements on the page and define custom metrics for those elements. Use user timing API. Track when the image gets rendered.</li>
+<li>Create a bookmarklet to analyze page performance against your specific project metrics.</li>
+<li>Window.onload is not the best metric for analyzing performance. It's more important to optimize for above-the-fold content. Use <a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index">SpeedIndex</a> from <a href="http://www.webpagetest.org/">WebPageTest</a> for this. Also <a href="https://speedcurve.com/">SpeedCurve</a>.</li></ul></li>
+<li><strong>Hero Image Delay (HID) problem.</strong>
+<ul><li>Don't define giant bg images in external CSS. Inline it. Make sure hero IMG is first IMG tag in the page.</li>
+<li>Browsers promote importance of scripts and CSS over images, which blocks rendering. Use async and deferred instead of sticking scripts at the bottom of the page.</li></ul></li>
+<li><strong>Takeaways:</strong> 
+<ul><li>Identify what matters must. </li>
+<li>Prioritize ux performance. </li>
+<li>Track custom metrics.</li></ul></li>
+<li><strong>"I'm not a big fan of frameworks."</strong> Good for prototyping, but write your own code for production. <em>I agree!</em> </li>
+</ul>
+
+<hr>
+
+<h2 id="samanthawarrenguerrilladesigntactics">Samantha Warren: Guerrilla Design Tactics</h2>
+
+<p><a href="http://twitter.com/SamanthaToy">@SamanthaToy</a></p>
+
+<ul>
+<li><strong>Design systems, not pages.</strong></li>
+<li><strong>Get buy-in.</strong> They took their stakeholders and other teams out to events to get everyone on board with their small team's project – to define styles and make the company's various sites more consistent and on-brand.
+<ul><li>Used atomic design to create a template</li>
+<li>Developed a component library for front-end developers</li>
+<li>…and nothing changed, despite a ton of buy in. <em>This all sounds very familiar.</em></li>
+<li>Once stakeholders and affected teams realized that they actually had to change their processes, they became aggressive.</li></ul></li>
+<li><strong>Conclusions:</strong>
+<ul><li>Didn't adapt tools to culture of the organization (people used Photoshop, didn't understand atomic design)</li>
+<li>Didn't speak the language of the executive leadership. Like David and Goliath.</li></ul></li>
+<li><strong>Design problems can be organizational problems.</strong> A designer's responsibility is that ideas get through, and projects get shipped. Not just to design pretty interfaces/experiences.</li>
+<li><strong>Be flexible, fast, and persistent.</strong></li>
+<li><strong>Artists for inspiration:</strong> Olek, Banksy, Invader…using premade sweaters, stencils, tiles - because they're fast! And reusable. They just do it; the don't ask for permission. Don't wait for an invitation to do the work you want. Or the work you need. </li>
+<li><strong>Create a strategy.</strong> And tactics for use during the project. Crete a framework and break down the problem into smaller chucks. Attack those chicks with your tactics.</li>
+<li><strong>Build a robust toolbox.</strong> The best tools are those you know well and can access quickly. </li>
+<li><strong>Map things out.</strong> Use a story map/wire flow map to walk through product design <em>&lt;-- I've always loved making these.</em></li>
+<li><strong>Do what's best for the user.</strong> Use style tiles to get away from having stakeholder fall in love with the look of the wireframe.</li>
+<li><strong>Speak the language.</strong> $$$</li>
+<li><strong>Be persistent.</strong></li>
+<li><strong>Share your experience</strong> with community and your organization.</li>
+<li>...She has never been successful at automating a pattern library. <em>…uhoh for me.</em></li>
+</ul>
+
+<hr>
+
+<h2 id="petesmartfutureofthewebis">Pete Smart: Future of the web is…</h2>
+
+<p><a href="http://twitter.com/petewsmart">@petewsmart</a></p>
+
+<p><strong>The intersection of science, technology, and design</strong></p>
+
+<p><strong>Tangible.</strong> Haptics. Electrostatic manipulation. Consider possible impact on: shopping, education (embodied cognition), usability (braille), communication (Skype)</p>
+
+<p><strong>Adaptive.</strong> Wearables. Internet of Things. Security/authentication (digital footprint, passwords). Mutation (responsive, the grid - machine learning) – analytical, personal, human (adaptive to mood). Are you in the mood for a long read or a short one? Photos or text? Avatar.</p>
+
+<p><strong>Invisible.</strong> The web is fluid and unconstrained. Zeros and ones. Ambient interfaces. Ambient beer pong?</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>For interesting thought experiments reminiscent of this Future of the Web talk, watch Black Mirror. <a href="https://twitter.com/hashtag/smashingconf?src=hash">#smashingconf</a></p>— Julia Smith (@julia67) <a href="https://twitter.com/julia67/status/593132177321164800">April 28, 2015</a></blockquote>  
+
+<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<hr>
+
+<h2 id="sarasoueidanavoidingsvgpitfalls">Sara Soueidan: Avoiding SVG Pitfalls</h2>
+
+<p><a href="https://twitter.com/sarasoueidan">@SaraSoueidan</a></p>
+
+<p><em>You should probably just read <a href="http://sarasoueidan.com/articles/">everything Sara has ever written</a>, because it is significantly better than these notes!</em></p>
+
+<ul>
+<li>Presentation attributes will override inherited store specified on a parent element.
+<ul><li>CSS overrides inline, which overrides parent attributes</li>
+<li>CSS all: property</li>
+<li>CSS variables (only in FF now)</li></ul></li>
+<li>Anchor tags inside the SVG will open inside SVG.
+<ul><li>Use xlink-target attribute</li>
+<li>Set xlink namespace on root SVG element</li></ul></li>
+<li>Don't try to use jquery with SVG.</li>
+<li>Certain CSS and JS characters will break inside svg (&lt;, &gt;, &amp;, etc.). 
+<ul><li>Solution: wrap CSS and js in [CDATA] block.</li></ul></li>
+<li>The viewbox. Always use it because it's super powerful. <a href="http://sarasoueidan.com/demos/interactive-svg-coordinate-system/index.html">Check out the demo</a>. Use a clippath to crop svg to viewbox. X and Y of clippath need to be same value as X and Y on viewbox.</li>
+<li>CSSOM methods use coordinates of the page, not of the SVG. Use bbox methods instead.</li>
+<li>No relative positioning, because there's no box model for SVG. 
+<ul><li>Solution: nest svgs. This creates a new coordinate system.</li></ul></li>
+</ul>
+
+ <hr>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/julia/">Julia Smith</a></h4>
+
+                    <p>Read <a href="../author/julia/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=%23SmashingConf%3A%20Note%20Dump&amp;url=http://julia67.github.io/smashingconf-notes/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://julia67.github.io/smashingconf-notes/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://julia67.github.io/smashingconf-notes/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://julia67.github.io">musings</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=e186076504"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e186076504"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e186076504"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54002010-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
