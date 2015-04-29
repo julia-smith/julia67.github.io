@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 28 Apr 2015 23:25:29 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 29 Apr 2015 19:02:57 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -147,7 +147,103 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Audience Question:&lt;/strong&gt; How is it different than design by committee? &lt;br&gt;
-&lt;strong&gt;Answer:&lt;/strong&gt; Strong leadership. Respecting everyone’s expertise. &lt;/p&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
+&lt;strong&gt;Answer:&lt;/strong&gt; Strong leadership. Respecting everyone’s expertise. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="kristinahalversoncontentcommunication"&gt;Kristina Halverson: Content/Communication&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Content First:&lt;/strong&gt; Frequently it just isn’t successful and we’re left with products without copy at the end of the project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Think about questions instead of copy.&lt;/strong&gt; Think about questions and artifacts that should happen early in your design and development process.
+&lt;ul&gt;&lt;li&gt;Why do we need this in the first place? Shouldn’t we take some time to strategically consider the things that we’re migrating?&lt;/li&gt;
+&lt;li&gt;How is it going to get done? &lt;/li&gt;
+&lt;li&gt;Who’s going to do it? &lt;/li&gt;
+&lt;li&gt;What tools will you use? &lt;/li&gt;
+&lt;li&gt;When is it going to get done? Planning for caveats, turnover, other issues. &lt;/li&gt;
+&lt;li&gt;Who is the content for – for your audiences or for you (about us, mission statement, etc)? &lt;/li&gt;
+&lt;li&gt;What are your user personas? &lt;/li&gt;
+&lt;li&gt;Where does your content currently live? How many platforms, APIs, etc.&lt;/li&gt;
+&lt;li&gt;How often do we have to updated it? &lt;/li&gt;
+&lt;li&gt;What are the resources needed to update it?&lt;/li&gt;
+&lt;li&gt;Once the site is launched, then what happens to your content? What’s next?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;Core Strategy&lt;/strong&gt; helps us prioritize and is supported by two parts:
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Substance &amp;amp; Structure:&lt;/strong&gt; Content audit, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow &amp;amp; Governance:&lt;/strong&gt; What processes tools and people are going to be required to sustain this content strategy over time?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Shift outlooks from content publication to content lifecycle. Don’t just think about helping content go live.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Discovery process&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Content audit.&lt;/strong&gt; Make a plan for what attributes you’re going to audit. Are you going to set readability standards? Standards for voice and brand appropriateness? Standards for meta tags? For accessibility? Don’t do your content audit manually; use automated tools (like Content Analysis Tool) to inventory your content. Invite the copy writer into the room so they can take an active approach in the conversations about IA and content organization. What content is there that is redundant, outdated or trivial? Is there a style guide? Review search analytics? Legal requirements? Stakeholder agendas? Content owners? Workflow and timeline considerations? Integrity of metadata? Translation requirements? Accessibility requirements?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Define the project.&lt;/strong&gt; High-level architecture. Content requirements. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You don’t always need to design with copy, but know your audience. It needs to set the appropriate tone for the stakeholder you’re presenting to. Use real copy when you can.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;After launch:&lt;/strong&gt; Care for your content. Leave your organization with an ongoing content quality plan. QA for content. Ensure editorial oversight is in place. Teach producers how to tag content appropriately.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Learn about adaptive content.&lt;/strong&gt; As you deliver content responsively, getting to a state of content reuse will be key to content strategy success. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Takeaways:&lt;/strong&gt; Empower the writers. Make a style guide. Bring content strategy into your process. Don’t say it’s not your problem because you’re the designer or the developer – the quality of the content affects the quality of the work you produce.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="jacobrossitheinputshouldntmatteradaptiveinputexperiences"&gt;Jacob Rossi: The Input Shouldn’t Matter (Adaptive Input Experiences)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/jacobrossi"&gt;@jacobrossi&lt;/a&gt; – Jacob works on Microsoft Project Spartan - project name for Microsoft Edge, the browser that is to replace IE.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Direct Manipulation.&lt;/strong&gt;
+“Point and click” is so old fashioned. Make the user forget they’re touching glass. Touch has to work at 60fps so people feel like they’re interacting with the content, not the screen. Performance is key. If your gesture handling isn’t ongoing, then it isn’t direct manipulation. Gesture libraries aren’t great.&lt;/p&gt;
+
+&lt;p&gt;It’s important to be natural. You can do a lot of stuff with gestures, but keep to the basics for the most part. Tap, swipe, pinch – keep it simple so the interaction is still intuitive and accessible. &lt;/p&gt;
+
+&lt;p&gt;Use native scrolling and zooming – it’s so important for performance. It’s not about moving down a document, it’s about keeping content stuck to a finger at 60fps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scrolling&lt;/strong&gt;&lt;br&gt;
+New w3c standard called CSS Snap Points. Snap Points allow you to take a scrolling region and set up sticky points within the reason – so the browser knows where to snap-to content. Common use cases would be sliding carousels or sliding drawer menus. Can combine with CSS pointer events to do some really cool stuff.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zooming&lt;/strong&gt;&lt;br&gt;
+The Virtual Viewport &lt;br&gt;
+Potential new CSS positioning standard – position:device-fixed&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pointer Events&lt;/strong&gt;&lt;br&gt;
+We need to migrate away from mouse events. Pointer events abstract your code to be input agnostic. Simplicity of mouse events with support for multiple device types (even gestural devices like Leap), including multi-touch (even multi-user) events ,and device-specific properties like pressure. Pointer events can be device-independent when you want it; device-specific when you need it. Pointer events are in I.E., Edge. Firefox and Chrome. No word from Apple yet. JQuery is creating a polyfill for it though. &lt;br&gt;
+Demo: &lt;a href="https://github.com/jacobrossi/PointerPaint"&gt;https://github.com/jacobrossi/PointerPaint&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pointer event properties:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;width&lt;/li&gt;
+&lt;li&gt;height&lt;/li&gt;
+&lt;li&gt;pressure&lt;/li&gt;
+&lt;li&gt;tiltx&lt;/li&gt;
+&lt;li&gt;tilty&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The tilt properties could allow you to infer handedness – and possibly adjust the UI for left- vs. right-handed users.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Gesture Events&lt;/strong&gt;&lt;br&gt;
+You’d have a gesture object that you can feed pointer events. Gesture-change events. &lt;br&gt;
+rotation&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;scale&lt;/li&gt;
+&lt;li&gt;translationX, translationY&lt;/li&gt;
+&lt;li&gt;velocityX, velocityY&lt;/li&gt;
+&lt;li&gt;velocityAngular&lt;/li&gt;
+&lt;li&gt;velocityExpansion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://w3.org/TR/pointerevents/"&gt;http://w3.org/TR/pointerevents/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://dev.w3.org/csswg/css-snappoints/"&gt;http://dev.w3.org/csswg/css-snappoints/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.webplatform.org/wiki/concepts/Pointer_Events"&gt;https://docs.webplatform.org/wiki/concepts/Pointer_Events&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jacobrossi"&gt;https://github.com/jacobrossi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
 
 &lt;p&gt;My team designed &lt;a href="http://sixfoot6.com/emojinius/" target="_blank"&gt;EMOJINIUS&lt;/a&gt;, an emoji annotation system. We were exploring how we could add value to a story by making audience engagement easier and more visual – so we designed a Medium-style, in-line commenting solution that uses emoji instead of text comments.&lt;/p&gt;
 
