@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 29 Apr 2015 20:42:43 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 29 Apr 2015 21:02:55 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -214,8 +214,9 @@ Potential new CSS positioning standard – position:device-fixed&lt;/p&gt;
 
 &lt;h6 id="pointerevents"&gt;Pointer Events&lt;/h6&gt;
 
-&lt;p&gt;We need to migrate away from mouse events. Pointer events abstract your code to be input agnostic. Simplicity of mouse events with support for multiple device types (even gestural devices like Leap), including multi-touch (even multi-user) events ,and device-specific properties like pressure. Pointer events can be device-independent when you want it; device-specific when you need it. Pointer events are in I.E., Edge. Firefox and Chrome. No word from Apple yet. JQuery is creating a polyfill for it though. &lt;br&gt;
-Demo: &lt;a href="https://github.com/jacobrossi/PointerPaint"&gt;https://github.com/jacobrossi/PointerPaint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We need to migrate away from mouse events. Pointer events abstract your code to be input agnostic. Simplicity of mouse events with support for multiple device types (even gestural devices like Leap), including multi-touch (even multi-user) events ,and device-specific properties like pressure. Pointer events can be device-independent when you want it; device-specific when you need it. Pointer events are in I.E., Edge. Firefox and Chrome. No word from Apple yet. JQuery is creating a polyfill for it though.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Demo:&lt;/strong&gt; &lt;a href="https://github.com/jacobrossi/PointerPaint"&gt;https://github.com/jacobrossi/PointerPaint&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Pointer event properties:&lt;/strong&gt;
@@ -248,7 +249,124 @@ Demo: &lt;a href="https://github.com/jacobrossi/PointerPaint"&gt;https://github.
 &lt;li&gt;&lt;a href="http://dev.w3.org/csswg/css-snappoints/"&gt;http://dev.w3.org/csswg/css-snappoints/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.webplatform.org/wiki/concepts/Pointer_Events"&gt;https://docs.webplatform.org/wiki/concepts/Pointer_Events&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/jacobrossi"&gt;https://github.com/jacobrossi&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="pattytolanddesignconsistencyfortheresponsiveweb"&gt;Patty Toland: Design Consistency for the Responsive Web&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/pattytoland"&gt;@pattytoland&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The goal is to make a web that works for everyone.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;People are more far more likely to make a purchase if the site is designed for mobile. In fact, users will leave a site feeling negative if the site is NOT designed for mobile, and this negative feeling about the interaction translates directly into a negative feeling about the brand. It makes users feel like the company doesn’t care about their business.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“One could describe design as a plan for arranging elements to accomplish a particular purpose.” &lt;/p&gt;
+  
+  &lt;p&gt;– Charles Eames&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The key to effective design is the ability of the designer to recognize as many constraints and possible and be willing to enthusiastically work within those constraints.&lt;/p&gt;
+
+&lt;p&gt;Design consistency isn’t about pixels – it’s about purpose.&lt;/p&gt;
+
+&lt;p&gt;Look at both the whole and the detail and make design decisions appropriate for the product.&lt;/p&gt;
+
+&lt;p&gt;It’s really hard to predict where your traffic is going to come from, and RWD needs to support a full spectrum of experiences, &lt;strong&gt;even the ones that haven’t been invented yet&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Great RWD is only achievable when there’s a really stable foundation in place.&lt;/p&gt;
+
+&lt;h6 id="hierarchyforrwd"&gt;Hierarchy for RWD:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Style&lt;/li&gt;
+&lt;li&gt;Scale&lt;/li&gt;
+&lt;li&gt;Access&lt;/li&gt;
+&lt;li&gt;Speed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="speed"&gt;Speed&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;People will choose a competitor when there is only a quarter of a second difference in performance.&lt;/li&gt;
+&lt;li&gt;More people access Facebook on 2G than 4G.&lt;/li&gt;
+&lt;li&gt;Your analytics won’t tell you who left your site before it showed up.&lt;/li&gt;
+&lt;li&gt;Factoring speed and performance is critical.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Filesize and page speed are design choices&lt;/strong&gt;. &lt;/li&gt;
+&lt;li&gt;Challenges:
+&lt;ul&gt;&lt;li&gt;Images, video, audio&lt;/li&gt;
+&lt;li&gt;Fonts&lt;/li&gt;
+&lt;li&gt;Third-party tools (ads, social media)&lt;/li&gt;
+&lt;li&gt;Code frameworks&lt;/li&gt;
+&lt;li&gt;Data networks&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Always ask: Is it necessary? Is it necessary for everyone? Is it necessary for everyone immediately?&lt;/li&gt;
+&lt;li&gt;Pare down to most essential and than optimize.&lt;/li&gt;
+&lt;li&gt;Set performance goals in the design spec.&lt;/li&gt;
+&lt;li&gt;Consider perceived performance - render above the fold content first&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="access"&gt;Access&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There’s no good reason to limit access to your base content.&lt;/li&gt;
+&lt;li&gt;Progressive enhancement is your friend.
+&lt;ul&gt;&lt;li&gt;It ensures broad access and fault tolerance.&lt;/li&gt;
+&lt;li&gt;It’s not all or nothing. Think differently about content, source order, structure, interaction.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Key access considerations:
+&lt;ol&gt;&lt;li&gt;Core content (words, images)&lt;/li&gt;
+&lt;li&gt;Essential functionality (links, form elements)&lt;/li&gt;
+&lt;li&gt;Enhance w/o blocking&lt;/li&gt;
+&lt;li&gt;Accessiblity and fallbacks&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Involve QA teams and note expected variations and approaches to testing&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://filamentgroup.com/lab"&gt;Filamentgroup.com/lab&lt;/a&gt; has tutorials for progressive enhancement and other things, with open source tools on github: &lt;a href="https://github.com/filamentgroup"&gt;github.com/filamentgroup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="scale"&gt;Scale&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Breakpoints
+&lt;ul&gt;&lt;li&gt;For static designs 320, 480, 768, etc. are great. &lt;/li&gt;
+&lt;li&gt;Filament Group works with illustrator because it’s flexible! &lt;em&gt;&amp;lt;-- My kind of people!&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;We want simple math for templates&lt;/li&gt;
+&lt;li&gt;Stacking, modular patterns&lt;/li&gt;
+&lt;li&gt;Keep template breakpoint logic simple&lt;/li&gt;
+&lt;li&gt;Focus complexity in components
+traditional design principles should guide your structural decisions. line lengths, etc. &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;When the layout gets to a point that feels wrong, that’s when you set the breakpoint for the component. You don’t just have to change the width of the component, you can also consider changing font size, padding, etc.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Consider layering components that don’t fit on smaller screens&lt;/li&gt;
+&lt;li&gt;For tables, each column of table data has its own priority, and then that plays into breakpoints, where less important columns collapse down into collapsible panels. 
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://github.com/filamentgroup/tablesaw"&gt;TableSaw&lt;/a&gt; is an open source tool to handle this.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="style"&gt;Style&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Scale to fit the content. Packaging design is an industry that does this really well.&lt;/li&gt;
+&lt;li&gt;Put style through the speed filter.
+&lt;ul&gt;&lt;li&gt;Are custom font weights worth it? How about rounded corners and gradients (js in IE8)? &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Proceed with Caution:
+&lt;ul&gt;&lt;li&gt;Icon fonts&lt;/li&gt;
+&lt;li&gt;Fixed positioning&lt;/li&gt;
+&lt;li&gt;Custom form elements&lt;/li&gt;
+&lt;li&gt;Animation&lt;/li&gt;
+&lt;li&gt;Internal scrolling&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Social widgets are really heavy. Load them async. &lt;/li&gt;
+&lt;li&gt;For approvals, QA, style guide reference: the code is the documentation. Pattern lab. Move to code as quickly as possible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="takeaways"&gt;Takeaways:&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fast  &lt;/li&gt;
+&lt;li&gt;Functional  &lt;/li&gt;
+&lt;li&gt;Simple grids/complex opponents  &lt;/li&gt;
+&lt;li&gt;Scale &amp;amp; style  &lt;/li&gt;
+&lt;li&gt;Just enough design, code as documentation  &lt;/li&gt;
+&lt;li&gt;Test real devices&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id="pattysslideshttpsdocsgooglecompresentationd1fh7bzne2leffuxi2cl6gaqdaynm3tv6_6d_mmsdokieedit"&gt;&lt;a href="https://docs.google.com/presentation/d/1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE/edit"&gt;Patty’s Slides&lt;/a&gt;&lt;/h6&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
 
 &lt;p&gt;My team designed &lt;a href="http://sixfoot6.com/emojinius/" target="_blank"&gt;EMOJINIUS&lt;/a&gt;, an emoji annotation system. We were exploring how we could add value to a story by making audience engagement easier and more visual – so we designed a Medium-style, in-line commenting solution that uses emoji instead of text comments.&lt;/p&gt;
 
