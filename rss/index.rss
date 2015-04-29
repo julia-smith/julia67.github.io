@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 29 Apr 2015 19:02:57 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 29 Apr 2015 20:42:43 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -195,48 +195,53 @@
 
 &lt;p&gt;&lt;a href="https://twitter.com/jacobrossi"&gt;@jacobrossi&lt;/a&gt; – Jacob works on Microsoft Project Spartan - project name for Microsoft Edge, the browser that is to replace IE.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Direct Manipulation.&lt;/strong&gt;
-“Point and click” is so old fashioned. Make the user forget they’re touching glass. Touch has to work at 60fps so people feel like they’re interacting with the content, not the screen. Performance is key. If your gesture handling isn’t ongoing, then it isn’t direct manipulation. Gesture libraries aren’t great.&lt;/p&gt;
+&lt;h6 id="directmanipulation"&gt;Direct Manipulation&lt;/h6&gt;
+
+&lt;p&gt;“Point and click” is so old fashioned. Make the user forget they’re touching glass. Touch has to work at 60fps so people feel like they’re interacting with the content, not the screen. Performance is key. If your gesture handling isn’t ongoing, then it isn’t direct manipulation. Gesture libraries aren’t great.&lt;/p&gt;
 
 &lt;p&gt;It’s important to be natural. You can do a lot of stuff with gestures, but keep to the basics for the most part. Tap, swipe, pinch – keep it simple so the interaction is still intuitive and accessible. &lt;/p&gt;
 
 &lt;p&gt;Use native scrolling and zooming – it’s so important for performance. It’s not about moving down a document, it’s about keeping content stuck to a finger at 60fps.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Scrolling&lt;/strong&gt;&lt;br&gt;
-New w3c standard called CSS Snap Points. Snap Points allow you to take a scrolling region and set up sticky points within the reason – so the browser knows where to snap-to content. Common use cases would be sliding carousels or sliding drawer menus. Can combine with CSS pointer events to do some really cool stuff.&lt;/p&gt;
+&lt;h6 id="scrolling"&gt;Scrolling&lt;/h6&gt;
 
-&lt;p&gt;&lt;strong&gt;Zooming&lt;/strong&gt;&lt;br&gt;
-The Virtual Viewport &lt;br&gt;
+&lt;p&gt;New w3c standard called CSS Snap Points. Snap Points allow you to take a scrolling region and set up sticky points within the reason – so the browser knows where to snap-to content. Common use cases would be sliding carousels or sliding drawer menus. Can combine with CSS pointer events to do some really cool stuff.&lt;/p&gt;
+
+&lt;h6 id="zooming"&gt;Zooming&lt;/h6&gt;
+
+&lt;p&gt;The Virtual Viewport &lt;br&gt;
 Potential new CSS positioning standard – position:device-fixed&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Pointer Events&lt;/strong&gt;&lt;br&gt;
-We need to migrate away from mouse events. Pointer events abstract your code to be input agnostic. Simplicity of mouse events with support for multiple device types (even gestural devices like Leap), including multi-touch (even multi-user) events ,and device-specific properties like pressure. Pointer events can be device-independent when you want it; device-specific when you need it. Pointer events are in I.E., Edge. Firefox and Chrome. No word from Apple yet. JQuery is creating a polyfill for it though. &lt;br&gt;
+&lt;h6 id="pointerevents"&gt;Pointer Events&lt;/h6&gt;
+
+&lt;p&gt;We need to migrate away from mouse events. Pointer events abstract your code to be input agnostic. Simplicity of mouse events with support for multiple device types (even gestural devices like Leap), including multi-touch (even multi-user) events ,and device-specific properties like pressure. Pointer events can be device-independent when you want it; device-specific when you need it. Pointer events are in I.E., Edge. Firefox and Chrome. No word from Apple yet. JQuery is creating a polyfill for it though. &lt;br&gt;
 Demo: &lt;a href="https://github.com/jacobrossi/PointerPaint"&gt;https://github.com/jacobrossi/PointerPaint&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Pointer event properties:&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;width&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pointer event properties:&lt;/strong&gt;
+&lt;ul&gt;&lt;li&gt;width&lt;/li&gt;
 &lt;li&gt;height&lt;/li&gt;
 &lt;li&gt;pressure&lt;/li&gt;
 &lt;li&gt;tiltx&lt;/li&gt;
 &lt;li&gt;tilty&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The tilt properties could allow you to infer handedness – and possibly adjust the UI for left- vs. right-handed users.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The tilt properties could allow you to infer handedness – and possibly adjust the UI for left- vs. right-handed users.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Gesture Events&lt;/strong&gt;&lt;br&gt;
-You’d have a gesture object that you can feed pointer events. Gesture-change events. &lt;br&gt;
-rotation&lt;/p&gt;
+&lt;h6 id="gestureevents"&gt;Gesture Events&lt;/h6&gt;
+
+&lt;p&gt;You’d have a gesture object that you can feed pointer events. Gesture-change events.&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gesture Event Properties&lt;/strong&gt;
+&lt;ul&gt;&lt;li&gt;rotation&lt;/li&gt;
 &lt;li&gt;scale&lt;/li&gt;
 &lt;li&gt;translationX, translationY&lt;/li&gt;
 &lt;li&gt;velocityX, velocityY&lt;/li&gt;
 &lt;li&gt;velocityAngular&lt;/li&gt;
-&lt;li&gt;velocityExpansion&lt;/li&gt;
+&lt;li&gt;velocityExpansion &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;&lt;/p&gt;
+&lt;h6 id="resources"&gt;Resources:&lt;/h6&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://w3.org/TR/pointerevents/"&gt;http://w3.org/TR/pointerevents/&lt;/a&gt;&lt;/li&gt;

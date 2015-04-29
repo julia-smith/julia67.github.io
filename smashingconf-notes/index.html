@@ -24,7 +24,7 @@
     <meta property="og:description" content="CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles....">
     <meta property="og:url" content="http://julia67.github.io/smashingconf-notes/">
     <meta property="article:published_time" content="2015-04-28T22:04:48.233Z">
-    <meta property="article:modified_time" content="2015-04-29T19:02:33.023Z">
+    <meta property="article:modified_time" content="2015-04-29T20:42:11.912Z">
     <meta property="article:tag" content="smashing">
     <meta property="article:tag" content="conf">
     
@@ -47,7 +47,7 @@
     "headline": "#SmashingConf: Note Dump",
     "url": "http://julia67.github.io/smashingconf-notes/",
     "datePublished": "2015-04-28T22:04:48.233Z",
-    "dateModified": "2015-04-29T19:02:33.023Z",
+    "dateModified": "2015-04-29T20:42:11.912Z",
     "keywords": "smashing, conf",
     "description": "CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles...."
 }
@@ -292,48 +292,53 @@
 
 <p><a href="https://twitter.com/jacobrossi">@jacobrossi</a> – Jacob works on Microsoft Project Spartan - project name for Microsoft Edge, the browser that is to replace IE.</p>
 
-<p><strong>Direct Manipulation.</strong>
-“Point and click” is so old fashioned. Make the user forget they’re touching glass. Touch has to work at 60fps so people feel like they’re interacting with the content, not the screen. Performance is key. If your gesture handling isn’t ongoing, then it isn’t direct manipulation. Gesture libraries aren’t great.</p>
+<h6 id="directmanipulation">Direct Manipulation</h6>
+
+<p>“Point and click” is so old fashioned. Make the user forget they’re touching glass. Touch has to work at 60fps so people feel like they’re interacting with the content, not the screen. Performance is key. If your gesture handling isn’t ongoing, then it isn’t direct manipulation. Gesture libraries aren’t great.</p>
 
 <p>It’s important to be natural. You can do a lot of stuff with gestures, but keep to the basics for the most part. Tap, swipe, pinch – keep it simple so the interaction is still intuitive and accessible. </p>
 
 <p>Use native scrolling and zooming – it’s so important for performance. It’s not about moving down a document, it’s about keeping content stuck to a finger at 60fps.</p>
 
-<p><strong>Scrolling</strong><br>
-New w3c standard called CSS Snap Points. Snap Points allow you to take a scrolling region and set up sticky points within the reason – so the browser knows where to snap-to content. Common use cases would be sliding carousels or sliding drawer menus. Can combine with CSS pointer events to do some really cool stuff.</p>
+<h6 id="scrolling">Scrolling</h6>
 
-<p><strong>Zooming</strong><br>
-The Virtual Viewport <br>
+<p>New w3c standard called CSS Snap Points. Snap Points allow you to take a scrolling region and set up sticky points within the reason – so the browser knows where to snap-to content. Common use cases would be sliding carousels or sliding drawer menus. Can combine with CSS pointer events to do some really cool stuff.</p>
+
+<h6 id="zooming">Zooming</h6>
+
+<p>The Virtual Viewport <br>
 Potential new CSS positioning standard – position:device-fixed</p>
 
-<p><strong>Pointer Events</strong><br>
-We need to migrate away from mouse events. Pointer events abstract your code to be input agnostic. Simplicity of mouse events with support for multiple device types (even gestural devices like Leap), including multi-touch (even multi-user) events ,and device-specific properties like pressure. Pointer events can be device-independent when you want it; device-specific when you need it. Pointer events are in I.E., Edge. Firefox and Chrome. No word from Apple yet. JQuery is creating a polyfill for it though. <br>
+<h6 id="pointerevents">Pointer Events</h6>
+
+<p>We need to migrate away from mouse events. Pointer events abstract your code to be input agnostic. Simplicity of mouse events with support for multiple device types (even gestural devices like Leap), including multi-touch (even multi-user) events ,and device-specific properties like pressure. Pointer events can be device-independent when you want it; device-specific when you need it. Pointer events are in I.E., Edge. Firefox and Chrome. No word from Apple yet. JQuery is creating a polyfill for it though. <br>
 Demo: <a href="https://github.com/jacobrossi/PointerPaint">https://github.com/jacobrossi/PointerPaint</a></p>
 
-<p><strong>Pointer event properties:</strong></p>
-
 <ul>
-<li>width</li>
+<li><strong>Pointer event properties:</strong>
+<ul><li>width</li>
 <li>height</li>
 <li>pressure</li>
 <li>tiltx</li>
 <li>tilty</li>
-<li><em>The tilt properties could allow you to infer handedness – and possibly adjust the UI for left- vs. right-handed users.</em></li>
+<li><em>The tilt properties could allow you to infer handedness – and possibly adjust the UI for left- vs. right-handed users.</em></li></ul></li>
 </ul>
 
-<p><strong>Gesture Events</strong><br>
-You’d have a gesture object that you can feed pointer events. Gesture-change events. <br>
-rotation</p>
+<h6 id="gestureevents">Gesture Events</h6>
+
+<p>You’d have a gesture object that you can feed pointer events. Gesture-change events.</p>
 
 <ul>
+<li><strong>Gesture Event Properties</strong>
+<ul><li>rotation</li>
 <li>scale</li>
 <li>translationX, translationY</li>
 <li>velocityX, velocityY</li>
 <li>velocityAngular</li>
-<li>velocityExpansion</li>
+<li>velocityExpansion </li></ul></li>
 </ul>
 
-<p><strong>Resources:</strong></p>
+<h6 id="resources">Resources:</h6>
 
 <ul>
 <li><a href="http://w3.org/TR/pointerevents/">http://w3.org/TR/pointerevents/</a></li>
