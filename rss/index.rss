@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 30 Apr 2015 01:31:52 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 30 Apr 2015 01:51:22 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -254,6 +254,84 @@
 &lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/Draplin"&gt;@Draplin&lt;/a&gt; This was easily one of the best design presentations I&amp;#39;ve ever seen in my life. Never forget your design roots! &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Penny Tselikis (@penny_tselikis) &lt;a href="https://twitter.com/penny_tselikis/status/593220223974551552"&gt;April 29, 2015&lt;/a&gt;&lt;/blockquote&gt;  
 
 &lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="cameronmollthoughtsondesign"&gt;Cameron Moll: Thoughts on design&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/cameronmoll"&gt;@cameronmoll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We make mistakes throughout our careers and think it's the end of the road. Ask yourself: When I'm 80 years old, how am I going to feel about how I handled this situation? It's not a waste if you learn from it.&lt;/p&gt;
+
+&lt;h6 id="mentalmodels"&gt;Mental models&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mental models and intuition come into play when you approach a new experience. You expect it to work the same way as that model. &lt;/li&gt;
+&lt;li&gt;Think beyond labels to break out of your own mental models. Don't just think about mobile, tablet, desktop. It's bigger than that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="responsivedesign"&gt;Responsive Design:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We assume we're delivering the best experience for it users, but your deliverable may actually break the mental model for a portion of your users. For example, Does my site's mobile version disable pinch and zoom?&lt;/li&gt;
+&lt;li&gt;Don't assume we know what's best for our audience.
+Allow users to determine how they want to use your site. &lt;strong&gt;Elective UX.&lt;/strong&gt;  &lt;/li&gt;
+&lt;li&gt;Consider: zooming where content reflows.&lt;/li&gt;
+&lt;li&gt;RWD is limiting because it's limited to the browser – think about how people use the app for Facebook rather than the browser version.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"The best interface is one that's in reach."&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id="redefiningmobile"&gt;Redefining 'Mobile'&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When we talk about mobile, make the distinction between the noun and the verb. &lt;/li&gt;
+&lt;li&gt;Step back and assess how the experiences on different devices come together.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="cohesiveuxunifiedux"&gt;Cohesive UX. Unified UX.&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How do we create a cohesive experience across many screens? How do we form a united whole and not a mindless clone? &lt;/li&gt;
+&lt;li&gt;Understand context. Don't assume that every screen needs to be a discrete, unique experience.&lt;/li&gt;
+&lt;li&gt;Form and function. &lt;/li&gt;
+&lt;li&gt;Data symmetry.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="formandfunction"&gt;Form and function:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Good example: Amazon. Gmail. Both keep the same look and process on different devices. &lt;/li&gt;
+&lt;li&gt;RWD is great for marketing sites, but it's a nightmare for data heavy, complex sites. &lt;/li&gt;
+&lt;li&gt;Rdio doesn't even try to create an experience for mobile web – but that's OK if it was the best approach given the company's goals, resources, and user metrics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="datasymmetry"&gt;Data symmetry&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The continuity of data and workflow process among different devices. &lt;/li&gt;
+&lt;li&gt;Good Example: Rdio's remote control functionality.&lt;/li&gt;
+&lt;li&gt;Bad example: Zappos was using local cookies to store shipping cart data, so you couldn't continue the experience on another device.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"Sync verbs, not just nouns"&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id="createaholisticexperience"&gt;Create a holistic experience&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inventory all elements and "cohesify" them.&lt;/li&gt;
+&lt;li&gt;Store session data in the cloud, not locally.&lt;/li&gt;
+&lt;li&gt;Consider using web views when developing your native app. &lt;em&gt;&amp;lt;-- Huh?&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Replace "click" with "press." &lt;/li&gt;
+&lt;li&gt;Replace "mobile" with anything else.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respect mental models.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="cameronspresentationhttpsspeakerdeckcomcameronmollcohesiveux2015"&gt;&lt;a href="https://speakerdeck.com/cameronmoll/cohesive-ux-2015"&gt;Cameron's presentation&lt;/a&gt;&lt;/h6&gt;
 
 &lt;hr&gt;
 
