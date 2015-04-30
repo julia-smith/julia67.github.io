@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 30 Apr 2015 01:09:08 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 30 Apr 2015 01:31:52 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -226,6 +226,34 @@
 &lt;h6 id="trackingjs"&gt;Tracking.js&lt;/h6&gt;
 
 &lt;p&gt;&lt;a href="http://trackingjs.com/"&gt;Tracking.js&lt;/a&gt; is a tool that "brings different computer vision algorithms and techniques into the browser environment." It has a low learning curve for front-end folks to pick up because it's 100% JavaScript.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="aarondraplin"&gt;Aaron Draplin&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/draplin"&gt;@draplin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This talk was too good. No notes. I wasn't the only one:&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;So proud of my note taking skills at &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt; until &lt;a href="https://twitter.com/Draplin"&gt;@draplin&lt;/a&gt; walked up on stage... @ Casa Del Mar &lt;a href="https://t.co/V7REuYcCKE"&gt;https://t.co/V7REuYcCKE&lt;/a&gt;&lt;/p&gt;&amp;mdash; beckysoll (@beckysoll) &lt;a href="https://twitter.com/beckysoll/status/593223295631253504"&gt;April 29, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;This is awesome &lt;a href="https://twitter.com/Draplin"&gt;@Draplin&lt;/a&gt; killing it!... amazing design, super inspirational. &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brady Sammons (@soulrider911) &lt;a href="https://twitter.com/soulrider911/status/593209122918518784"&gt;April 29, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;I laughed. I cried. I got inspired. &lt;a href="https://twitter.com/Draplin"&gt;@Draplin&lt;/a&gt; stole the show at &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/design?src=hash"&gt;#design&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/inspiration?src=hash"&gt;#inspiration&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kris Guadarrama (@kristop) &lt;a href="https://twitter.com/kristop/status/593236756314501121"&gt;April 29, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Thanks for the inspiring, beautiful, hilarious talk at &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt; Aaron. &lt;a href="https://twitter.com/Draplin"&gt;@Draplin&lt;/a&gt;&lt;/p&gt;&amp;mdash; Justin Roberts (@roarked) &lt;a href="https://twitter.com/roarked/status/593220929884266498"&gt;April 29, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/Draplin"&gt;@Draplin&lt;/a&gt; This was easily one of the best design presentations I&amp;#39;ve ever seen in my life. Never forget your design roots! &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Penny Tselikis (@penny_tselikis) &lt;a href="https://twitter.com/penny_tselikis/status/593220223974551552"&gt;April 29, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 &lt;hr&gt;
 
