@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 30 Apr 2015 01:51:22 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 30 Apr 2015 18:23:05 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -332,6 +332,29 @@ Allow users to determine how they want to use your site. &lt;strong&gt;Elective 
 &lt;/ul&gt;
 
 &lt;h6 id="cameronspresentationhttpsspeakerdeckcomcameronmollcohesiveux2015"&gt;&lt;a href="https://speakerdeck.com/cameronmoll/cohesive-ux-2015"&gt;Cameron's presentation&lt;/a&gt;&lt;/h6&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="rachelandrewdeploymentworkflow"&gt;Rachel Andrew: Deployment Workflow&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://twitter.com/rachelandrew"&gt;@rachelandrew&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Rachel's talk focused on Wordpress deployment. Check out her blog post on the topic for more details: &lt;a href="http://24ways.org/2014/developing-robust-deployment-procedures/"&gt;Developing Robust Deployment Procedures&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h6 id="keypoints"&gt;Key Points&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Use a virtual machine&lt;/strong&gt; so your local environment is identical to the remote. You'll need
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.virtualbox.org/"&gt;VirtualBox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.vagrantup.com/"&gt;Vagrant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://puphpet.com/"&gt;PuPHPet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add a deployment service&lt;/strong&gt; like &lt;a href="http://beanstalkapp.com/"&gt;Beanstalk&lt;/a&gt; to the git repo for your project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use a CDN&lt;/strong&gt; for the site's static assets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Still some unsolved problems:&lt;/strong&gt;
+&lt;ul&gt;&lt;li&gt;Pre- and post-processed CSS and JS files&lt;/li&gt;
+&lt;li&gt;Backup management&lt;/li&gt;
+&lt;li&gt;Database migrations&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr&gt;
 
