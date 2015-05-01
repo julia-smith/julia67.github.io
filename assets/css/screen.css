@@ -1001,6 +1001,9 @@ body:not(.post-template) .post-title {
     font-size: 0.9em;
     line-height: 1.7em;
 }
+.post-excerpt > *:nth-child(n+2){
+    display:none;
+}
 
 .read-more {
     text-decoration: none;
