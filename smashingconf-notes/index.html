@@ -24,7 +24,7 @@
     <meta property="og:description" content="CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles....">
     <meta property="og:url" content="http://julia67.github.io/smashingconf-notes/">
     <meta property="article:published_time" content="2015-04-28T22:04:48.233Z">
-    <meta property="article:modified_time" content="2015-04-30T18:33:42.092Z">
+    <meta property="article:modified_time" content="2015-05-01T16:34:52.233Z">
     <meta property="article:tag" content="smashing">
     <meta property="article:tag" content="conf">
     
@@ -47,7 +47,7 @@
     "headline": "#SmashingConf: Note Dump",
     "url": "http://julia67.github.io/smashingconf-notes/",
     "datePublished": "2015-04-28T22:04:48.233Z",
-    "dateModified": "2015-04-30T18:33:42.092Z",
+    "dateModified": "2015-05-01T16:34:52.233Z",
     "keywords": "smashing, conf",
     "description": "CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles...."
 }
@@ -111,7 +111,7 @@
 <li><strong>Create small interdisciplinary teams.</strong> Bring all players into the mix early in the process</li>
 <li><strong>Define guiding principles.</strong> What's most important for producing a successful use experience? Speed is more important than design embellishment</li>
 <li><strong>Prototype early.</strong> Have designers work on individual assets. An early prototype helps identify areas where performance will likely be a challenge</li>
-<li><strong>Create a performance budget.</strong> Surface the metrics for the team, and display a clear baseline for what's acceptable. 
+<li><strong>Implement a performance budget.</strong> Surface the metrics for the team, and display a clear baseline for what's acceptable. 
 <ul><li>Define the most important elements on the page and define custom metrics for those elements. Use user timing API. Track when the image gets rendered.</li>
 <li>Create a bookmarklet to analyze page performance against your specific project metrics.</li>
 <li>Window.onload is not the best metric for analyzing performance. It's more important to optimize for above-the-fold content. Use <a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index">SpeedIndex</a> from <a href="http://www.webpagetest.org/">WebPageTest</a> for this. Also <a href="https://speedcurve.com/">SpeedCurve</a>.</li></ul></li>
@@ -631,6 +631,77 @@ traditional design principles should guide your structural decisions. line lengt
 </ol>
 
 <h6 id="pattysslideshttpsdocsgooglecompresentationd1fh7bzne2leffuxi2cl6gaqdaynm3tv6_6d_mmsdokieedit"><a href="https://docs.google.com/presentation/d/1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE/edit">Patty’s Slides</a></h6>
+
+<hr>
+
+<h2 id="andybuddtheuxofuserexperience">Andy Budd: The UX of User Experience</h2>
+
+<p><a href="http://twitter.com/andybudd">@andybudd</a></p>
+
+<h6 id="cultofthewireframe">Cult of the Wireframe</h6>
+
+<ul>
+<li>Wireframes aren't the solution to every problem.</li>
+<li>Imagine if the aerospace industry used wireframes the way the web design industry does. </li>
+<li>Wireframes are lightweight tools to help designers think through a process and then share with the rest of the team. They aren't dogma. </li>
+<li>People who wireframe – are they designers or documentation people?</li>
+</ul>
+
+<h6 id="dunningkruegereffect">Dunning-Krueger Effect</h6>
+
+<ul>
+<li>People who have a tiny bit of knowledge on a subject but really only know the tip of the iceberg. "Stupid is as stupid does." </li>
+<li>The reverse is imposter syndrome. </li>
+<li>The D-K Effect is rampant in the design world, in part due to...</li>
+</ul>
+
+<h6 id="dualityofthephraseux">Duality of the phrase UX:</h6>
+
+<p>Defining the thing is hard. In different contexts, UX could mean any of the following: A job, a rule, a group, a field, the result of design.</p>
+
+<h6 id="theuxteam">The UX team:</h6>
+
+<ul>
+<li>Usability Specialist</li>
+<li>Information Architect</li>
+<li>Strategist</li>
+<li>Visual Designer</li>
+<li>Interaction Designer</li>
+<li>Etc.</li>
+</ul>
+
+<h6 id="auserexperiencedesigneris">A user experience designer is:</h6>
+
+<blockquote>
+  <p>"A conceptual designer who focuses on what a product or service does and how it behaves, rather than what it looks like."</p>
+  
+  <p>– Andy Budd</p>
+</blockquote>
+
+<h6 id="dansaffersmodel">Dan Saffer's Model:</h6>
+
+<p><img src="../content/images/2015/05/ux-diagram.jpg" alt="" title=""><span class="caption">Via: <a href="http://www.kickerstudio.com/2008/12/the-disciplines-of-user-experience/">http://www.kickerstudio.com/2008/12/the-disciplines-of-user-experience/</a></span></p>
+
+<h6 id="jasonmesutsmodel">Jason Mesut's Model:</h6>
+
+<ul>
+<li>Experience strategy</li>
+<li>Interaction design</li>
+<li>User research</li>
+<li>Information architecture.</li>
+</ul>
+
+<p><img src="../content/images/2015/05/ux-diagram-2.jpg" alt="">
+<span class="caption">Via: <a href="http://www.slideshare.net/jasonmesut/sell-yourself-better-10">http://www.slideshare.net/jasonmesut/sell-yourself-better-10</a></span></p>
+
+<h6 id="whatshapeofuxdesignerareyou">What shape of UX designer are you?</h6>
+
+<ul>
+<li>Tell potential employers and clients: <em>X</em> is what I do. <em>Y</em> is what I don't do. How do I fit within your organization?</li>
+<li>We're better as a team. It's better to have a group of good, but not stellar, designers rather than a rock star with an inflated ego and an attitude.</li>
+<li>Hiring focuses on the portfolio. Show sketches, pictures of you facilitating workshops, evidence of your problem solving skills.</li>
+<li>The next desired skills? Prototyping and animation.</li>
+</ul>
         </section>
 
         <footer class="post-footer">

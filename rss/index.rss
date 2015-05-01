@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Thu, 30 Apr 2015 18:33:44 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 01 May 2015 16:34:59 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -14,7 +14,7 @@
 &lt;li&gt;&lt;strong&gt;Create small interdisciplinary teams.&lt;/strong&gt; Bring all players into the mix early in the process&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Define guiding principles.&lt;/strong&gt; What's most important for producing a successful use experience? Speed is more important than design embellishment&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Prototype early.&lt;/strong&gt; Have designers work on individual assets. An early prototype helps identify areas where performance will likely be a challenge&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create a performance budget.&lt;/strong&gt; Surface the metrics for the team, and display a clear baseline for what's acceptable. 
+&lt;li&gt;&lt;strong&gt;Implement a performance budget.&lt;/strong&gt; Surface the metrics for the team, and display a clear baseline for what's acceptable. 
 &lt;ul&gt;&lt;li&gt;Define the most important elements on the page and define custom metrics for those elements. Use user timing API. Track when the image gets rendered.&lt;/li&gt;
 &lt;li&gt;Create a bookmarklet to analyze page performance against your specific project metrics.&lt;/li&gt;
 &lt;li&gt;Window.onload is not the best metric for analyzing performance. It's more important to optimize for above-the-fold content. Use &lt;a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index"&gt;SpeedIndex&lt;/a&gt; from &lt;a href="http://www.webpagetest.org/"&gt;WebPageTest&lt;/a&gt; for this. Also &lt;a href="https://speedcurve.com/"&gt;SpeedCurve&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
@@ -533,7 +533,78 @@ traditional design principles should guide your structural decisions. line lengt
 &lt;li&gt;Test real devices&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h6 id="pattysslideshttpsdocsgooglecompresentationd1fh7bzne2leffuxi2cl6gaqdaynm3tv6_6d_mmsdokieedit"&gt;&lt;a href="https://docs.google.com/presentation/d/1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE/edit"&gt;Patty’s Slides&lt;/a&gt;&lt;/h6&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
+&lt;h6 id="pattysslideshttpsdocsgooglecompresentationd1fh7bzne2leffuxi2cl6gaqdaynm3tv6_6d_mmsdokieedit"&gt;&lt;a href="https://docs.google.com/presentation/d/1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE/edit"&gt;Patty’s Slides&lt;/a&gt;&lt;/h6&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="andybuddtheuxofuserexperience"&gt;Andy Budd: The UX of User Experience&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://twitter.com/andybudd"&gt;@andybudd&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id="cultofthewireframe"&gt;Cult of the Wireframe&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wireframes aren't the solution to every problem.&lt;/li&gt;
+&lt;li&gt;Imagine if the aerospace industry used wireframes the way the web design industry does. &lt;/li&gt;
+&lt;li&gt;Wireframes are lightweight tools to help designers think through a process and then share with the rest of the team. They aren't dogma. &lt;/li&gt;
+&lt;li&gt;People who wireframe – are they designers or documentation people?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="dunningkruegereffect"&gt;Dunning-Krueger Effect&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;People who have a tiny bit of knowledge on a subject but really only know the tip of the iceberg. "Stupid is as stupid does." &lt;/li&gt;
+&lt;li&gt;The reverse is imposter syndrome. &lt;/li&gt;
+&lt;li&gt;The D-K Effect is rampant in the design world, in part due to...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="dualityofthephraseux"&gt;Duality of the phrase UX:&lt;/h6&gt;
+
+&lt;p&gt;Defining the thing is hard. In different contexts, UX could mean any of the following: A job, a rule, a group, a field, the result of design.&lt;/p&gt;
+
+&lt;h6 id="theuxteam"&gt;The UX team:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Usability Specialist&lt;/li&gt;
+&lt;li&gt;Information Architect&lt;/li&gt;
+&lt;li&gt;Strategist&lt;/li&gt;
+&lt;li&gt;Visual Designer&lt;/li&gt;
+&lt;li&gt;Interaction Designer&lt;/li&gt;
+&lt;li&gt;Etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="auserexperiencedesigneris"&gt;A user experience designer is:&lt;/h6&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"A conceptual designer who focuses on what a product or service does and how it behaves, rather than what it looks like."&lt;/p&gt;
+  
+  &lt;p&gt;– Andy Budd&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id="dansaffersmodel"&gt;Dan Saffer's Model:&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/05/ux-diagram.jpg" alt="" title=""&gt;&lt;span class="caption"&gt;Via: &lt;a href="http://www.kickerstudio.com/2008/12/the-disciplines-of-user-experience/"&gt;http://www.kickerstudio.com/2008/12/the-disciplines-of-user-experience/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h6 id="jasonmesutsmodel"&gt;Jason Mesut's Model:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Experience strategy&lt;/li&gt;
+&lt;li&gt;Interaction design&lt;/li&gt;
+&lt;li&gt;User research&lt;/li&gt;
+&lt;li&gt;Information architecture.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/05/ux-diagram-2.jpg" alt=""&gt;
+&lt;span class="caption"&gt;Via: &lt;a href="http://www.slideshare.net/jasonmesut/sell-yourself-better-10"&gt;http://www.slideshare.net/jasonmesut/sell-yourself-better-10&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h6 id="whatshapeofuxdesignerareyou"&gt;What shape of UX designer are you?&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tell potential employers and clients: &lt;em&gt;X&lt;/em&gt; is what I do. &lt;em&gt;Y&lt;/em&gt; is what I don't do. How do I fit within your organization?&lt;/li&gt;
+&lt;li&gt;We're better as a team. It's better to have a group of good, but not stellar, designers rather than a rock star with an inflated ego and an attitude.&lt;/li&gt;
+&lt;li&gt;Hiring focuses on the portfolio. Show sketches, pictures of you facilitating workshops, evidence of your problem solving skills.&lt;/li&gt;
+&lt;li&gt;The next desired skills? Prototyping and animation.&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
 
 &lt;p&gt;My team designed &lt;a href="http://sixfoot6.com/emojinius/" target="_blank"&gt;EMOJINIUS&lt;/a&gt;, an emoji annotation system. We were exploring how we could add value to a story by making audience engagement easier and more visual – so we designed a Medium-style, in-line commenting solution that uses emoji instead of text comments.&lt;/p&gt;
 
