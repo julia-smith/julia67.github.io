@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 01 May 2015 16:34:59 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 01 May 2015 16:44:30 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -600,11 +600,25 @@ traditional design principles should guide your structural decisions. line lengt
 &lt;h6 id="whatshapeofuxdesignerareyou"&gt;What shape of UX designer are you?&lt;/h6&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Tell potential employers and clients: &lt;em&gt;X&lt;/em&gt; is what I do. &lt;em&gt;Y&lt;/em&gt; is what I don't do. How do I fit within your organization?&lt;/li&gt;
+&lt;li&gt;Tell potential employers and clients: &lt;strong&gt;&lt;em&gt;X&lt;/em&gt;&lt;/strong&gt;  is what I do. &lt;strong&gt;&lt;em&gt;Y&lt;/em&gt;&lt;/strong&gt;  is what I don't do. How do I fit within your organization?&lt;/li&gt;
 &lt;li&gt;We're better as a team. It's better to have a group of good, but not stellar, designers rather than a rock star with an inflated ego and an attitude.&lt;/li&gt;
 &lt;li&gt;Hiring focuses on the portfolio. Show sketches, pictures of you facilitating workshops, evidence of your problem solving skills.&lt;/li&gt;
 &lt;li&gt;The next desired skills? Prototyping and animation.&lt;/li&gt;
-&lt;/ul&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="andrewclarkecreativityoverpredictability"&gt;Andrew Clarke: Creativity Over Predictability&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://twitter.com/malarkey"&gt;@malarkey&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"I look at today's web design with a growing sense of dissatisfaction. Designs lack energy and spontaneity. Nothing strays beyond the boundary of convention. We're in a soulless period."&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&amp;quot;I fear design being crushed under the boot of UX.&amp;quot; &lt;a href="https://twitter.com/Malarkey"&gt;@Malarkey&lt;/a&gt; Agreed, but I fear creativity is crushed by budgets &amp;amp; profits. &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Richard Buecheler (@rb_design) &lt;a href="https://twitter.com/rb_design/status/593544098427981824"&gt;April 29, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
 
 &lt;p&gt;My team designed &lt;a href="http://sixfoot6.com/emojinius/" target="_blank"&gt;EMOJINIUS&lt;/a&gt;, an emoji annotation system. We were exploring how we could add value to a story by making audience engagement easier and more visual – so we designed a Medium-style, in-line commenting solution that uses emoji instead of text comments.&lt;/p&gt;
 
