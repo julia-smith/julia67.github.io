@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 01 May 2015 16:45:52 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 01 May 2015 16:54:58 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -8,7 +8,7 @@
 
 &lt;p&gt;&lt;a href="http://twitter.com/souders"&gt;@souders&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Tricks to marry design and performance:&lt;/strong&gt;&lt;/p&gt;
+&lt;h6 id="trickstomarrydesignandperformance"&gt;Tricks to marry design and performance:&lt;/h6&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create small interdisciplinary teams.&lt;/strong&gt; Bring all players into the mix early in the process&lt;/li&gt;
@@ -18,14 +18,28 @@
 &lt;ul&gt;&lt;li&gt;Define the most important elements on the page and define custom metrics for those elements. Use user timing API. Track when the image gets rendered.&lt;/li&gt;
 &lt;li&gt;Create a bookmarklet to analyze page performance against your specific project metrics.&lt;/li&gt;
 &lt;li&gt;Window.onload is not the best metric for analyzing performance. It's more important to optimize for above-the-fold content. Use &lt;a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index"&gt;SpeedIndex&lt;/a&gt; from &lt;a href="http://www.webpagetest.org/"&gt;WebPageTest&lt;/a&gt; for this. Also &lt;a href="https://speedcurve.com/"&gt;SpeedCurve&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hero Image Delay (HID) problem.&lt;/strong&gt;
-&lt;ul&gt;&lt;li&gt;Don't define giant bg images in external CSS. Inline it. Make sure hero IMG is first IMG tag in the page.&lt;/li&gt;
-&lt;li&gt;Browsers promote importance of scripts and CSS over images, which blocks rendering. Use async and deferred instead of sticking scripts at the bottom of the page.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Takeaways:&lt;/strong&gt; 
-&lt;ul&gt;&lt;li&gt;Identify what matters must. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="heroimagedelayhidproblem"&gt;Hero Image Delay (HID) problem&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Don't define giant bg images in external CSS. Inline it. Make sure hero IMG is first IMG tag in the page.&lt;/li&gt;
+&lt;li&gt;Browsers promote importance of scripts and CSS over images, which blocks rendering. Use async and deferred instead of sticking scripts at the bottom of the page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="takeaways"&gt;Takeaways:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Identify what matters must. &lt;/li&gt;
 &lt;li&gt;Prioritize ux performance. &lt;/li&gt;
-&lt;li&gt;Track custom metrics.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;"I'm not a big fan of frameworks."&lt;/strong&gt; Good for prototyping, but write your own code for production. &lt;em&gt;I agree!&lt;/em&gt; &lt;/li&gt;
+&lt;li&gt;Track custom metrics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="notafanofframeworks"&gt;Not a fan of frameworks"&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Frameworks are great for prototyping, but write your own code for production. &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;I agree!&lt;/em&gt; &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;
@@ -106,7 +120,9 @@
 
 &lt;p&gt;&lt;a href="http://twitter.com/TrentWalton"&gt;@TrentWalton&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Perception vs. Reality: Is what we perceive actually the way it is?&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id="perceptionvsreality"&gt;Perception vs. Reality&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Is what we perceive actually the way it is?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Depending on background or role on a project, everyone evaluates the quality of a design from a different perspective:&lt;/p&gt;
 
@@ -129,15 +145,17 @@
   &lt;p&gt;– Frank Chimero, &lt;em&gt;&lt;a href="http://julia67.github.io/smashingconf-notes/“http://frankchimero.com/talks/the-webs-grain/transcript/“" target="“_blank”"&gt;The Web Grain&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;How do you start working together on a project? &lt;/p&gt;
+&lt;h6 id="howdoyoustartworkingtogetheronaproject"&gt;How do you start working together on a project?&lt;/h6&gt;
 
-&lt;p&gt;&lt;strong&gt;You prototype.&lt;/strong&gt; You build something from scratch, without any of the waterfall processes in place. It provides a foundation to build on top of, which can set the whole process up for success. If we’re all working on something in the browser, it helps us to see things in the same way. Our perceptions are going to be less and less compartmentalized. It shifts the way we work and the things we do from “mine” to “ours.” If we’re working together on a prototype, it’s &lt;em&gt;our&lt;/em&gt; thing. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You prototype.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;You build something from scratch, without any of the waterfall processes in place. It provides a foundation to build on top of, which can set the whole process up for success. If we’re all working on something in the browser, it helps us to see things in the same way. Our perceptions are going to be less and less compartmentalized. It shifts the way we work and the things we do from “mine” to “ours.” If we’re working together on a prototype, it’s &lt;em&gt;our&lt;/em&gt; thing. &lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“If a picture is worth 1,000 words, &lt;strong&gt;a prototype is worth 1,000 meetings.&lt;/strong&gt;”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Helpful things to keep in mind:&lt;/p&gt;
+&lt;h6 id="thingstokeepinmind"&gt;Things to keep in mind&lt;/h6&gt;
 
 &lt;ul&gt;
 &lt;li&gt;People get really practical when you show them the code that renders something.&lt;/li&gt;
@@ -172,22 +190,29 @@
 &lt;li&gt;&lt;strong&gt;Workflow &amp;amp; Governance:&lt;/strong&gt; What processes tools and people are going to be required to sustain this content strategy over time?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Shift outlooks from content publication to content lifecycle. Don’t just think about helping content go live.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;"Shift your outlook from content publication to content lifecycle. Don’t just think about helping content go live."&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Discovery process&lt;/strong&gt;&lt;/p&gt;
+&lt;h6 id="discoveryprocess"&gt;Discovery process&lt;/h6&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Content audit.&lt;/strong&gt; Make a plan for what attributes you’re going to audit. Are you going to set readability standards? Standards for voice and brand appropriateness? Standards for meta tags? For accessibility? Don’t do your content audit manually; use automated tools (like Content Analysis Tool) to inventory your content. Invite the copy writer into the room so they can take an active approach in the conversations about IA and content organization. What content is there that is redundant, outdated or trivial? Is there a style guide? Review search analytics? Legal requirements? Stakeholder agendas? Content owners? Workflow and timeline considerations? Integrity of metadata? Translation requirements? Accessibility requirements?&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Define the project.&lt;/strong&gt; High-level architecture. Content requirements. &lt;/li&gt;
+&lt;li&gt;You don’t always need to design with copy, but know your audience. It needs to set the appropriate tone for the stakeholder you’re presenting to. Use real copy when you can.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;You don’t always need to design with copy, but know your audience. It needs to set the appropriate tone for the stakeholder you’re presenting to. Use real copy when you can.&lt;/p&gt;
+&lt;h6 id="afterlaunch"&gt;After launch&lt;/h6&gt;
 
-&lt;p&gt;&lt;strong&gt;After launch:&lt;/strong&gt; Care for your content. Leave your organization with an ongoing content quality plan. QA for content. Ensure editorial oversight is in place. Teach producers how to tag content appropriately.&lt;/p&gt;
+&lt;p&gt;Care for your content. Leave your organization with an ongoing content quality plan. QA for content. Ensure editorial oversight is in place. Teach producers how to tag content appropriately.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Learn about adaptive content.&lt;/strong&gt; As you deliver content responsively, getting to a state of content reuse will be key to content strategy success. &lt;/p&gt;
+&lt;h6 id="learnaboutadaptivecontent"&gt;Learn about adaptive content&lt;/h6&gt;
 
-&lt;p&gt;&lt;strong&gt;Takeaways:&lt;/strong&gt; Empower the writers. Make a style guide. Bring content strategy into your process. Don’t say it’s not your problem because you’re the designer or the developer – the quality of the content affects the quality of the work you produce.&lt;/p&gt;
+&lt;p&gt;As you deliver content responsively, getting to a state of content reuse will be key to content strategy success. &lt;/p&gt;
+
+&lt;h6 id="takeaways"&gt;Takeaways&lt;/h6&gt;
+
+&lt;p&gt;Empower the writers. Make a style guide. Bring content strategy into your process. Don’t say it’s not your problem because you’re the designer or the developer – the quality of the content affects the quality of the work you produce.&lt;/p&gt;
 
 &lt;hr&gt;
 

@@ -24,7 +24,7 @@
     <meta property="og:description" content="CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles....">
     <meta property="og:url" content="http://julia67.github.io/smashingconf-notes/">
     <meta property="article:published_time" content="2015-04-28T22:04:48.233Z">
-    <meta property="article:modified_time" content="2015-05-01T16:45:48.734Z">
+    <meta property="article:modified_time" content="2015-05-01T16:54:52.723Z">
     <meta property="article:tag" content="smashing">
     <meta property="article:tag" content="conf">
     
@@ -47,7 +47,7 @@
     "headline": "#SmashingConf: Note Dump",
     "url": "http://julia67.github.io/smashingconf-notes/",
     "datePublished": "2015-04-28T22:04:48.233Z",
-    "dateModified": "2015-05-01T16:45:48.734Z",
+    "dateModified": "2015-05-01T16:54:52.723Z",
     "keywords": "smashing, conf",
     "description": "CONFERENCE NOTE DUMP! YEAH!       My commentary is in italics. Updates are ongoing. Steve Souders: Design + Performance @souders Tricks to marry design and performance: Create small interdisciplinary teams. Bring all players into the mix early in the process Define guiding principles...."
 }
@@ -105,7 +105,7 @@
 
 <p><a href="http://twitter.com/souders">@souders</a></p>
 
-<p><strong>Tricks to marry design and performance:</strong></p>
+<h6 id="trickstomarrydesignandperformance">Tricks to marry design and performance:</h6>
 
 <ul>
 <li><strong>Create small interdisciplinary teams.</strong> Bring all players into the mix early in the process</li>
@@ -115,14 +115,28 @@
 <ul><li>Define the most important elements on the page and define custom metrics for those elements. Use user timing API. Track when the image gets rendered.</li>
 <li>Create a bookmarklet to analyze page performance against your specific project metrics.</li>
 <li>Window.onload is not the best metric for analyzing performance. It's more important to optimize for above-the-fold content. Use <a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index">SpeedIndex</a> from <a href="http://www.webpagetest.org/">WebPageTest</a> for this. Also <a href="https://speedcurve.com/">SpeedCurve</a>.</li></ul></li>
-<li><strong>Hero Image Delay (HID) problem.</strong>
-<ul><li>Don't define giant bg images in external CSS. Inline it. Make sure hero IMG is first IMG tag in the page.</li>
-<li>Browsers promote importance of scripts and CSS over images, which blocks rendering. Use async and deferred instead of sticking scripts at the bottom of the page.</li></ul></li>
-<li><strong>Takeaways:</strong> 
-<ul><li>Identify what matters must. </li>
+</ul>
+
+<h6 id="heroimagedelayhidproblem">Hero Image Delay (HID) problem</h6>
+
+<ul>
+<li>Don't define giant bg images in external CSS. Inline it. Make sure hero IMG is first IMG tag in the page.</li>
+<li>Browsers promote importance of scripts and CSS over images, which blocks rendering. Use async and deferred instead of sticking scripts at the bottom of the page.</li>
+</ul>
+
+<h6 id="takeaways">Takeaways:</h6>
+
+<ul>
+<li>Identify what matters must. </li>
 <li>Prioritize ux performance. </li>
-<li>Track custom metrics.</li></ul></li>
-<li><strong>"I'm not a big fan of frameworks."</strong> Good for prototyping, but write your own code for production. <em>I agree!</em> </li>
+<li>Track custom metrics.</li>
+</ul>
+
+<h6 id="notafanofframeworks">Not a fan of frameworks"</h6>
+
+<ul>
+<li>Frameworks are great for prototyping, but write your own code for production. </li>
+<li><em>I agree!</em> </li>
 </ul>
 
 <hr>
@@ -203,7 +217,9 @@
 
 <p><a href="http://twitter.com/TrentWalton">@TrentWalton</a></p>
 
-<p><strong>Perception vs. Reality: Is what we perceive actually the way it is?</strong></p>
+<h4 id="perceptionvsreality">Perception vs. Reality</h4>
+
+<p><strong>Is what we perceive actually the way it is?</strong></p>
 
 <p>Depending on background or role on a project, everyone evaluates the quality of a design from a different perspective:</p>
 
@@ -226,15 +242,17 @@
   <p>– Frank Chimero, <em><a href="http://127.0.0.1:2368/smashingconf-notes/%E2%80%9Chttp://frankchimero.com/talks/the-webs-grain/transcript/%E2%80%9C" target="“_blank”">The Web Grain</a></em></p>
 </blockquote>
 
-<p>How do you start working together on a project? </p>
+<h6 id="howdoyoustartworkingtogetheronaproject">How do you start working together on a project?</h6>
 
-<p><strong>You prototype.</strong> You build something from scratch, without any of the waterfall processes in place. It provides a foundation to build on top of, which can set the whole process up for success. If we’re all working on something in the browser, it helps us to see things in the same way. Our perceptions are going to be less and less compartmentalized. It shifts the way we work and the things we do from “mine” to “ours.” If we’re working together on a prototype, it’s <em>our</em> thing. </p>
+<p><strong>You prototype.</strong> </p>
+
+<p>You build something from scratch, without any of the waterfall processes in place. It provides a foundation to build on top of, which can set the whole process up for success. If we’re all working on something in the browser, it helps us to see things in the same way. Our perceptions are going to be less and less compartmentalized. It shifts the way we work and the things we do from “mine” to “ours.” If we’re working together on a prototype, it’s <em>our</em> thing. </p>
 
 <blockquote>
   <p>“If a picture is worth 1,000 words, <strong>a prototype is worth 1,000 meetings.</strong>”</p>
 </blockquote>
 
-<p>Helpful things to keep in mind:</p>
+<h6 id="thingstokeepinmind">Things to keep in mind</h6>
 
 <ul>
 <li>People get really practical when you show them the code that renders something.</li>
@@ -269,22 +287,29 @@
 <li><strong>Workflow &amp; Governance:</strong> What processes tools and people are going to be required to sustain this content strategy over time?</li></ul></li>
 </ul>
 
-<p>Shift outlooks from content publication to content lifecycle. Don’t just think about helping content go live.</p>
+<blockquote>
+  <p>"Shift your outlook from content publication to content lifecycle. Don’t just think about helping content go live."</p>
+</blockquote>
 
-<p><strong>Discovery process</strong></p>
+<h6 id="discoveryprocess">Discovery process</h6>
 
 <ul>
 <li><strong>Content audit.</strong> Make a plan for what attributes you’re going to audit. Are you going to set readability standards? Standards for voice and brand appropriateness? Standards for meta tags? For accessibility? Don’t do your content audit manually; use automated tools (like Content Analysis Tool) to inventory your content. Invite the copy writer into the room so they can take an active approach in the conversations about IA and content organization. What content is there that is redundant, outdated or trivial? Is there a style guide? Review search analytics? Legal requirements? Stakeholder agendas? Content owners? Workflow and timeline considerations? Integrity of metadata? Translation requirements? Accessibility requirements?</li>
 <li><strong>Define the project.</strong> High-level architecture. Content requirements. </li>
+<li>You don’t always need to design with copy, but know your audience. It needs to set the appropriate tone for the stakeholder you’re presenting to. Use real copy when you can.</li>
 </ul>
 
-<p>You don’t always need to design with copy, but know your audience. It needs to set the appropriate tone for the stakeholder you’re presenting to. Use real copy when you can.</p>
+<h6 id="afterlaunch">After launch</h6>
 
-<p><strong>After launch:</strong> Care for your content. Leave your organization with an ongoing content quality plan. QA for content. Ensure editorial oversight is in place. Teach producers how to tag content appropriately.</p>
+<p>Care for your content. Leave your organization with an ongoing content quality plan. QA for content. Ensure editorial oversight is in place. Teach producers how to tag content appropriately.</p>
 
-<p><strong>Learn about adaptive content.</strong> As you deliver content responsively, getting to a state of content reuse will be key to content strategy success. </p>
+<h6 id="learnaboutadaptivecontent">Learn about adaptive content</h6>
 
-<p><strong>Takeaways:</strong> Empower the writers. Make a style guide. Bring content strategy into your process. Don’t say it’s not your problem because you’re the designer or the developer – the quality of the content affects the quality of the work you produce.</p>
+<p>As you deliver content responsively, getting to a state of content reuse will be key to content strategy success. </p>
+
+<h6 id="takeaways">Takeaways</h6>
+
+<p>Empower the writers. Make a style guide. Bring content strategy into your process. Don’t say it’s not your problem because you’re the designer or the developer – the quality of the content affects the quality of the work you produce.</p>
 
 <hr>
 
