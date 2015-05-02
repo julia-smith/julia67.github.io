@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 01 May 2015 17:27:41 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Sat, 02 May 2015 00:16:42 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SmashingConf: Note Dump</title><description>&lt;blockquote&gt;
   &lt;p&gt;CONFERENCE NOTE DUMP! YEAH! &lt;/p&gt;
   
   &lt;p&gt;My commentary is in &lt;em&gt;italics&lt;/em&gt;. Updates are ongoing.&lt;/p&gt;
@@ -643,7 +643,50 @@ traditional design principles should guide your structural decisions. line lengt
 
 &lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&amp;quot;I fear design being crushed under the boot of UX.&amp;quot; &lt;a href="https://twitter.com/Malarkey"&gt;@Malarkey&lt;/a&gt; Agreed, but I fear creativity is crushed by budgets &amp;amp; profits. &lt;a href="https://twitter.com/hashtag/smashingconf?src=hash"&gt;#smashingconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Richard Buecheler (@rb_design) &lt;a href="https://twitter.com/rb_design/status/593544098427981824"&gt;April 29, 2015&lt;/a&gt;&lt;/blockquote&gt;  
 
-&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><link>http://julia67.github.io/smashingconf-notes/</link><guid isPermaLink="false">891d7603-8a88-48af-b879-de8a09d71d76</guid><category>smashing</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 28 Apr 2015 22:04:48 GMT</pubDate></item><item><title>The Second Month</title><description>&lt;p&gt;I'm two months in. &lt;/p&gt;
+
+&lt;p&gt;To be honest, I’ve been feeling a bit scattered lately. Progress on the style guide project has been slow since I’ve been busy with travel and other projects. I’ve been starting too much and not finishing nearly enough.&lt;/p&gt;
+
+&lt;p&gt;On a lighter note, I've really enjoyed exploring the Bay and spending time with my coworkers! &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Here are some of the things I’ve worked on in the last month:&lt;/p&gt;
+
+&lt;h6 id="cirprojects"&gt;CIR Projects&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Started designing an interactive for an upcoming &lt;a href="http://revealnews.org"&gt;Reveal&lt;/a&gt; story. (I wish I could say more about this.)&lt;/li&gt;
+&lt;li&gt;Continued development on a style guide for Reveal.
+&lt;ul&gt;&lt;li&gt;I'm using &lt;a href="http://patternlab.io"&gt;Pattern Lab&lt;/a&gt;, which is pretty nice. I'm planning on writing a post about additional style guide resources soon.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="travel"&gt;Travel&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Took a short trip home. (Long-distance marriages are hard.)&lt;/li&gt;
+&lt;li&gt;Spent a week at SNDMakes &amp;amp; SNDDC.
+&lt;ul&gt;&lt;li&gt;My post on the event: &lt;a href="http://julia67.github.io/the-second-month/../sndmakes-emojis-and-more/"&gt;SNDMakes: Emojis and more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My team's project: &lt;a href="http://sixfoot6.com/emojinius"&gt;EMOJINIUS&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="relatedwork"&gt;Related Work&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Prepared a lightning talk for SNDMakes.
+&lt;ul&gt;&lt;li&gt;Check it out: &lt;a href="http://julia67.github.io/the-second-month/../sndmakes-a-lightning-talk/"&gt;Designing for Performance&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Submitted session proposals for &lt;a href="http://srccon.org"&gt;SRCCON&lt;/a&gt; and &lt;a href="http://nejsconf.com"&gt;NEJSConf&lt;/a&gt;. I had hoped to submit something for &lt;a href="http://ona15.journalists.org"&gt;ONA&lt;/a&gt; but wasn't organized enough. :(
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Lo-fi Data Viz&lt;/strong&gt; (with &lt;a href="http://twitter.com/aboutaaron"&gt;@aboutaaron&lt;/a&gt;)&lt;br&gt;Newsrooms developers often build applications and visualizations using dynamic tools like d3.js, AJAX, canvas and others. However, these approaches to data viz and digital storytelling often don't consider users who have low-bandwidth Internet connections, budget smartphones, screen readers or hi-res displays. This session will look at existing data visualization projects and see how they could be adapted to work on low-end phones, computers with accessibility enhancements and other environments. We'll also brainstorm techniques and approaches for building wonderful and beautiful digital stories that &lt;em&gt;everyone&lt;/em&gt; can enjoy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rethinking the Mobile Data Viz Experience&lt;/strong&gt;&lt;br&gt;How can we improve the user experience of data-heavy interactives on mobile devices? What are the biggest problems we encounter, and where do we see opportunities for improvement? Let's look at examples of good small-screen visualizations – perhaps using native mobile apps for inspiration – and brainstorm how to apply similar design concepts to news apps for the mobile web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SVG Animation with Snap.svg&lt;/strong&gt;&lt;br&gt;&lt;a href="http://snapsvg.io/"&gt;Snap.svg&lt;/a&gt; is a javascript library for creating and interacting with SVG in modern browsers. It’s pretty sweet and worth sharing with people. This session will walk through some basic demos, show people how to get started, and then share some inspiring “in the wild” examples of snap.svg in action.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tried to catch up on &lt;a href="http://julia67.github.io/the-second-month/../"&gt;blog posts&lt;/a&gt; RE: NICAR, SND, retrospectives...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="extracurricularprojects"&gt;Extracurricular Projects&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A former client of mine needed some updates to their website, so I spent a decent chunk of my evenings revisiting Wordpress for them.  &lt;/li&gt;
+&lt;/ul&gt;</description><link>http://julia67.github.io/the-second-month/</link><guid isPermaLink="false">999200fc-907e-460b-8ef3-385788286bda</guid><dc:creator>Julia Smith</dc:creator><pubDate>Mon, 20 Apr 2015 23:44:00 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
 
 &lt;p&gt;My team designed &lt;a href="http://sixfoot6.com/emojinius/" target="_blank"&gt;EMOJINIUS&lt;/a&gt;, an emoji annotation system. We were exploring how we could add value to a story by making audience engagement easier and more visual – so we designed a Medium-style, in-line commenting solution that uses emoji instead of text comments.&lt;/p&gt;
 
