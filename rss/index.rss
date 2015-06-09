@@ -1,8 +1,8 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 09 Jun 2015 23:39:16 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>4 Key Topics from Visualized: Political Data</title><description>&lt;p&gt;I spent a couple days in DC last week so I could attend &lt;a href="http://visualized.com/politicaldata/"&gt;Visualized: Political Data&lt;/a&gt;, a one-day conference dedicated to exploring data visualizations in the context of political science, political campaigns, and political journalism. &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 09 Jun 2015 23:40:57 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>4 Key Topics from Visualized: Political Data</title><description>&lt;p&gt;I spent a couple days in DC last week so I could attend &lt;a href="http://visualized.com/politicaldata/"&gt;Visualized: Political Data&lt;/a&gt;, a one-day conference dedicated to exploring data visualizations in the context of political science, political campaigns, and political journalism. &lt;/p&gt;
 
 &lt;p&gt;I felt conflicted about flying all the way from SFO to DCA for a one-day event, but since political data viz is both where I came from (working with Gallup’s opinion poll data) and where I’d potentially like to go again, I figured it would be worth it. I'm glad I went. I was a little disappointed that some of the slated speakers didn't show up (including Lisa Strausfeld, who I had been looking forward to seeing), but overall the sessions were engaging and insightful. I definitely picked up some good info – the highlights of which I'll share with you now.&lt;/p&gt;
 
-&lt;h2 id="publicdataopengovernment"&gt;Public Data / Open Government&lt;/h2&gt;
+&lt;h2 id="topic1publicdataopengovernment"&gt;Topic 1: Public Data / Open Government&lt;/h2&gt;
 
 &lt;p&gt;Derek Willis (NYT), Ryan Sibley (Sunlight Foundation) and Rebecca Williams (Data.gov) all tackled topics related to working with government data.&lt;/p&gt;
 
@@ -61,7 +61,7 @@
 &lt;li&gt;&lt;a href="http://labs.data.gov/dashboard/offices"&gt;http://labs.data.gov/dashboard/offices&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id="maps"&gt;Maps&lt;/h2&gt;
+&lt;h2 id="topic2maps"&gt;Topic 2: Maps&lt;/h2&gt;
 
 &lt;p&gt;Alicia Parlapiano (New York Times) and Alyson Hurt (NPR) both spoke about maps – mostly U.S. state maps. &lt;/p&gt;
 
@@ -91,7 +91,7 @@
 &lt;li&gt;Should it simply be a sentence?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id="elections"&gt;Elections&lt;/h2&gt;
+&lt;h2 id="topic3elections"&gt;Topic 3: Elections&lt;/h2&gt;
 
 &lt;p&gt;Andy Cotgreave (Tableau) and Sarah Newhall (Blue State Digital) spoke about using data visualization to engage people with political data. &lt;/p&gt;
 
@@ -115,7 +115,7 @@
 &lt;li&gt;It informs and inspires.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id="dataforhumans"&gt;Data for Humans&lt;/h2&gt;
+&lt;h2 id="topic4dataforhumans"&gt;Topic 4: Data for Humans&lt;/h2&gt;
 
 &lt;p&gt;Jamie Chandler (George Washington University), Jonathan Schwabish (Urban Institute), and Ben Casselman (FiveThirtyEight) &lt;/p&gt;
 
