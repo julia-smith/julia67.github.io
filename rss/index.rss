@@ -1,4 +1,169 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 27 May 2015 16:44:58 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Third Month</title><description>&lt;p&gt;I can hardly believe it: I stayed in California the entire month.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 09 Jun 2015 23:39:16 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>4 Key Topics from Visualized: Political Data</title><description>&lt;p&gt;I spent a couple days in DC last week so I could attend &lt;a href="http://visualized.com/politicaldata/"&gt;Visualized: Political Data&lt;/a&gt;, a one-day conference dedicated to exploring data visualizations in the context of political science, political campaigns, and political journalism. &lt;/p&gt;
+
+&lt;p&gt;I felt conflicted about flying all the way from SFO to DCA for a one-day event, but since political data viz is both where I came from (working with Gallup’s opinion poll data) and where I’d potentially like to go again, I figured it would be worth it. I'm glad I went. I was a little disappointed that some of the slated speakers didn't show up (including Lisa Strausfeld, who I had been looking forward to seeing), but overall the sessions were engaging and insightful. I definitely picked up some good info – the highlights of which I'll share with you now.&lt;/p&gt;
+
+&lt;h2 id="publicdataopengovernment"&gt;Public Data / Open Government&lt;/h2&gt;
+
+&lt;p&gt;Derek Willis (NYT), Ryan Sibley (Sunlight Foundation) and Rebecca Williams (Data.gov) all tackled topics related to working with government data.&lt;/p&gt;
+
+&lt;p&gt;Willis began with the example of collecting leave of absence records for congressional representatives. This is a metric that should be tracked and available but isn’t – either due to human error or bad record-keeping practices. Plus, even if we had accurate data on congressional leaves of absence, we still wouldn’t know &lt;em&gt;why&lt;/em&gt; a representative was absent. &lt;/p&gt;
+
+&lt;p&gt;So while it’s nice to play with government datasets, you should really be looking beyond that – combining datasets from various places and scraping data from government apps to fill in the pieces. He said the biggest opportunities for improvement are in: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Developing efficient information markets  &lt;/li&gt;
+&lt;li&gt;Linking offline and online actions&lt;/li&gt;
+&lt;li&gt;Improving speed and accuracy in public data reporting. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Check out some of Willis’ projects: &lt;a href="https://theunitedstates.io/"&gt;@unitedstates&lt;/a&gt; and &lt;a href="http://openelections.net/"&gt;Open Elections&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sibley went over a few of the datasets that Sunlights has opened:&lt;/p&gt;
+
+&lt;h6 id="politicalinfluence"&gt;Political influence:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://realtime.influenceexplorer.com/newest-filings/#?ordering=-filing_number&amp;amp;time_range=cycle"&gt;FEC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sunlightfoundation.com/policy/municipal_campaign_finance/"&gt;State campaign finance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://reporting.sunlightfoundation.com/lobbying/"&gt;Lobbying data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sunlightfoundation.com/search/?q=revolving+door&amp;amp;order_by=1"&gt;Revolving door data&lt;/a&gt; (also see &lt;a href="http://julia67.github.io/visualized-political-data/OpenSecrets.org"&gt;OpenSecrets.org&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://transparencycaucus.org"&gt;Advisor Committee on Transparency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="criminaljustice"&gt;Criminal justice:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sunlightfoundation.com/criminaljustice/"&gt;Criminal justice data collection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sunlightfoundation.com/blog/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/"&gt;Bureau of Justice Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;U.S. Sentencing Commission&lt;/li&gt;
+&lt;li&gt;Local police departments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sibley also discussed some of the issues that make it hard to achieve Sunlight’s goals regarding open data.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Methodologies can keep us from understanding the whole story. Example: When requesting data on the cause of death by law enforcement, the CDC suppressed smaller numbers to protect individual identities.&lt;/li&gt;
+&lt;li&gt;Old technology stands in the way of improving reporting. Example: Senators don’t disclose their campaign finance reports digitally at this time. &lt;/li&gt;
+&lt;li&gt;In the criminal justice system, there’s no way to track individual cases over time because the police, courts, corrections, and re-entry organizations don’t share data with each other.&lt;/li&gt;
+&lt;li&gt;In politics, there’s no way to track all the different players. Example: There is no unique ID for donations by organization, so if a company’s name changes, it’s difficult to match it with its previous name. When unique IDs are missing, it’s hard to identify which organizations are affiliated.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To help resolve some of these issues, Sibley implored everyone to use the data. Demonstrated interest will lead to the release of more and better data.&lt;/p&gt;
+
+&lt;p&gt;Williams had similar things to say regarding government data collection – sometimes government data simply isn’t properly collected, structured, public, or reusable. This is where coalitions and partnerships between the government and the private sector (like &lt;a href="http://julia67.github.io/visualized-political-data/freelawfounders.org"&gt;freelawfounders.org&lt;/a&gt;) become valuable. &lt;/p&gt;
+
+&lt;p&gt;The biggest advantage of government data is that you can vote on it. The more you can point to people losing money, the more actionable the response will be.&lt;/p&gt;
+
+&lt;h6 id="links"&gt;Links:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://fedspendingtransparency.github.io/"&gt;http://fedspendingtransparency.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://labs.data.gov/dashboard/offices"&gt;http://labs.data.gov/dashboard/offices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="maps"&gt;Maps&lt;/h2&gt;
+
+&lt;p&gt;Alicia Parlapiano (New York Times) and Alyson Hurt (NPR) both spoke about maps – mostly U.S. state maps. &lt;/p&gt;
+
+&lt;p&gt;Alicia laid out four goals for representing state data:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Accessibility  &lt;/li&gt;
+&lt;li&gt;Context&lt;/li&gt;
+&lt;li&gt;Fairness&lt;/li&gt;
+&lt;li&gt;Revelation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The “fairness problem” relates to how the physical size of different states can misrepresent the data by masking huge differences in population. Take national elections for example: Montana and Delaware have the same number of electoral votes (3), but when you look at a map, Montana’s size dwarfs Delaware’s, which – at a glance – leaves the impression that Montana’s votes count more.&lt;/p&gt;
+
+&lt;p&gt;Cartograms can help solve the fairness problem for electoral votes.&lt;/p&gt;
+
+&lt;p&gt;Grid maps – made of squares or hexagons – are also good options when you want to show state totals without giving any one state more visual weight than another. &lt;/p&gt;
+
+&lt;p&gt;Hurt explained that the challenge with grid maps is geographic fidelity. Consider offering context by placing a geographically accurate image next to the cartogram. &lt;/p&gt;
+
+&lt;p&gt;Parlapiano and Hurt also emphasized that maps aren’t the only way to present state data – and they frequently aren’t even the best way. Jonathan Schwabish also touched on this point. He suggested asking four questions before choosing to make a map:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Should it be a bar chart?  &lt;/li&gt;
+&lt;li&gt;Should it be a scatterplot?&lt;/li&gt;
+&lt;li&gt;Should it be a table?&lt;/li&gt;
+&lt;li&gt;Should it simply be a sentence?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="elections"&gt;Elections&lt;/h2&gt;
+
+&lt;p&gt;Andy Cotgreave (Tableau) and Sarah Newhall (Blue State Digital) spoke about using data visualization to engage people with political data. &lt;/p&gt;
+
+&lt;p&gt;Contgreave specifically analyzed how the U.K. media used twitter in the recent elections. &lt;/p&gt;
+
+&lt;h6 id="contgreavesdiscoveries"&gt;Contgreave's discoveries:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sentiment tracking is dangerous&lt;/strong&gt; – This is especially true with Twitter because Twitter are not representative of the real world. However, Twitter stats are very shareable, and people take it for granted that the data is accurate. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Polls v. actual results&lt;/strong&gt; – For the UK election, none of the polls were correct. Even though the pollsters got it wrong, the poll results still drove the party strategy, the media, the agenda. Pollsters are sometime too shocked by outliers and will massage the data too much. In the most recent elections, the outliers weren’t really outliers at all.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Answer a new question every day&lt;/strong&gt; – Play with the data and post it on a day-to-day basis because that’s what keeps people engaged. If you build out all these fancy apps for visualizing – but the data is boring – people won’t stay interested. For example, if you’re visualizing trends over time but the trend never changes, no one will care.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Newhall came at it from the marketing campaign side of things. She emphasized that data does a handful of things when used to influence people:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It proves what’s at state.&lt;/li&gt;
+&lt;li&gt;It motivates people to act.&lt;/li&gt;
+&lt;li&gt;It turns defense into offense.&lt;/li&gt;
+&lt;li&gt;It shapes the narrative and provides clear explanations.&lt;/li&gt;
+&lt;li&gt;It informs and inspires.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="dataforhumans"&gt;Data for Humans&lt;/h2&gt;
+
+&lt;p&gt;Jamie Chandler (George Washington University), Jonathan Schwabish (Urban Institute), and Ben Casselman (FiveThirtyEight) &lt;/p&gt;
+
+&lt;h6 id="fromchandler"&gt;From Chandler:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Today we have an opportunity to take data and communicate it to people in a simple, elegant way – and cut through all the talk that they get from the political world.&lt;/li&gt;
+&lt;li&gt;Data has been a big part of elections over the last couple cycles. We have all this data that’s being used to drive the vote, but we can also use that data in our messaging. We can communicate very complex things to the public in very simple ways. Simple data points that will shift our perception of previously held beliefs. &lt;/li&gt;
+&lt;li&gt;We’re missing the bridge between data science and communications. Politicians, CEOs, leaders rely on their gut feel 67% of the time. They’ll disregard what the data scientist recommends. Communications professionals have not be exposed to this level of sophistication [data analysis]. &lt;/li&gt;
+&lt;li&gt;In the campaign world, we have to start thinking about how we connect the people who talk to the public and the people who do the analysis. Vocative is an online news agency that partners a data scientist with a journalist to mine the web for news. &lt;/li&gt;
+&lt;li&gt;If we’re going to bring data into the conversation, we have to remember who the average person is. In general, only 66% are able to remember visual. Statistical literacy is generally very low. People have biases when it relates to politics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="fromschwabish"&gt;From Schwabish:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Think carefully and critically about your graphics – because people will learn something from them. &lt;/li&gt;
+&lt;li&gt;Mix Modalities
+&lt;ul&gt;&lt;li&gt;Example: &lt;a href="http://www.slate.com/articles/life/culturebox/2014/10/population_map_use_our_interactive_map_to_figure_out_how_many_flyover_states.html"&gt;Equal population mapper&lt;/a&gt; from Slate&lt;/li&gt;
+&lt;li&gt;Example: “The site now stores 90 million gallons of radioactive water, more than enough to fill Yankee stadium." - WashPo&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Big enough, but not too big
+&lt;ul&gt;&lt;li&gt;Super-imposing Jupiter on Earth's horizon&lt;/li&gt;
+&lt;li&gt;Steve Jobs presenting the Macbook Air in an envelope&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Have a Soul
+&lt;ul&gt;&lt;li&gt;Identifiable Victim Effect. We’re more likely to provide aid to an actual person.&lt;/li&gt;
+&lt;li&gt;The problem with statistics is that they don’t activate our moral emotions.&lt;/li&gt;
+&lt;li&gt;Communicating requires connecting.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="fromcasselman"&gt;From Casselman:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How do we:
+&lt;ul&gt;&lt;li&gt;Reach readers who aren't data junkies? (Without disappointing the nerds)&lt;/li&gt;
+&lt;li&gt;Communicate methodology? (Without convoluting the story)&lt;/li&gt;
+&lt;li&gt;Reflect uncertainty? (Without sewing confusion)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Readers should be able to understand:
+&lt;ul&gt;&lt;li&gt;Where the data comes from&lt;/li&gt;
+&lt;li&gt;Limitations of the data&lt;/li&gt;
+&lt;li&gt;The assumptions and decisions we've made while working with the data&lt;/li&gt;
+&lt;li&gt;How our analysis supports our conclusions&lt;/li&gt;
+&lt;li&gt;How confident we are in this conclusions&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Sometimes the uncertainty is the story itself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;More coverage of &lt;em&gt;Visualized: Political Data:&lt;/em&gt;  &lt;a href="https://twitter.com/search?src=typd&amp;amp;q=%23visualizedpd"&gt;Twitter&lt;/a&gt;, &lt;a href="http://www.azavea.com/blogs/atlas/2015/05/unicorns-ducks-and-things-that-are-big-a-recap-of-visualized-political-data/"&gt;Azavea report&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/visualized-political-data/</link><guid isPermaLink="false">e7dc5fd7-736e-4844-87b9-e41507859188</guid><dc:creator>Julia Smith</dc:creator><pubDate>Fri, 29 May 2015 00:46:11 GMT</pubDate></item><item><title>The Third Month</title><description>&lt;p&gt;I can hardly believe it: I stayed in California the entire month.&lt;/p&gt;
 
 &lt;p&gt;Fellowship Month No. 3 was mostly solid time in the office, which was a nice change of pace from the long conferences in March and April. &lt;/p&gt;
 
