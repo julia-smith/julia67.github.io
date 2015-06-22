@@ -1,4 +1,315 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 09 Jun 2015 23:46:21 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>4 Key Topics from Visualized: Political Data</title><description>&lt;p&gt;I spent a couple days in DC last week so I could attend &lt;a href="http://visualized.com/politicaldata/"&gt;Visualized: Political Data&lt;/a&gt;, a one-day conference dedicated to exploring data visualizations in the context of political science, political campaigns, and political journalism. &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 22 Jun 2015 23:52:22 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#IO2015: Note Dump</title><description>&lt;h2 id="keynotewatchhttpsyoutube7vfigmdsme"&gt;Keynote (&lt;a href="https://youtu.be/7V-fIGMDsmE"&gt;Watch&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;h6 id="androidm"&gt;Android M&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;App Permissions&lt;/strong&gt; – You can choose which permissions you can agree to. Defers asking until the point in the UX process when the permission is needed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chrome Custom Tabs&lt;/strong&gt; – Resolves existing UX issues surrounding in-app browsers/webviews/native browsers. With Custom Tabs, the web view will open over the top of the app and inherit all of Chrome's features – security, passwords, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App Linking&lt;/strong&gt; – Adds a namespace to the android manifest for verified links – so links are incorporated directly into the platform so they always open in the right application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Payments&lt;/strong&gt; – Android Pay promises better UX, more security than Google Wallet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fingerprint Support&lt;/strong&gt; – Use fingerprint to authorize Android Pay transactions. Device unlock. Open authentication APIs so devs can incorporate fingerprint support to their own apps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Power &amp;amp; Charging&lt;/strong&gt; – Doze. Uses motion detection to put device into deeper sleep state. 2X performance improvements. The device can now act as charger for other devices with reverse USB.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UX Enhancements&lt;/strong&gt; – Better word selection and context menus. Direct share, simplified volume controls.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="androidwear"&gt;Android Wear&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1,500 watch faces for Android Wear &lt;/li&gt;
+&lt;li&gt;Glanceable, actionable, effortless – all interactions should be this way, just like checking the time&lt;/li&gt;
+&lt;li&gt;Always on screens&lt;/li&gt;
+&lt;li&gt;Wrist gestures&lt;/li&gt;
+&lt;li&gt;Emoji recognizer – hand-draw emojis on the screen, and the watch will recognize the shape of drawing and translate it into emoji&lt;/li&gt;
+&lt;li&gt;New launcher&lt;/li&gt;
+&lt;li&gt;More than 4,000 apps have been developed for Android Wear so far&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="projectbrillomoreinfohttpsdevelopersgooglecombrillo"&gt;Project Brillo (&lt;a href="https://developers.google.com/brillo/"&gt;More Info&lt;/a&gt;)&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Brillo extends Android to connected devices for easy integration with your smartphone&lt;/li&gt;
+&lt;li&gt;Weave is the standard IoT protocol that connects the phone to the device to the cloud&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="googlenow"&gt;Google Now&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Goals:
+&lt;ul&gt;&lt;li&gt;Understand context (100m places, Natural language processing)&lt;/li&gt;
+&lt;li&gt;Provide answers&lt;/li&gt;
+&lt;li&gt;Take action&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Now on Tap
+&lt;ul&gt;&lt;li&gt;Provides in-context assistance without leaving the app you’re currently using&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="googlephotos"&gt;Google Photos&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pinch view to change time criteria&lt;/li&gt;
+&lt;li&gt;Private auto organization&lt;/li&gt;
+&lt;li&gt;Groups photos of the same person over time&lt;/li&gt;
+&lt;li&gt;Unlimited storage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="globalefforts"&gt;Global Efforts&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There's a ton of low end phones in emerging markets, perhaps more than high end devices in established areas.&lt;/li&gt;
+&lt;li&gt;Google Translate – In emerging markets, the phone may be a person's first computer. Projected 1.2 billion smartphones by 2016.&lt;/li&gt;
+&lt;li&gt;Goal – Remove barriers of smartphone adoption with &lt;strong&gt;AndroidOne&lt;/strong&gt;. Create better devices for emerging markets.&lt;/li&gt;
+&lt;li&gt;Issues – Connectivity. Data. Speed. Size. &lt;/li&gt;
+&lt;li&gt;Optimized search results – 4x faster, 80% smaller data transfer&lt;/li&gt;
+&lt;li&gt;Offline support for search results&lt;/li&gt;
+&lt;li&gt;Offline maps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="developertools"&gt;Developer Tools&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Develop&lt;/strong&gt;
+&lt;ul&gt;&lt;li&gt;Android Studio 1.3 – faster build speeds, full C++ support&lt;/li&gt;
+&lt;li&gt;Polymer 1.0 – material design web components&lt;/li&gt;
+&lt;li&gt;Cocoapods  – import google analytics, maps, etc into xcode for iOS development&lt;/li&gt;
+&lt;li&gt;Cloud Test Labs for mobile app testing&lt;/li&gt;
+&lt;li&gt;Firebase – build an app worrying about the back end, provides asset management, authentication&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engage&lt;/strong&gt;
+&lt;ul&gt;&lt;li&gt;App indexing – index app content in Google search results&lt;/li&gt;
+&lt;li&gt;Cloud messaging – adding iOS support, topic subscriptions&lt;/li&gt;
+&lt;li&gt;Mobile web – push notifications, add to home screen&lt;/li&gt;
+&lt;li&gt;Universal app campaigns&lt;/li&gt;
+&lt;li&gt;Google play – conversion funnel snapshot, listing experiments (like optimizely, including app icon tests)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="virtualreality"&gt;Virtual Reality&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New Google Cardboard&lt;/li&gt;
+&lt;li&gt;Expeditions – program for virtual reality field trips&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="sessionaccessibledesignguidelinesreadmorehttpgooglecomaccessibility"&gt;Session: Accessible Design Guidelines (&lt;a href="http://google.com/accessibility"&gt;Read more&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;h6 id="whyisnteverythingaccessible"&gt;Why isn't everything accessible?&lt;/h6&gt;
+
+&lt;p&gt;Because it seems really hard.  &lt;/p&gt;
+
+&lt;h6 id="useheuristicevaluationtoimprovedesignsforaccessibility"&gt;Use heuristic evaluation to improve designs for accessibility&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Focus on usability within accessibility
+&lt;ul&gt;&lt;li&gt;Fonts can be enlarged&lt;/li&gt;
+&lt;li&gt;Critical audio elements/sounds include text alternative&lt;/li&gt;
+&lt;li&gt;Touch targets should be large enough for a low mobility user&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="improvingthedesignprocess"&gt;Improving the design process&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Diversify your personas &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;include persons for low vision, low mobility, etc.&lt;/li&gt;
+&lt;li&gt;define the user journey&lt;/li&gt;
+&lt;li&gt;what are the steps to complete the task?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Evaluate and prioritize &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;choose your participant&lt;/li&gt;
+&lt;li&gt;have a person with a disability help you or simulate your user's perspective&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Organize the equipment &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Acquire and learn the technology&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Conduct the evaluation  &lt;/li&gt;
+&lt;li&gt;Capture your process &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Record the steps the user takes to complete the task&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Share and inspire&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="sessionaccessiblewebcomponentsrepohttpgithubcomwebcomponentsgoldstandardwiki"&gt;Session: Accessible Web Components (&lt;a href="http://github.com/webcomponents/gold-standard/wiki"&gt;Repo&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Web components are exciting but create some challenges for accessibility.&lt;/li&gt;
+&lt;li&gt;1 in 7 will experience a disability in their life.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/webcomponents/gold-standard/wiki"&gt;http://github.com/webcomponents/gold-standard/wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Have a checklist for development.&lt;/li&gt;
+&lt;li&gt;Start with the keyboard.
+&lt;ul&gt;&lt;li&gt;Focusable. Put elements into the tab order. Add tabindex="0" attribute to give elements keyboard focus.&lt;/li&gt;
+&lt;li&gt;Visible focus state. &lt;/li&gt;
+&lt;li&gt;Keyboard support. &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Test semantics with a screen reader.
+&lt;ul&gt;&lt;li&gt;Declared semantics. Look into accessibility nodes. Semantics: role, value, state. &lt;/li&gt;
+&lt;li&gt;Labels. &lt;/li&gt;
+&lt;li&gt;ARIA (accessible rich internet applications). The attribute "aria-label" can be added to elements that don't need a visual label. &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Redundant color. Don't use color alone to distinguish between different elements.&lt;/li&gt;
+&lt;li&gt;Sufficient contrast. 4.5 minimum contrast ratio.&lt;/li&gt;
+&lt;li&gt;Developers need to build their own accessibility nodes into polymer web components.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="sessionadaptivedesignwithmaterial"&gt;Session: Adaptive Design with Material&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How we talk about taking about UI:
+&lt;ul&gt;&lt;li&gt;To identify an element, we describe its structure, behavior, position, and permanence.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Breakpoints:
+&lt;ul&gt;&lt;li&gt;Show a single level of content hierarchy under 600px.&lt;/li&gt;
+&lt;li&gt;1600px is the max width with Material.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Grids create limitations for a layout, and within those limitations come opportunities. &lt;/li&gt;
+&lt;li&gt;Use the new Chrome Developer Tools devices tab for testing layouts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="sessionnextgenerationmobilewebwatchhttpsyoutubeizzdhtup5qg"&gt;Session: Next Generation Mobile Web (&lt;a href="https://youtu.be/iZZdhTUP5qg"&gt;Watch&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;h6 id="reach"&gt;Reach&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reach of content – rediscovering the superpower of the web&lt;/li&gt;
+&lt;li&gt;1B+ Chrome users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="performance"&gt;Performance&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When is a site performant enough? When the user can't perceive it. &lt;/li&gt;
+&lt;li&gt;Use the &lt;strong&gt;RAIL&lt;/strong&gt; conceptual framework.
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;R&lt;/strong&gt; – Reaction Time &amp;lt;100ms&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt; – Animation Time &amp;lt;16.67ms&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;I&lt;/strong&gt; – Idle Time &amp;lt;50ms&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L&lt;/strong&gt; – Load Time &amp;lt;1s&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="engagement"&gt;Engagement&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The missing piece&lt;/li&gt;
+&lt;li&gt;Push notifications&lt;/li&gt;
+&lt;li&gt;Add to homescreen&lt;/li&gt;
+&lt;li&gt;Offline support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="sessiondevelopingappswithfirebasewatchhttpsyoutubewf9hzcqqi7a"&gt;Session: Developing Apps with Firebase (&lt;a href="https://youtu.be/wf9hZcqQI7A"&gt;Watch&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.firebase.com"&gt;Firebase&lt;/a&gt; is a cloud-based service that can “power your app's backend, including data storage, user authentication, static hosting, and more.”&lt;/li&gt;
+&lt;li&gt;Sky news UK election map was built on Firebase&lt;/li&gt;
+&lt;li&gt;New at I/O – mobile offline support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="sessionmakebelievedesigningforvr"&gt;Session: Make Believe: Designing for VR&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Virtual reality is coming&lt;/li&gt;
+&lt;li&gt;Flow: Visual immersion --&gt; tracking --&gt; input --&gt; VR &lt;/li&gt;
+&lt;li&gt;Accessibility:
+&lt;ul&gt;&lt;li&gt;VR viewers anyone can make (Cardboard viewers)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Visual immersion:
+&lt;ul&gt;&lt;li&gt;Focus&lt;/li&gt;
+&lt;li&gt;Depth perception&lt;/li&gt;
+&lt;li&gt;Latency&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Different lenses for each eye:
+&lt;ul&gt;&lt;li&gt;Pincushion distortion in one, barrel distortion in the other&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Input without controllers:
+&lt;ul&gt;&lt;li&gt;Capacitive triggers&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Lessons learned:
+&lt;ul&gt;&lt;li&gt;VR is great for exploring spaces&lt;/li&gt;
+&lt;li&gt;Great for empathy&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Core pillars in VR game design:
+&lt;ul&gt;&lt;li&gt;Agency&lt;/li&gt;
+&lt;li&gt;Comfort (high fps, g force only down, positional reference, blink movement, forward only game, no screen freeze, only player movement, snap turning, static skybox, large cockpit)&lt;/li&gt;
+&lt;li&gt;Reward&lt;/li&gt;
+&lt;li&gt;Progression&lt;/li&gt;
+&lt;li&gt;Tactile&lt;/li&gt;
+&lt;li&gt;Empowerment&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Designing the environment
+&lt;ul&gt;&lt;li&gt;Get scale right&lt;/li&gt;
+&lt;li&gt;Bug-free geometry&lt;/li&gt;
+&lt;li&gt;Reward exploring&lt;/li&gt;
+&lt;li&gt;Coherent world&lt;/li&gt;
+&lt;li&gt;Safe spaces&lt;/li&gt;
+&lt;li&gt;Player warning&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="sessiongetyourappintothegoogleindex"&gt;Session: Get your app into the Google index&lt;/h2&gt;
+
+&lt;h6 id="resources"&gt;Resources:&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Android and iOS app indexing: &lt;a href="http://julia67.github.io/io2015-note-dump/g.co/appfirstindexing"&gt;g.co/appfirstindexing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;URL Shortener: &lt;a href="http://julia67.github.io/io2015-note-dump/g.co/urlshortener"&gt;g.co/urlshortener&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Search Console: &lt;a href="http://julia67.github.io/io2015-note-dump/g.co/Searchconsole"&gt;g.co/searchconsole&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;App Indexing: &lt;a href="http://julia67.github.io/io2015-note-dump/g.co/appindexing"&gt;g.co/appindexing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="materialicons"&gt;Material Icons&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What are material icons?
+&lt;ul&gt;&lt;li&gt;Consistent design&lt;/li&gt;
+&lt;li&gt;Suitable for all platforms&lt;/li&gt;
+&lt;li&gt;Suitable for all purposes&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Resources:
+&lt;ul&gt;&lt;li&gt;Material Icon Library – &lt;a href="http://google.com/design/icons"&gt;google.com/design/icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Get the repo – &lt;a href="http://github.com/google/material-design-icons"&gt;github.com/google/material-design-icons&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Icon font features:
+&lt;ul&gt;&lt;li&gt;Ligatures! So cool. You can just type the name of the icon and the font will ligature itself into the desired image.&lt;/li&gt;
+&lt;li&gt;Standard link tag with Google Web Fonts &lt;code&gt;&amp;lt;span class="material-icons"&amp;gt;menu&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="sessionmaterialdesignlitereadmorehttpsdevelopersgooglecomwebtoolsmaterialdesignlite"&gt;Session: Material Design Lite (&lt;a href="https://developers.google.com/web/tools/material-design-lite/"&gt;Read more&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What?&lt;/strong&gt; A CSS and JS framework to achieve the Material Design aesthetic for web apps without Polymer. Made up of three parts:
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Styles:&lt;/strong&gt; colors, typography&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Components:&lt;/strong&gt; buttons, switches, form elements, tabs, menus&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Templates:&lt;/strong&gt; product pages, dashboards, cards, blogs&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why?&lt;/strong&gt; To bridge the gap between the material design spec and web apps. It allows developers to build web apps with standard front-end languages so they can support older browsers (and for whatever other reason). &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How?&lt;/strong&gt; Code will be open sourced in github. It will be available as bundled JS and CSS, essentially like a jQuery UI replacement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Support?&lt;/strong&gt; IE9 plus for components. IE10+ for templates. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When?&lt;/strong&gt; To be released at the end of June.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Preview?&lt;/strong&gt; &lt;a href="http://www.getmdl.io/"&gt;getmdl.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="sessionreachandreengage"&gt;Session: Reach and Re-engage&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Push Notifications for Android and all desktop platforms (not iOS)&lt;/li&gt;
+&lt;li&gt;Only works on HTTPS&lt;/li&gt;
+&lt;li&gt;Three APIs:
+&lt;ul&gt;&lt;li&gt;Service worker (JavaScript when tab isn't open)&lt;/li&gt;
+&lt;li&gt;Push messaging&lt;/li&gt;
+&lt;li&gt;Notifications&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Workflow: App JS (request notification permission) --&gt; Chrome --&gt; Google cloud messaging --&gt; app server&lt;/li&gt;
+&lt;li&gt;Debug with &lt;a href="chrome://serviceworker-internals"&gt;chrome://serviceworker-internals&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Not in regular Chrome Dev Tools yet&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;UX Principles:
+&lt;ol&gt;&lt;li&gt;Only use it for really high priority things&lt;/li&gt;
+&lt;li&gt;Track click through rate for notifications&lt;/li&gt;
+&lt;li&gt;Track when people revoke permissions&lt;/li&gt;
+&lt;li&gt;Users should demonstrate intent before sites ask for a permission&lt;/li&gt;
+&lt;li&gt;Airline example - after purchasing a ticket, show button asking if user is interested in receiving notifications, after user engage - then ask permission&lt;/li&gt;
+&lt;li&gt;Allow users to opt out&lt;/li&gt;
+&lt;li&gt;For example, if the user wants updates on a story, they should be able to see an option to turn off notifications when they view the story again.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Recorded I/O 2015 Sessions: &lt;a href="https://events.google.com/io2015/videos"&gt;https://events.google.com/io2015/videos&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/io2015-note-dump/</link><guid isPermaLink="false">29f251a8-c957-40ea-9711-6d51b4b20e88</guid><dc:creator>Julia Smith</dc:creator><pubDate>Sat, 30 May 2015 23:45:00 GMT</pubDate></item><item><title>4 Topics from Visualized: Political Data</title><description>&lt;p&gt;I spent a couple days in DC last week so I could attend &lt;a href="http://visualized.com/politicaldata/"&gt;Visualized: Political Data&lt;/a&gt;, a one-day conference dedicated to exploring data visualizations in the context of political science, political campaigns, and political journalism. &lt;/p&gt;
 
 &lt;p&gt;I felt conflicted about flying all the way from SFO to DCA for a one-day event, but since political data viz is both where I came from (working with Gallup’s opinion poll data) and where I’d potentially like to go again, I figured it would be worth it. &lt;/p&gt;
 
@@ -6,11 +317,13 @@
 
 &lt;h2 id="topic1publicdataopengovernment"&gt;Topic 1: Public Data / Open Government&lt;/h2&gt;
 
-&lt;p&gt;Derek Willis (NYT), Ryan Sibley (Sunlight Foundation) and Rebecca Williams (Data.gov) all tackled topics related to working with government data.&lt;/p&gt;
+&lt;p&gt;Derek Willis (NYT), Ryan Sibley (Sunlight Foundation), and Rebecca Williams (Data.gov) all tackled topics related to working with government data.&lt;/p&gt;
 
 &lt;p&gt;Willis began with the example of collecting leave of absence records for congressional representatives. This is a metric that should be tracked and available but isn’t – either due to human error or bad record-keeping practices. Plus, even if we had accurate data on congressional leaves of absence, we still wouldn’t know &lt;em&gt;why&lt;/em&gt; a representative was absent. &lt;/p&gt;
 
-&lt;p&gt;So while it’s nice to play with government datasets, you should really be looking beyond that – combining datasets from various places and scraping data from government apps to fill in the pieces. He said the biggest opportunities for improvement are in: &lt;/p&gt;
+&lt;p&gt;So while it’s nice to play with government datasets, you should really be looking beyond that – combining datasets from various places and scraping data from government apps to fill in the pieces. &lt;/p&gt;
+
+&lt;p&gt;Willis said the biggest opportunities for improvement are in: &lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Developing efficient information markets  &lt;/li&gt;
