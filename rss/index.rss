@@ -1,4 +1,8 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 22 Jun 2015 23:52:22 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#IO2015: Note Dump</title><description>&lt;h2 id="keynotewatchhttpsyoutube7vfigmdsme"&gt;Keynote (&lt;a href="https://youtu.be/7V-fIGMDsmE"&gt;Watch&lt;/a&gt;)&lt;/h2&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 23 Jun 2015 00:06:51 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#IO2015: Note Dump</title><description>&lt;blockquote&gt;
+  &lt;p&gt;Select session notes from &lt;a href="https://events.google.com/io2015/"&gt;Google I/O 2015&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="keynotewatchhttpsyoutube7vfigmdsme"&gt;Keynote (&lt;a href="https://youtu.be/7V-fIGMDsmE"&gt;Watch&lt;/a&gt;)&lt;/h2&gt;
 
 &lt;h6 id="androidm"&gt;Android M&lt;/h6&gt;
 
@@ -262,7 +266,7 @@
 &lt;li&gt;Get the repo – &lt;a href="http://github.com/google/material-design-icons"&gt;github.com/google/material-design-icons&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Icon font features:
 &lt;ul&gt;&lt;li&gt;Ligatures! So cool. You can just type the name of the icon and the font will ligature itself into the desired image.&lt;/li&gt;
-&lt;li&gt;Standard link tag with Google Web Fonts &lt;code&gt;&amp;lt;span class="material-icons"&amp;gt;menu&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Standard link tag with Google Web Fonts&lt;br&gt; &lt;code&gt;&amp;lt;span class="material-icons"&amp;gt;menu&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;  
@@ -309,7 +313,7 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;Recorded I/O 2015 Sessions: &lt;a href="https://events.google.com/io2015/videos"&gt;https://events.google.com/io2015/videos&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description><link>http://julia67.github.io/io2015-note-dump/</link><guid isPermaLink="false">29f251a8-c957-40ea-9711-6d51b4b20e88</guid><dc:creator>Julia Smith</dc:creator><pubDate>Sat, 30 May 2015 23:45:00 GMT</pubDate></item><item><title>4 Topics from Visualized: Political Data</title><description>&lt;p&gt;I spent a couple days in DC last week so I could attend &lt;a href="http://visualized.com/politicaldata/"&gt;Visualized: Political Data&lt;/a&gt;, a one-day conference dedicated to exploring data visualizations in the context of political science, political campaigns, and political journalism. &lt;/p&gt;
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/io2015-note-dump/</link><guid isPermaLink="false">29f251a8-c957-40ea-9711-6d51b4b20e88</guid><category>conf</category><category>google-io</category><dc:creator>Julia Smith</dc:creator><pubDate>Sat, 30 May 2015 23:45:00 GMT</pubDate></item><item><title>4 Topics from Visualized: Political Data</title><description>&lt;p&gt;I spent a couple days in DC last week so I could attend &lt;a href="http://visualized.com/politicaldata/"&gt;Visualized: Political Data&lt;/a&gt;, a one-day conference dedicated to exploring data visualizations in the context of political science, political campaigns, and political journalism. &lt;/p&gt;
 
 &lt;p&gt;I felt conflicted about flying all the way from SFO to DCA for a one-day event, but since political data viz is both where I came from (working with Gallup’s opinion poll data) and where I’d potentially like to go again, I figured it would be worth it. &lt;/p&gt;
 
