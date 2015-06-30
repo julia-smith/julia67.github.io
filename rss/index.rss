@@ -1,8 +1,10 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 30 Jun 2015 00:33:19 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Fourth Month</title><description>&lt;p&gt;Month No. 4 was busy...and pretty awesome.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 30 Jun 2015 21:30:12 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Fourth Month</title><description>&lt;p&gt;Month No. 4 was busy...and pretty decent overall.&lt;/p&gt;
 
 &lt;p&gt;I had a few graphics published on &lt;a href="http://julia67.github.io//revealnews.org"&gt;revealnews.org&lt;/a&gt;. I attended a couple great conferences. I mentored some people. Another one of my session proposals was accepted. &lt;em&gt;AND&lt;/em&gt; I started building some actual tools that (I hope) will be useful for CIR and the rest of the data journalism community. &lt;/p&gt;
 
 &lt;p&gt;Fun stuff.&lt;/p&gt;
+
+&lt;p&gt;On the flip side, I do wish I had more assignments at CIR. I've been feeling somewhat underutilized overall, and I'd really like to be designing and building &lt;em&gt;systems&lt;/em&gt; rather than one-off graphics. Hopefully I can find my way onto a bigger project – or at the very least pick up some additional smaller ones.&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -18,7 +20,7 @@
 
 &lt;h6 id="mentoringstanfordstudents"&gt;Mentoring Stanford Students&lt;/h6&gt;
 
-&lt;p&gt;I spent a day at Stanford helping Cheryl Phillips’ computer science and journalism students design their data visualization projects. It was really cool experience, and I was grateful for the opportunity!&lt;/p&gt;
+&lt;p&gt;I spent a day at Stanford helping Cheryl Phillips’ computer science and journalism students design their data visualization projects. It was a cool experience, and I'm grateful for the opportunity to help.&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -28,7 +30,7 @@
 
 &lt;p&gt;&lt;em&gt;This was &lt;a href="http://julia67.github.io/the-fourth-month/../the-third-month/#supersecretprojectno2"&gt;Super-Secret Project No. 2&lt;/a&gt; that I mentioned last month.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/06/us-map.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://julia67.github.io//www.revealnews.org/article/the-right-to-bear-arms-in-public-how-courts-have-ruled-so-far/#us_map"&gt;&lt;img src="http://julia67.github.io/content/images/2015/06/us-map.jpg" alt="" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Check it out:&lt;/strong&gt;
 &lt;a href="http://julia67.github.io//www.revealnews.org/article/the-right-to-bear-arms-in-public-how-courts-have-ruled-so-far/#us_map"&gt;U.S. Map&lt;/a&gt;&lt;/p&gt;
@@ -52,7 +54,19 @@ I don’t love this interactive from a news value perspective – it's a bit sup
 The graphics are lightweight and performant; the data is (mostly) accessible; the styles are on-brand; and the user experience on mobile isn't terrible. I also wrote all the interactivity in vanilla javascript, so the graphics are depedency-free, which is nice.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Opportunities for improvement:&lt;/strong&gt;
-Deadlines: They're important, they only work when they're communicated, and theoretically they shouldn't move – they especially shouldn't move &lt;em&gt;up&lt;/em&gt;. For these graphics, I had a bunch of accessibility enhancements I hoped to get in place before publication, but when (on June 11) the deadline moved from Tuesday, June 16 to Friday, June 12...certain features were cut. So now I'm trying to build some SVG generation tools that will automatically include accessiblility features (tab indexes, keyboard events, etc.) so that developers no longer need to budget time to add AT enhancements to small graphics like these.&lt;/p&gt;
+A few notes on deadlines: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Deadlines are important.  &lt;/li&gt;
+&lt;li&gt;Deadlines only work when they're communicated.  &lt;/li&gt;
+&lt;li&gt;Deadlines shouldn't move – they especially shouldn't move &lt;em&gt;up&lt;/em&gt;. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For these graphics, I had a bunch of accessibility enhancements I hoped to get in place before publication, but when (on June 11) the deadline moved from Tuesday, June 16 to Friday, June 12...certain features were cut. Ambigious deadlines are worthless – they don't allow people to appropriately prioritize their work. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;/rant&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyway, now I'm trying to build some SVG generation tools that will automatically include accessiblility features (tab indexes, keyboard events, etc.) so that developers no longer need to budget time to add AT enhancements to small graphics like these.&lt;/p&gt;
 
 &lt;h4 id="awaitingpublicationsupersecretprojectno1"&gt;Awaiting Publication: Super-Secret Project No. 1&lt;/h4&gt;
 
@@ -498,7 +512,7 @@ Deadlines: They're important, they only work when they're communicated, and theo
 &lt;h6 id="contgreavesdiscoveries"&gt;Contgreave's discoveries:&lt;/h6&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Sentiment tracking is dangerous&lt;/strong&gt; – This is especially true with Twitter because Twitter are not representative of the real world. However, Twitter stats are very shareable, and people take it for granted that the data is accurate. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sentiment tracking is dangerous&lt;/strong&gt; – This is especially true with Twitter because Twitter demographics are not representative of the real world. However, Twitter stats are very shareable, and people take it for granted that the data is accurate. &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Polls v. actual results&lt;/strong&gt; – For the UK election, none of the polls were correct. Even though the pollsters got it wrong, the poll results still drove the party strategy, the media, the agenda. Pollsters are sometime too shocked by outliers and will massage the data too much. In the most recent elections, the outliers weren’t really outliers at all.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Answer a new question every day&lt;/strong&gt; – Play with the data and post it on a day-to-day basis because that’s what keeps people engaged. If you build out all these fancy apps for visualizing – but the data is boring – people won’t stay interested. For example, if you’re visualizing trends over time but the trend never changes, no one will care.&lt;/li&gt;
 &lt;/ul&gt;
@@ -506,7 +520,7 @@ Deadlines: They're important, they only work when they're communicated, and theo
 &lt;p&gt;Newhall came at it from the marketing campaign side of things. She emphasized that data does a handful of things when used to influence people:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;It proves what’s at state.&lt;/li&gt;
+&lt;li&gt;It proves what’s at stake.&lt;/li&gt;
 &lt;li&gt;It motivates people to act.&lt;/li&gt;
 &lt;li&gt;It turns defense into offense.&lt;/li&gt;
 &lt;li&gt;It shapes the narrative and provides clear explanations.&lt;/li&gt;
