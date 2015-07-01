@@ -1,10 +1,10 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 30 Jun 2015 21:30:12 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Fourth Month</title><description>&lt;p&gt;Month No. 4 was busy...and pretty decent overall.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 01 Jul 2015 03:28:13 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Fourth Month</title><description>&lt;p&gt;Month No. 4 was busy...and pretty decent overall.&lt;/p&gt;
 
 &lt;p&gt;I had a few graphics published on &lt;a href="http://julia67.github.io//revealnews.org"&gt;revealnews.org&lt;/a&gt;. I attended a couple great conferences. I mentored some people. Another one of my session proposals was accepted. &lt;em&gt;AND&lt;/em&gt; I started building some actual tools that (I hope) will be useful for CIR and the rest of the data journalism community. &lt;/p&gt;
 
 &lt;p&gt;Fun stuff.&lt;/p&gt;
 
-&lt;p&gt;On the flip side, I do wish I had more assignments at CIR. I've been feeling somewhat underutilized overall, and I'd really like to be designing and building &lt;em&gt;systems&lt;/em&gt; rather than one-off graphics. Hopefully I can find my way onto a bigger project – or at the very least pick up some additional smaller ones.&lt;/p&gt;
+&lt;p&gt;On the flip side, I do wish I had more assignments at CIR. I've been feeling underutilized, and I'd really like to be designing and building &lt;em&gt;systems&lt;/em&gt; rather than one-off graphics. Hopefully I can find my way onto a bigger project – or at the very least pick up some additional smaller ones.&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -66,15 +66,15 @@ A few notes on deadlines: &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;&amp;lt;/rant&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Anyway, now I'm trying to build some SVG generation tools that will automatically include accessiblility features (tab indexes, keyboard events, etc.) so that developers no longer need to budget time to add AT enhancements to small graphics like these.&lt;/p&gt;
+&lt;p&gt;Anyway, now I'm trying to build some SVG generation tools that will automatically include accessiblility features (tab indexes, keyboard events, etc.) so that developers can include AT enhancements in their graphics without needing to budget extra time to do so.&lt;/p&gt;
 
 &lt;h4 id="awaitingpublicationsupersecretprojectno1"&gt;Awaiting Publication: Super-Secret Project No. 1&lt;/h4&gt;
 
-&lt;p&gt;&lt;em&gt;This is the same project (&lt;a href="http://julia67.github.io/the-fourth-month/../the-third-month/#supersecretprojectno1"&gt;Super-Secret Project No. 1&lt;/a&gt;) that I talked about last month. I finished it around mid-May, but I'm not sure when it's scheduled for publication.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is the same &lt;a href="http://julia67.github.io/the-fourth-month/../the-third-month/#supersecretprojectno1"&gt;Super-Secret Project No. 1&lt;/a&gt; that I talked about last month. I finished it around mid-May, but I'm not sure when it's scheduled for publication.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h4 id="newprojectaccessiblesvggenerator"&gt;New Project: Accessible SVG Generator&lt;/h4&gt;
 
-&lt;p&gt;Like I mentioned above, I'm working on a front-end tool that will generate accessible SVG graphics. It's going to be more of a resource for UI folks and ambitious reporters rather than back-end devs. I'm excited about it.&lt;/p&gt;
+&lt;p&gt;Like I mentioned above, I'm working on a front-end tool that will generate accessible SVG graphics. It'll be more of a resource for UI folks and ambitious reporters rather than back-end devs. I'm excited about it.&lt;/p&gt;
 
 &lt;hr&gt;
 
