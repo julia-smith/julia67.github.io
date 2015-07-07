@@ -1,4 +1,84 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 01 Jul 2015 03:28:13 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Fourth Month</title><description>&lt;p&gt;Month No. 4 was busy...and pretty decent overall.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 07 Jul 2015 02:02:32 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SRCCON: Feeling Inspired</title><description>&lt;p&gt;&lt;a href="http://julia67.github.io//srccon.org"&gt;SRCCON&lt;/a&gt; was last week, and it was awesome. Good discussion. Good coffee. Good times. I've come to really enjoy these news nerd "reunions" of sorts – it's fun to see everyone I don't get to work with on a daily basis and put faces to names of people from the OpenNews community calls and Twitter.&lt;/p&gt;
+
+&lt;p&gt;All the sessions I went to were definitely engaging, although I was a little surprised by the lack of technical knowledge-sharing. I think the most concrete thing I learned was how to play "Magic the Gathering" – not that that was a problem!&lt;/p&gt;
+
+&lt;p&gt;In any case, the shortage of technical discussion was far outweighed by the incredible amount of brainstorming that happened around various industry issues. I wanted to take a little time to comment on a few of these.&lt;/p&gt;
+
+&lt;h2 id="digitalworkflowprocesses"&gt;Digital Workflow Processes&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://julia67.github.io//twitter.com/MaryJoWebster"&gt;MaryJo Webster&lt;/a&gt; and &lt;a href="http://julia67.github.io//twitter.com/cjsinner"&gt;C.J. Sinner&lt;/a&gt; led an awesome and quite necessary – even overdue? – session called "Let’s Create an Ideal Digital Workflow." Session participants broke into groups and discussed one of my most favorite things in the whole world: project management. &lt;/p&gt;
+
+&lt;p&gt;This is the truth. Yes, I am a dork.&lt;/p&gt;
+
+&lt;p&gt;Project management is so, so important for technical projects – and yes, technical projects &lt;em&gt;in journalism&lt;/em&gt; are still technical projects, and editorial processes should be adapted accordingly. (TBH, the lack of true project management is the main thing that's been driving me crazy during my fellowship. I realize now that I was quite spoiled in previous jobs where I worked with some extremely talented PMs – on teams that had concrete processes in place.) I think there's a lot of opportunity for newsrooms to adopt some basic project management practices from other industries that would significantly improve our digital workflows. I'll go into detail at another time – but at the moment, I'll leave you with the process we discussed during the session itself:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Document Project Requirements  &lt;/li&gt;
+&lt;li&gt;Identify Roles &amp;amp; Responsibilities (&lt;a href="http://julia67.github.io//en.wikipedia.org/wiki/Responsibility_assignment_matrix"&gt;RASCI&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Build Prototypes&lt;/li&gt;
+&lt;li&gt;Iterate&lt;/li&gt;
+&lt;li&gt;Launch&lt;/li&gt;
+&lt;li&gt;Discuss Lessons Learned&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Is this the &lt;em&gt;exact&lt;/em&gt; workflow I'd champion? Nope. It's missing a few key pieces (like design and QA, for example) but it's a decent start. I'd love to see more discussions on this topic.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;This digital workflow session is fabulous. Project management makes me so happy. Thanks &lt;a href="https://twitter.com/MaryJoWebster"&gt;@MaryJoWebster&lt;/a&gt; for facilitating. &lt;a href="https://twitter.com/hashtag/srccon?src=hash"&gt;#srccon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julia Smith (@julia67) &lt;a href="https://twitter.com/julia67/status/614201794671947776"&gt;June 25, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;h2 id="ethicsofuxdinjournalism"&gt;Ethics of UXD in Journalism&lt;/h2&gt;
+
+&lt;p&gt;Fellow fellow &lt;a href="http://julia67.github.io//twitter.com/livlab"&gt;Livia Labate&lt;/a&gt;, along with &lt;a href="http://julia67.github.io//twitter.com/JoeGermuska"&gt;Joe Germuska&lt;/a&gt;, facilitated an awesome discussion about maintaining journalistic integrity while designing user experiences for news products (stories, websites, apps, interactives, etc.). &lt;a href="https://docs.google.com/document/d/1r9L0pAknMVub0MX82-KYnk71k3ZPiei_9dO6yEBPKZc/edit"&gt;Read the transcript&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The session, "Journalistic Objectivity and User-Centered Design," posed the following question: &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There used to be a concept of objective truth, and news saw its job as presenting it to people. If you are focusing on users, does that still work?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The prompt generated more questions from the participants:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where does objectivity meet with transparency?&lt;/li&gt;
+&lt;li&gt;Where does the conflict happen?&lt;/li&gt;
+&lt;li&gt;What stories are worth telling?&lt;/li&gt;
+&lt;li&gt;Where is the divide between UI and content? &lt;em&gt;Is there a divide?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A lot of this boiled down to the idea that developing a news platform or product may not necessarily be journalistic by nature and falls in a different category than creating news content, which &lt;em&gt;is&lt;/em&gt; inherently journalistic and should abide by classical ideals including objectivity.&lt;/p&gt;
+
+&lt;p&gt;The vocal opponent to this idea was ProPublica's &lt;a href="http://julia67.github.io//twitter.com/kleinmatic"&gt;Scott Klein&lt;/a&gt;, who said, "I disagree strongly with the notion that there is a separation between these concerns in newsroom – that there is a thing called 'actual journalism' and then something else that is a 'product.' I think it’s the wrong framing. We’re all journalists doing this work. You have the responsibilities that journalists have."&lt;/p&gt;
+
+&lt;p&gt;I believe a difference exists between the UI and the content, but I don't think this difference excuses product designers from journalistic responsibility. An example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Color.&lt;/strong&gt; Color has meaning (green = good, red = bad, etc.), so the colors in an interface shouldn't compromise the objectivity of the product's content. 
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Problematic design decision:&lt;/strong&gt; If you, as a designer, are working on a graphic and decide to use a red color scale because you want to imply that something is subjectively bad, you're editorializing the data and using design to influence the user in a problematic way. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Acceptable design decision:&lt;/strong&gt; User research shows that people will click a blue button over any other color – so you choose to use the color blue to indicate action items within your interface. These action items include things like "read more" buttons and sortable table headers and don't affect the meaning of the article or data.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My stance: &lt;strong&gt;Design isn't inherently journalistic &lt;em&gt;until it becomes so&lt;/em&gt;.&lt;/strong&gt; As such, UI/UX/product designers need to use their powers for good.  This is true for news website design, but it's especially true for things like news apps and interactive graphics. The designer's focus should be on creating the best user experience (guide people to click the right things, find the important information, get where they're trying to go), but in doing so, designers need to be conscious of their choices and make every effort to avoid design decisions that would affect the objectivity of the editorial content contained within their product.&lt;/p&gt;
+
+&lt;h2 id="mobileembraceit"&gt;Mobile: Embrace it&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://julia67.github.io//twitter.com/aboutaaron"&gt;Aaron Williams&lt;/a&gt;, &lt;a href="http://julia67.github.io//twitter.com/zhoyoyo"&gt;Youyou Zhou&lt;/a&gt; and I facilitated a session on improving interactives and data visualizations for mobile devices. I provided some resources &lt;a href="http://julia67.github.io//github.com/julia67/data-viz-for-all/"&gt;on Github&lt;/a&gt;, and participants updated &lt;a href="http://julia67.github.io//etherpad.mozilla.org/srccon2015-mobile-dataviz"&gt;this etherpad&lt;/a&gt; with ideas from their small-group discussions.&lt;/p&gt;
+
+&lt;p&gt;Overall, I was pretty happy with how the session turned out, but I do have one major topic I'd like to discuss further: &lt;strong&gt;Building graphics for mobile doesn't have to be hellish.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;As expected, much of the session's commentary about designing for mobile was negative, as illustrated in tweets like this one, which received a disheartening amount of attention: &lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&amp;quot;One of the solutions we have for doing interactives on mobile is: don&amp;#39;t.&amp;quot; &lt;a href="https://twitter.com/hashtag/srccon?src=hash"&gt;#srccon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Heather Billings (@hbillings) &lt;a href="https://twitter.com/hbillings/status/614537795365941248"&gt;June 26, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br&gt;That's a pretty standard reaction. And, sure, ensuring interactives work well on mobile is complex and is too often an afterthought – &lt;em&gt;but it doesn't need to be this way&lt;/em&gt;. That's why we wanted to do this session: to get people thinking about mobile and provide them with &lt;a href="http://julia67.github.io//github.com/julia67/data-viz-for-all/"&gt;resources&lt;/a&gt; (examples, design patterns, code snippets, and inspiration) to make building mobile interactives easier and more effective. And we, the news nerd community, need to do a better job building open-source tools and frameworks with mobile in mind. "Mobile-first" may be a good philosophy to adopt.&lt;/p&gt;
+
+&lt;p&gt;For my part, I will continue to update the &lt;a href="http://julia67.github.io//github.com/julia67/data-viz-for-all/"&gt;Data Viz for All&lt;/a&gt; repo – and I invite others to contribute!&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;going to refer back to this all the time: &lt;a href="https://t.co/7Limy51E5l"&gt;https://t.co/7Limy51E5l&lt;/a&gt;&amp;#10;&amp;#10;thanks &lt;a href="https://twitter.com/aboutaaron"&gt;@aboutaaron&lt;/a&gt; &lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt; &lt;a href="https://twitter.com/zhoyoyo"&gt;@zhoyoyo&lt;/a&gt;! &lt;a href="https://twitter.com/hashtag/srccon?src=hash"&gt;#srccon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Priya Krishnakumar (@priyakkumar) &lt;a href="https://twitter.com/priyakkumar/status/614546634291200002"&gt;June 26, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><link>http://julia67.github.io/srccon-inspiration/</link><guid isPermaLink="false">ab76dcaf-89a9-4d9c-a25c-46386001c835</guid><category>opennews</category><category>conf</category><category>srccon</category><dc:creator>Julia Smith</dc:creator><pubDate>Thu, 02 Jul 2015 02:17:00 GMT</pubDate></item><item><title>The Fourth Month</title><description>&lt;p&gt;Month No. 4 was busy...and pretty decent overall.&lt;/p&gt;
 
 &lt;p&gt;I had a few graphics published on &lt;a href="http://julia67.github.io//revealnews.org"&gt;revealnews.org&lt;/a&gt;. I attended a couple great conferences. I mentored some people. Another one of my session proposals was accepted. &lt;em&gt;AND&lt;/em&gt; I started building some actual tools that (I hope) will be useful for CIR and the rest of the data journalism community. &lt;/p&gt;
 
