@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 07 Jul 2015 02:18:19 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SRCCON: Feeling Inspired</title><description>&lt;p&gt;&lt;a href="http://julia67.github.io//srccon.org"&gt;SRCCON&lt;/a&gt; was last week, and it was awesome. Good discussion. Good coffee. Good times. I've come to really enjoy these news nerd "reunions" of sorts – it's fun to see everyone I don't get to work with on a daily basis and put faces to names of people from the OpenNews community calls and Twitter.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 07 Jul 2015 07:02:35 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SRCCON: Feeling Inspired</title><description>&lt;p&gt;&lt;a href="http://julia67.github.io//srccon.org"&gt;SRCCON&lt;/a&gt; was last week, and it was awesome. Good discussion. Good coffee. Good times. I've come to really enjoy these news nerd "reunions" of sorts – it's fun to see everyone I don't get to work with on a daily basis and put faces to names of people from the OpenNews community calls and Twitter.&lt;/p&gt;
 
 &lt;p&gt;All the sessions I went to were definitely engaging, although I was a little surprised by the lack of technical knowledge-sharing. I think the most concrete thing I learned was how to play "Magic the Gathering" – not that that was a problem!&lt;/p&gt;
 
@@ -78,7 +78,101 @@
 
 &lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;going to refer back to this all the time: &lt;a href="https://t.co/7Limy51E5l"&gt;https://t.co/7Limy51E5l&lt;/a&gt;&amp;#10;&amp;#10;thanks &lt;a href="https://twitter.com/aboutaaron"&gt;@aboutaaron&lt;/a&gt; &lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt; &lt;a href="https://twitter.com/zhoyoyo"&gt;@zhoyoyo&lt;/a&gt;! &lt;a href="https://twitter.com/hashtag/srccon?src=hash"&gt;#srccon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Priya Krishnakumar (@priyakkumar) &lt;a href="https://twitter.com/priyakkumar/status/614546634291200002"&gt;June 26, 2015&lt;/a&gt;&lt;/blockquote&gt;  
 
-&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><link>http://julia67.github.io/srccon-inspiration/</link><guid isPermaLink="false">ab76dcaf-89a9-4d9c-a25c-46386001c835</guid><category>opennews</category><category>conf</category><category>srccon</category><dc:creator>Julia Smith</dc:creator><pubDate>Thu, 02 Jul 2015 02:17:00 GMT</pubDate></item><item><title>The Fourth Month</title><description>&lt;p&gt;Month No. 4 was busy...and pretty decent overall.&lt;/p&gt;
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><link>http://julia67.github.io/srccon-inspiration/</link><guid isPermaLink="false">ab76dcaf-89a9-4d9c-a25c-46386001c835</guid><category>opennews</category><category>conf</category><category>srccon</category><dc:creator>Julia Smith</dc:creator><pubDate>Fri, 03 Jul 2015 04:48:00 GMT</pubDate></item><item><title>Tinkering with Twitter's API</title><description>&lt;p&gt;OpenNews brought all of us Knight-Mozilla fellows to Minneapolis a day early for a low-key, pre-SRCCON hack day. The theme of the event was "Quant Selfish," so the goal was to make something out of personal data related to whichever topic seemed interesting. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://julia67.github.io//twitter.com/kavyasukumar"&gt;Kavya&lt;/a&gt; and I thought it might be fun to play with the Twitter API. The idea was to get a list of unrequited Twitter friendships – the accounts you follow that never returned the favor. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Drumroll, please...&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Inspired by all those Twitter folk who don't follow you back...now...without further ado...we present to you:&lt;/em&gt;&amp;nbsp; &lt;strong&gt;&lt;a href="http://julia67.github.io//kavyasukumar.com/apps/yunofollow/follow.html"&gt;YUNOFOLLOW&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;and &lt;a href="http://julia67.github.io//github.com/julia67/yuno"&gt;its undocumented GitHub repo&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;...and the crowd goes wild!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/07/yuno.jpg" alt=""&gt;
+&lt;span class="caption"&gt;Here we have all 383 of my (that's &lt;a href="http://julia67.github.io//twitter.com/julia67"&gt;@julia67&lt;/a&gt;'s) unrequited friendships. Can you believe it‽&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;While this isn't anything special or ground-breaking in the least – it was a new process &lt;em&gt;for me&lt;/em&gt;, so I figured I should document the steps that went into making this Twitter app.  &lt;/p&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="makingaclientsideappwithtwitterdata"&gt;Making a client-side app with Twitter data&lt;/h2&gt;
+
+&lt;p&gt;Kavya and I only wanted to work on the front end for this, so we used &lt;a href="https://oauth.io/"&gt;oauth.io&lt;/a&gt; for OAuth integration and user management. The trickiest part was configuring the authentication piece; working with the Twitter API itself was pretty straight-forward.&lt;/p&gt;
+
+&lt;h4 id="step1createthetwitterapplication"&gt;Step 1: Create the Twitter Application&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;strong&gt;&lt;a href="http://julia67.github.io//apps.twitter.com"&gt;apps.twitter.com&lt;/a&gt;&lt;/strong&gt;.  &lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;&lt;a href="http://julia67.github.io//apps.twitter.com/app/new"&gt;Create New App&lt;/a&gt;&lt;/strong&gt;.  &lt;/li&gt;
+&lt;li&gt;Fill in the application details. &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Put &lt;strong&gt;&lt;a href="https://oauth.io/auth"&gt;https://oauth.io/auth&lt;/a&gt;&lt;/strong&gt; as the callback URL.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Make note of the &lt;strong&gt;Consumer Key&lt;/strong&gt; and &lt;strong&gt;Consumer Secret&lt;/strong&gt; under the &lt;strong&gt;Keys and Access Tokens&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id="step2configureoauthio"&gt;Step 2: Configure OAuth.io&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;strong&gt;&lt;a href="https://oauth.io/"&gt;oauth.io&lt;/a&gt;&lt;/strong&gt;.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://oauth.io/signup"&gt;Sign up&lt;/a&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;a href="https://oauth.io/signin"&gt;Sign in&lt;/a&gt;&lt;/strong&gt;.  &lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Create an app&lt;/strong&gt;. This will generate the &lt;strong&gt;App Keys&lt;/strong&gt; (the Public Key and Private Key necessary to initialize the SDK). Find them under the &lt;strong&gt;General&lt;/strong&gt; screen.  &lt;/li&gt;
+&lt;li&gt;Add the domain where you will host the app to the &lt;strong&gt;Domains &amp;amp; URLs whitelist&lt;/strong&gt; box on the &lt;strong&gt;General&lt;/strong&gt; screen.  &lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Integrated APIs&lt;/strong&gt; in the sidebar. &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Click the &lt;strong&gt;Add API&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Choose &lt;strong&gt;Twitter&lt;/strong&gt; from the available options.&lt;/li&gt;
+&lt;li&gt;Add the Twitter &lt;strong&gt;Consumer Key&lt;/strong&gt; and &lt;strong&gt;Secret Key&lt;/strong&gt; &lt;em&gt;from Step 1.4&lt;/em&gt; to the &lt;strong&gt;client_id&lt;/strong&gt; and &lt;strong&gt;client_secret&lt;/strong&gt; fields. &lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Try Auth&lt;/strong&gt;. If all goes well, you'll receive a success message containing the code you'll need to initialize OAuth from your app.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;OAuth.initialize('YOUR OAUTH.IO PUBLIC KEY GOES HERE');  
+OAuth.popup('twitter').done(function(result) {  
+    console.log(result);
+    // do some stuff with result
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id="step4writesomecode"&gt;Step 4: Write some code&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Include the oauth.io script on the page. &lt;br&gt;
+&lt;code&gt;&amp;lt;script src="scripts/dist/oauth.js"&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Initialize OAuth. &lt;br&gt;
+&lt;code&gt;OAuth.initialize('YOUR OAUTH.IO PUBLIC KEY GOES HERE');&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://julia67.github.io//docs.oauth.io/#authorize-with-a-popup"&gt;Authorize the app&lt;/a&gt; and save the result to a javascript object that will make HTTP calls to the Twitter API.  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;var provider = 'twitter';  
+OAuth.popup(provider)  
+.done(function(result) { // OAuth worked as expected
+    twitterObj= result; 
+    twitterObj.me()
+    .done(function (response) { // Twitter user exists
+        console.log('You're on Twitter!');
+        console.log('Name: ', response.name);
+        console.log(response.raw);
+    })
+    .fail(function (err) { // Twitter user wasn't found
+        console.log(err); 
+    });
+})
+.fail(function (err) { // OAuth didn't work
+    console.log(err); 
+});
+
+$('button').click(function(){
+    var friendsURL = 'https://api.twitter.com/1.1/friends/ids.json';
+    twitterObj.get(friendsURL).done(function(data) {
+        friendsIDs = data.ids;
+    }).fail(function(err) {
+        console.log(err);
+    });
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That's about it. We've identified a handful of issues with our code (which we wrote rather hastily) – but as this was just for fun, we're probably not going to fix anything. The goal was to identify our unrequited friendships – and identify them we did! &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you're interested in trying something like this, definitely check out the &lt;a href="http://julia67.github.io//docs.oauth.io/"&gt;oauth.io docs&lt;/a&gt; and &lt;a href="https://dev.twitter.com/rest/public"&gt;Twitter API docs&lt;/a&gt;. Also, &lt;a href="http://julia67.github.io//twitter.com/hyper_linda"&gt;Linda&lt;/a&gt; found a &lt;a href="https://github.com/sferik/t"&gt;cool command line tool&lt;/a&gt; that does essentially the same thing – it's pretty spiffy if you're into that.&lt;/p&gt;
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/tinkering-with-twitters-api/</link><guid isPermaLink="false">a79e63fd-6207-4ceb-b140-eea4ddc091e8</guid><category>opennews</category><category>tutorial</category><dc:creator>Julia Smith</dc:creator><pubDate>Thu, 02 Jul 2015 04:47:00 GMT</pubDate></item><item><title>The Fourth Month</title><description>&lt;p&gt;Month No. 4 was busy...and pretty decent overall.&lt;/p&gt;
 
 &lt;p&gt;I had a few graphics published on &lt;a href="http://julia67.github.io//revealnews.org"&gt;revealnews.org&lt;/a&gt;. I attended a couple great conferences. I mentored some people. Another one of my session proposals was accepted. &lt;em&gt;AND&lt;/em&gt; I started building some actual tools that (I hope) will be useful for CIR and the rest of the data journalism community. &lt;/p&gt;
 
@@ -125,7 +219,7 @@ I don’t love this interactive from a news value perspective – it's a bit sup
 
 &lt;p&gt;&lt;em&gt;These interactives were part of &lt;a href="http://julia67.github.io/the-fourth-month/../the-third-month/#supersecretprojectno3"&gt;Super-Secret Project No. 3&lt;/a&gt; I mentioned last month.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://julia67.github.io//www.revealnews.org/article/want-to-carry-a-concealed-gun-live-in-sacramento-not-san-francisco/#ca_map"&gt;&lt;img src="http://julia67.github.io/content/images/2015/06/cali-map.jpg" alt="California Map" width="260px" style="float:right;margin:10px 0 20px 20px;padding:10px;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://julia67.github.io//www.revealnews.org/article/want-to-carry-a-concealed-gun-live-in-sacramento-not-san-francisco/#ca_map"&gt;&lt;img src="http://julia67.github.io/content/images/2015/06/cali-map.jpg" alt="California Map" width="260px" style="float:right;margin:10px 0 20px 20px;padding:10px;left:30%;"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Check 'em out:&lt;/strong&gt;
 &lt;a href="http://julia67.github.io//www.revealnews.org/article/want-to-carry-a-concealed-gun-live-in-sacramento-not-san-francisco/#ca_map"&gt;Choropleth Map&lt;/a&gt;, &lt;a href="http://julia67.github.io//www.revealnews.org/article/want-to-carry-a-concealed-gun-live-in-sacramento-not-san-francisco/"&gt;Interactive Table&lt;/a&gt; (scroll down a bit)&lt;/p&gt;
