@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 07 Jul 2015 08:17:47 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SRCCON: Feeling Inspired</title><description>&lt;p&gt;&lt;a href="http://julia67.github.io//srccon.org"&gt;SRCCON&lt;/a&gt; was last week, and it was awesome. Good discussion. Good coffee. Good times. I've come to really enjoy these news nerd "reunions" of sorts – it's fun to see everyone I don't get to work with on a daily basis and put faces to names of people from the OpenNews community calls and Twitter.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 10 Jul 2015 17:30:33 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SRCCON: Feeling Inspired</title><description>&lt;p&gt;&lt;a href="http://julia67.github.io//srccon.org"&gt;SRCCON&lt;/a&gt; was last week, and it was awesome. Good discussion. Good coffee. Good times. I've come to really enjoy these news nerd "reunions" of sorts – it's fun to see everyone I don't get to work with on a daily basis and put faces to names of people from the OpenNews community calls and Twitter.&lt;/p&gt;
 
 &lt;p&gt;All the sessions I went to were definitely engaging, although I was a little surprised by the lack of technical knowledge-sharing. I think the most concrete thing I learned was how to play "Magic the Gathering" – not that that was a problem!&lt;/p&gt;
 
@@ -13,12 +13,13 @@
 &lt;p&gt;Project management is so, so important for technical projects – and yes, technical projects &lt;em&gt;in journalism&lt;/em&gt; are still technical projects, and editorial processes should be adapted accordingly. (TBH, the lack of true project management is the main thing that's been driving me crazy during my fellowship. I realize now that I was quite spoiled in previous jobs where I worked with some extremely talented PMs – on teams that had concrete processes in place.) I think there's a lot of opportunity for newsrooms to adopt some basic project management practices from other industries that would significantly improve our digital workflows. I'll go into detail at another time – but at the moment, I'll leave you with the process we discussed during the session itself:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Document Project Requirements  &lt;/li&gt;
-&lt;li&gt;Identify Roles &amp;amp; Responsibilities (&lt;a href="http://julia67.github.io//en.wikipedia.org/wiki/Responsibility_assignment_matrix"&gt;RASCI&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Build Prototypes&lt;/li&gt;
-&lt;li&gt;Iterate&lt;/li&gt;
+&lt;li&gt;Document project objectives  &lt;/li&gt;
+&lt;li&gt;Identify roles and responsibilities (&lt;a href="http://julia67.github.io//en.wikipedia.org/wiki/Responsibility_assignment_matrix"&gt;RASCI&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Kickoff: Establish project management/communication tools and set deadlines&lt;/li&gt;
+&lt;li&gt;Build prototype&lt;/li&gt;
+&lt;li&gt;Iterate with user testing&lt;/li&gt;
 &lt;li&gt;Launch&lt;/li&gt;
-&lt;li&gt;Discuss Lessons Learned&lt;/li&gt;
+&lt;li&gt;Discuss lessons learned&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Is this the &lt;em&gt;exact&lt;/em&gt; workflow I'd champion? Nope. It's missing a few key pieces (like design and QA, for example) but it's a decent start. I'd love to see more discussions on this topic.&lt;/p&gt;
@@ -89,9 +90,9 @@
 &lt;p&gt;&lt;em&gt;...and the crowd goes wild!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/07/yuno.jpg" alt=""&gt;
-&lt;span class="caption"&gt;Here we have all 383 of my (that's &lt;a href="http://julia67.github.io//twitter.com/julia67"&gt;@julia67&lt;/a&gt;'s) unrequited friendships. Can you believe it‽&lt;/span&gt;&lt;/p&gt;
+&lt;span class="caption"&gt;Here we have all 383 of my (that's &lt;a href="http://julia67.github.io//twitter.com/julia67"&gt;@julia67&lt;/a&gt;'s) unrequited friendships.&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;While this isn't anything special or ground-breaking in the least – it was a new process &lt;em&gt;for me&lt;/em&gt;, so I figured I should document the steps that went into making this Twitter app.  &lt;/p&gt;
+&lt;p&gt;While this isn't anything special or ground-breaking in the least – I had never worked with the Twitter API before, so I figured I should document the steps that went into making this Twitter app.  &lt;/p&gt;
 
 &lt;hr&gt;  
 
