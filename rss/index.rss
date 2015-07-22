@@ -1,4 +1,83 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 10 Jul 2015 17:30:33 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#SRCCON: Feeling Inspired</title><description>&lt;p&gt;&lt;a href="http://julia67.github.io//srccon.org"&gt;SRCCON&lt;/a&gt; was last week, and it was awesome. Good discussion. Good coffee. Good times. I've come to really enjoy these news nerd "reunions" of sorts – it's fun to see everyone I don't get to work with on a daily basis and put faces to names of people from the OpenNews community calls and Twitter.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 22 Jul 2015 00:08:05 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>No surprises please</title><description>&lt;blockquote&gt;
+  &lt;p&gt;This is a retrospective on a project gone wrong.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Today, CIR published a &lt;a href="https://www.revealnews.org/article/new-mexico-thrives-on-nuclear-bomb-despite-us-pledge-to-reduce-arsenal/"&gt;big investigation on the nuclear weapons industry&lt;/a&gt;. The report includes three interactive graphics: two slippy maps (by the wonderful &lt;a href="http://julia67.github.io//twitter.com/aboutaaron"&gt;Aaron Williams&lt;/a&gt;) and a timeline of sorts (that I built). The launch was far from perfect – I wrote a 2,000-word internal report on everything that went wrong and how to avoid similar issues next time – and I wanted to riff on some those topics here as well. &lt;/p&gt;
+
+&lt;p&gt;But first, a little background information. &lt;/p&gt;
+
+&lt;p&gt;Without getting too specific, the main problem with the launch was that the graphics didn't display on initial page load. The underlying cause was that the SSL implementation on revealnews.org prevented &lt;a href="https://github.com/nprapps/pym.js"&gt;Pym&lt;/a&gt; from loading, and differences between our testing and production environments prevented anyone from noticing the issue before the article went live. &lt;/p&gt;
+
+&lt;p&gt;Not good. &lt;/p&gt;
+
+&lt;p&gt;Additionally, no one at CIR has authorization to fix issues with the server because the website is managed by an outside firm. As such, we couldn't resolve the real problem and had to resort to hotfixes. For two of the graphics, I could simply swap out Pym for static iframes, which wasn't a huge deal. On the other hand, my &lt;a href="https://www.revealnews.org/article/a-revolving-door-in-the-nuclear-weapons-industry/"&gt;Revolving Door&lt;/a&gt; graphic was very vertically variable – and it relied heavily on Pym. I had to actually rewrite all the code to make it work directly in Wordpress' text editor, which is ugly as hell and horrific from a maintainability perspective. &lt;/p&gt;
+
+&lt;p&gt;Again, not good. &lt;/p&gt;
+
+&lt;p&gt;So I got the hotfixes in place fairly quickly and no one died. &lt;em&gt;But the fun doesn't stop there.&lt;/em&gt; We also identified a handful of smaller bugs with the slippy maps post-launch that can be traced back to two main issues with our development and editorial processes (the real topic of this post):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Incomplete Requirements Gathering  &lt;/li&gt;
+&lt;li&gt;Insufficient QA Testing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id="1incompleterequirementsgathering"&gt;1. Incomplete Requirements Gathering&lt;/h4&gt;
+
+&lt;p&gt;The slippy map graphics were both designed to be full-screen desktop applications. They were built as stand-alone applications and had lots of features that come along with stand-alone apps – like internal scrolling, anchor links, full window width and height, a vertical sidebar area, and external linkage. They were very obviously supposed to function &lt;em&gt;on their own&lt;/em&gt; rather than embedded in an article page. (They were also never optimized for mobile, but that's another story.) And yet, where can you find these apps? Embedded in an article. &lt;/p&gt;
+
+&lt;p&gt;This illustrates a fundamental misunderstanding of requirements.&lt;/p&gt;
+
+&lt;p&gt;I'm sure the graphics would've been designed differently if it had been clear from the beginning that the intent was to publish the graphics inside the story instead of as a supporting stand-alone app. &lt;/p&gt;
+
+&lt;p&gt;So, here's a list of things to clarify with your editors &lt;em&gt;at the beginning&lt;/em&gt; of a project:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What's the objective for this graphic?&lt;/strong&gt; &lt;br&gt;Mark all that apply. If more than one, please specify priority.
+&lt;ul&gt;&lt;li&gt;Provide additional information that &lt;em&gt;isn't&lt;/em&gt; in the report&lt;/li&gt;
+&lt;li&gt;Display information from the report in an alternative way&lt;/li&gt;
+&lt;li&gt;Provide a tool for the public to use&lt;/li&gt;
+&lt;li&gt;Make something "fun" or "delightful"&lt;/li&gt;
+&lt;li&gt;Get clicks on social media&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Where will the graphic run?&lt;/strong&gt; &lt;br&gt;Mark all that apply. If more than one, please specify priority.
+&lt;ul&gt;&lt;li&gt;Embedded in an article on our main website&lt;/li&gt;
+&lt;li&gt;In its own page on our main website&lt;/li&gt;
+&lt;li&gt;As an entirely separate app, not on the main site&lt;/li&gt;
+&lt;li&gt;Embedded in an article on partner websites&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When is the story running?&lt;/strong&gt; &lt;br&gt;Please choose one.
+&lt;ul&gt;&lt;li&gt;This week&lt;/li&gt;
+&lt;li&gt;Next week&lt;/li&gt;
+&lt;li&gt;Next month&lt;/li&gt;
+&lt;li&gt;Next year&lt;/li&gt;
+&lt;li&gt;Other, please specify &amp;#95;&amp;#95;&amp;#95;&amp;#95;&amp;#95;&amp;#95;&amp;#95;&amp;#95;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Answering questions like these will help ensure everyone is on the same page from the beginning. This allows the news apps folks to produce the right kind of product, and it helps set editors' expectations.&lt;/p&gt;
+
+&lt;h4 id="2insufficientqatesting"&gt;2. Insufficient QA Testing&lt;/h4&gt;
+
+&lt;p&gt;Stemming from the requirements problem comes insufficient QA testing. In the case of this nukes project, almost all of the editing and testing happened while the graphics were still in their stand-alone form. They had been cycling through the editorial process since April. The marching order to embed the graphics in an article page didn't happen until July. By then, all involved were experiencing testing burnout, we lost our slippy map developer (He's busy being awesome at &lt;a href="http://www.sfchronicle.com/"&gt;The Chronicle&lt;/a&gt; now!), and details were overlooked. &lt;/p&gt;
+
+&lt;p&gt;Additionally, no one at the organization had identified the discrepancies between the preview and production environments for revealnews.org – so when we &lt;em&gt;were&lt;/em&gt; testing, we weren't testing the right things.&lt;/p&gt;
+
+&lt;p&gt;The obvious solution is, firstly, to identify the appropriate testing procedures to more closely replicate our production environment. And secondly, it would be helpful to hold off on significant review of graphics until they are in the correct format, presented in exactly the same way they will be published. That could help save everyone from burning out too early and overlooking obvious bugs. &lt;/p&gt;
+
+&lt;h4 id="inconclusion"&gt;In conclusion&lt;/h4&gt;
+
+&lt;p&gt;I felt like these graphics were handled with too editorial a focus. There were no official requirements, no set design process, no project checkpoints, no meetings, no defined testing strategy, no integration process. But at the end of the day, we were dealing with code and we should have approached it as such. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We need to approach the creation of our interactive graphics as technology products with legitimate development processes in place.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This way we can document different procedures (like how to test things appropriately) and define workflows for design, development, testing, and deployment. We can make sure the right people are included and consulted at the right times in the process, and we can identify and resolve pain points earlier and more comprehensively. We can present our best work without delay.&lt;/p&gt;
+
+&lt;p&gt;And now that there's attention on the issue, we can take steps to improve.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;A fun aside! Today also birthed the best and worst backhanded compliment I've ever received:  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yours is less sophisticated, but it looks far better on mobile.&lt;/p&gt;
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/no-surprises-please/</link><guid isPermaLink="false">9b328356-ebae-4ebb-a3d3-8e3521d09540</guid><category>retrospective</category><dc:creator>Julia Smith</dc:creator><pubDate>Wed, 15 Jul 2015 01:48:41 GMT</pubDate></item><item><title>#SRCCON: Feeling Inspired</title><description>&lt;p&gt;&lt;a href="http://julia67.github.io//srccon.org"&gt;SRCCON&lt;/a&gt; was last week, and it was awesome. Good discussion. Good coffee. Good times. I've come to really enjoy these news nerd "reunions" of sorts – it's fun to see everyone I don't get to work with on a daily basis and put faces to names of people from the OpenNews community calls and Twitter.&lt;/p&gt;
 
 &lt;p&gt;All the sessions I went to were definitely engaging, although I was a little surprised by the lack of technical knowledge-sharing. I think the most concrete thing I learned was how to play "Magic the Gathering" – not that that was a problem!&lt;/p&gt;
 
@@ -22,11 +101,13 @@
 &lt;li&gt;Discuss lessons learned&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Is this the &lt;em&gt;exact&lt;/em&gt; workflow I'd champion? Nope. It's missing a few key pieces (like design and QA, for example) but it's a decent start. I'd love to see more discussions on this topic.&lt;/p&gt;
+&lt;p&gt;Is this the &lt;em&gt;exact&lt;/em&gt; workflow I'd champion? Nope. It's missing a few key pieces (like design and QA, for example) but it's a decent start. I'd love to see more discussions on this topic. &lt;/p&gt;
 
 &lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;This digital workflow session is fabulous. Project management makes me so happy. Thanks &lt;a href="https://twitter.com/MaryJoWebster"&gt;@MaryJoWebster&lt;/a&gt; for facilitating. &lt;a href="https://twitter.com/hashtag/srccon?src=hash"&gt;#srccon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julia Smith (@julia67) &lt;a href="https://twitter.com/julia67/status/614201794671947776"&gt;June 25, 2015&lt;/a&gt;&lt;/blockquote&gt;  
 
 &lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;(If you're interested in seeing the other workflows from the SRCCON session, &lt;a href="https://docs.google.com/document/d/1S6ms4pAMSlNpl8icrTtsHpxOpNldYWQkXQOSSwEd5UM/edit?pli=1&amp;amp;overridemobile=true"&gt;read the official session notes&lt;/a&gt;.)&lt;/p&gt;
 
 &lt;h2 id="ethicsofuxdinjournalism"&gt;Ethics of UXD in Journalism&lt;/h2&gt;
 

@@ -1,0 +1,235 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>No surprises please</title>
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=95fb1defda">
+    <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7CRoboto:300,500,700">
+
+    <link rel="canonical" href="http://julia67.github.io/no-surprises-please/">
+    
+    <meta property="og:site_name" content="musings">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="No surprises please">
+    <meta property="og:description" content="This is a retrospective on a project gone wrong. Today, CIR published a big investigation on the nuclear weapons industry. The report includes three interactive graphics: two slippy maps (by the wonderful Aaron Williams) and a timeline of sorts (that...">
+    <meta property="og:url" content="http://julia67.github.io/no-surprises-please/">
+    <meta property="article:published_time" content="2015-07-15T01:48:41.328Z">
+    <meta property="article:modified_time" content="2015-07-22T00:08:00.821Z">
+    <meta property="article:tag" content="retrospective">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="No surprises please">
+    <meta name="twitter:description" content="This is a retrospective on a project gone wrong. Today, CIR published a big investigation on the nuclear weapons industry. The report includes three interactive graphics: two slippy maps (by the wonderful Aaron Williams) and a timeline of sorts (that...">
+    <meta name="twitter:url" content="http://julia67.github.io/no-surprises-please/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "musings",
+    "author": {
+        "@type": "Person",
+        "name": "Julia Smith",
+        "url": "http://julia67.github.io/author/julia",
+        "sameAs": null
+    },
+    "headline": "No surprises please",
+    "url": "http://julia67.github.io/no-surprises-please/",
+    "datePublished": "2015-07-15T01:48:41.328Z",
+    "dateModified": "2015-07-22T00:08:00.821Z",
+    "keywords": "retrospective",
+    "description": "This is a retrospective on a project gone wrong. Today, CIR published a big investigation on the nuclear weapons industry. The report includes three interactive graphics: two slippy maps (by the wonderful Aaron Williams) and a timeline of sorts (that..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.5">
+    <link rel="alternate" type="application/rss+xml" title="musings" href="http://julia67.github.io/rss/">
+</head>
+<body class="post-template tag-retrospective nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://julia67.github.io/">Home</a></li>
+            <li class="nav-about" role="presentation"><a href="http://julia67.github.io/julia-who/">About</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button" href="index.html#"><span class="burger">☰</span><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-retrospective">
+
+        <header class="post-header">
+            <h1 class="post-title">No surprises please</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-07-14">14 July 2015</time>  on <a href="../tag/retrospective/">retrospective</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <blockquote>
+  <p>This is a retrospective on a project gone wrong.</p>
+</blockquote>
+
+<p>Today, CIR published a <a href="https://www.revealnews.org/article/new-mexico-thrives-on-nuclear-bomb-despite-us-pledge-to-reduce-arsenal/">big investigation on the nuclear weapons industry</a>. The report includes three interactive graphics: two slippy maps (by the wonderful <a href="http://twitter.com/aboutaaron">Aaron Williams</a>) and a timeline of sorts (that I built). The launch was far from perfect – I wrote a 2,000-word internal report on everything that went wrong and how to avoid similar issues next time – and I wanted to riff on some those topics here as well. </p>
+
+<p>But first, a little background information. </p>
+
+<p>Without getting too specific, the main problem with the launch was that the graphics didn't display on initial page load. The underlying cause was that the SSL implementation on revealnews.org prevented <a href="https://github.com/nprapps/pym.js">Pym</a> from loading, and differences between our testing and production environments prevented anyone from noticing the issue before the article went live. </p>
+
+<p>Not good. </p>
+
+<p>Additionally, no one at CIR has authorization to fix issues with the server because the website is managed by an outside firm. As such, we couldn't resolve the real problem and had to resort to hotfixes. For two of the graphics, I could simply swap out Pym for static iframes, which wasn't a huge deal. On the other hand, my <a href="https://www.revealnews.org/article/a-revolving-door-in-the-nuclear-weapons-industry/">Revolving Door</a> graphic was very vertically variable – and it relied heavily on Pym. I had to actually rewrite all the code to make it work directly in Wordpress' text editor, which is ugly as hell and horrific from a maintainability perspective. </p>
+
+<p>Again, not good. </p>
+
+<p>So I got the hotfixes in place fairly quickly and no one died. <em>But the fun doesn't stop there.</em> We also identified a handful of smaller bugs with the slippy maps post-launch that can be traced back to two main issues with our development and editorial processes (the real topic of this post):</p>
+
+<ol>
+<li>Incomplete Requirements Gathering  </li>
+<li>Insufficient QA Testing</li>
+</ol>
+
+<h4 id="1incompleterequirementsgathering">1. Incomplete Requirements Gathering</h4>
+
+<p>The slippy map graphics were both designed to be full-screen desktop applications. They were built as stand-alone applications and had lots of features that come along with stand-alone apps – like internal scrolling, anchor links, full window width and height, a vertical sidebar area, and external linkage. They were very obviously supposed to function <em>on their own</em> rather than embedded in an article page. (They were also never optimized for mobile, but that's another story.) And yet, where can you find these apps? Embedded in an article. </p>
+
+<p>This illustrates a fundamental misunderstanding of requirements.</p>
+
+<p>I'm sure the graphics would've been designed differently if it had been clear from the beginning that the intent was to publish the graphics inside the story instead of as a supporting stand-alone app. </p>
+
+<p>So, here's a list of things to clarify with your editors <em>at the beginning</em> of a project:</p>
+
+<ul>
+<li><strong>What's the objective for this graphic?</strong> <br>Mark all that apply. If more than one, please specify priority.
+<ul><li>Provide additional information that <em>isn't</em> in the report</li>
+<li>Display information from the report in an alternative way</li>
+<li>Provide a tool for the public to use</li>
+<li>Make something "fun" or "delightful"</li>
+<li>Get clicks on social media</li></ul></li>
+<li><strong>Where will the graphic run?</strong> <br>Mark all that apply. If more than one, please specify priority.
+<ul><li>Embedded in an article on our main website</li>
+<li>In its own page on our main website</li>
+<li>As an entirely separate app, not on the main site</li>
+<li>Embedded in an article on partner websites</li></ul></li>
+<li><strong>When is the story running?</strong> <br>Please choose one.
+<ul><li>This week</li>
+<li>Next week</li>
+<li>Next month</li>
+<li>Next year</li>
+<li>Other, please specify ________</li></ul></li>
+</ul>
+
+<p>Answering questions like these will help ensure everyone is on the same page from the beginning. This allows the news apps folks to produce the right kind of product, and it helps set editors' expectations.</p>
+
+<h4 id="2insufficientqatesting">2. Insufficient QA Testing</h4>
+
+<p>Stemming from the requirements problem comes insufficient QA testing. In the case of this nukes project, almost all of the editing and testing happened while the graphics were still in their stand-alone form. They had been cycling through the editorial process since April. The marching order to embed the graphics in an article page didn't happen until July. By then, all involved were experiencing testing burnout, we lost our slippy map developer (He's busy being awesome at <a href="http://www.sfchronicle.com/">The Chronicle</a> now!), and details were overlooked. </p>
+
+<p>Additionally, no one at the organization had identified the discrepancies between the preview and production environments for revealnews.org – so when we <em>were</em> testing, we weren't testing the right things.</p>
+
+<p>The obvious solution is, firstly, to identify the appropriate testing procedures to more closely replicate our production environment. And secondly, it would be helpful to hold off on significant review of graphics until they are in the correct format, presented in exactly the same way they will be published. That could help save everyone from burning out too early and overlooking obvious bugs. </p>
+
+<h4 id="inconclusion">In conclusion</h4>
+
+<p>I felt like these graphics were handled with too editorial a focus. There were no official requirements, no set design process, no project checkpoints, no meetings, no defined testing strategy, no integration process. But at the end of the day, we were dealing with code and we should have approached it as such. </p>
+
+<p><strong>We need to approach the creation of our interactive graphics as technology products with legitimate development processes in place.</strong></p>
+
+<p>This way we can document different procedures (like how to test things appropriately) and define workflows for design, development, testing, and deployment. We can make sure the right people are included and consulted at the right times in the process, and we can identify and resolve pain points earlier and more comprehensively. We can present our best work without delay.</p>
+
+<p>And now that there's attention on the issue, we can take steps to improve.</p>
+
+<hr>
+
+<p>A fun aside! Today also birthed the best and worst backhanded compliment I've ever received:  </p>
+
+<blockquote>
+  <p>Yours is less sophisticated, but it looks far better on mobile.</p>
+</blockquote>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/julia/">Julia Smith</a></h4>
+
+                    <p>Read <a href="../author/julia/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=No%20surprises%20please&amp;url=http://julia67.github.io/no-surprises-please/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://julia67.github.io/no-surprises-please/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://julia67.github.io/no-surprises-please/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://julia67.github.io">musings</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=95fb1defda"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=95fb1defda"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=95fb1defda"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54002010-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
