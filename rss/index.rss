@@ -1,4 +1,52 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 22 Jul 2015 00:15:08 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>No surprises please</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 31 Jul 2015 19:10:20 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Fifth Month</title><description>&lt;p&gt;I’ve hit the halfway point. My sentiments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I've started a lot of projects but haven't finished nearly as many. I think that's OK as long as there's still progress.&lt;/li&gt;
+&lt;li&gt;The lack of formal project management processes in the newsroom is starting to affect my enthusiasm, so I'm hoping to pivot and put more focus on developing tools and documentation rather than editorial pieces. &lt;/li&gt;
+&lt;li&gt;It just hit me that I have &lt;em&gt;no idea&lt;/em&gt; what I’ll be doing after the fellowship, so that's something for me to start thinking about!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s what I was up to during the last month:&lt;/p&gt;
+
+&lt;h2 id="events"&gt;Events&lt;/h2&gt;
+
+&lt;h6 id="srccon"&gt;SRCCON&lt;/h6&gt;
+
+&lt;p&gt;SRCCON was a great conference. OpenNews puts so much &lt;a href="https://opennews.org/blog/srccon-human-stuff/"&gt;thought and care&lt;/a&gt; into making the event a good experience for all participants, and it definitely didn't go unnoticed. The pacing was perfect, dietary options were considerate, and they provided a variety of activities that fell outside the standard afterparty, which was nice. Personally, I especially appreciated the "quiet workspace" on Thursday, which allowed me to prepare for my session on Friday without locking myself in my hotel room! &lt;/p&gt;
+
+&lt;p&gt;The sessions I attended were great, too, of course. &lt;a href="http://julia67.github.io/the-fifth-month/../srccon-inspiration/"&gt;I wrote about a few of them&lt;/a&gt; previously.  &lt;/p&gt;
+
+&lt;hr&gt;  
+
+&lt;h2 id="projects"&gt;Projects&lt;/h2&gt;
+
+&lt;h6 id="publishedarevolvingdoorinthenuclearweaponsindustry"&gt;Published: A revolving door in the nuclear weapons industry&lt;/h6&gt;
+
+&lt;p&gt;&lt;em&gt;This was &lt;a href="http://julia67.github.io/the-fifth-month/../the-third-month/#supersecretprojectno1"&gt;Super-Secret Project No. 1&lt;/a&gt; from previous posts.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/07/revolving-door.jpg" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check it out:&lt;/strong&gt; &lt;a href="https://www.revealnews.org/article/a-revolving-door-in-the-nuclear-weapons-industry/"&gt;Interactive Graphic&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project strengths:&lt;/strong&gt; It's mobile-friendly (lightweight and designed for small screens) and keyboard accessible. It also passes all the checkpoints on my &lt;a href="https://github.com/julia67/data-viz-for-all/tree/master/Pre-Production%20Checklist"&gt;Data Viz for All: Pre-Production Checklist&lt;/a&gt; – so hurray for practicing what I preach!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opportunities for improvement:&lt;/strong&gt; From a technical standpoint, I'm satisfied with the way this project turned out. I also wrote a separate post about some of the &lt;a href="http://julia67.github.io/the-fifth-month/../no-surprises-please/"&gt;ways we can improve our development, testing, and deployment processes&lt;/a&gt; – it's worth a read.&lt;/p&gt;
+
+&lt;h6 id="inprogresssupersecretprojectno4"&gt;In progress: Super-Secret Project No. 4&lt;/h6&gt;
+
+&lt;p&gt;Hint: It's about the drought. I'm mostly just helping a co-worker with SVG and UI stuff.&lt;/p&gt;
+
+&lt;h6 id="inprogresssupersecretprojectno5"&gt;In progress: Super-Secret Project No. 5&lt;/h6&gt;
+
+&lt;p&gt;Hint: This is a big project for &lt;a href="https://revealnews.org"&gt;Reveal&lt;/a&gt;. I'm minimally involved.&lt;/p&gt;
+
+&lt;h6 id="onholdaccessiblesvggenerator"&gt;On-hold: Accessible SVG Generator&lt;/h6&gt;
+
+&lt;p&gt;I didn’t have much opportunity to work on this project this month, sadly.&lt;/p&gt;
+
+&lt;!--&lt;hr /&gt;  
+##News
+Nothing to report this month.--&gt;</description><link>http://julia67.github.io/the-fifth-month/</link><guid isPermaLink="false">deb3b065-da74-492d-86ce-dd1255b905cb</guid><dc:creator>Julia Smith</dc:creator><pubDate>Mon, 20 Jul 2015 19:06:00 GMT</pubDate></item><item><title>No surprises please</title><description>&lt;blockquote&gt;
   &lt;p&gt;This is a retrospective on a painful project launch.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -1863,47 +1911,4 @@ traditional design principles should guide your structural decisions. line lengt
 
 &lt;blockquote&gt;
   &lt;p&gt;For notes from all the other sessions at NICAR, check out the &lt;a href="http://ire.org/conferences/nicar2015/tipsheets-and-links/" target="_blank"&gt;tipsheets and links&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;</description><link>http://julia67.github.io/nicar/</link><guid isPermaLink="false">cb966cc8-b50b-498a-a796-b2600e2f39ee</guid><category>opennews</category><category>nicar</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 17 Mar 2015 23:04:00 GMT</pubDate></item><item><title>Cool fellowships at cool places</title><description>&lt;p&gt;Last August, I was sharing a bottle of wine with the amazing &lt;a href="http://jmac.creighton.edu/?page_id=234" target="_blank"&gt;Dr. Carol Zuegner&lt;/a&gt;, my friend and former j-school advisor, as we discussed how my newish job was going. I was working as a web developer for a &lt;a href="http://oxidedesign.com/" target="_blank"&gt;small graphic design studio&lt;/a&gt; and was feeling mostly content but somewhat underwhelmed with the work. And Carol, in all her wisdom, reminded me that I have “a very particular set of skills” …&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/03/taken.jpg" alt="Liam Neeson in 'Taken'"&gt;
-&lt;span class="caption"&gt;Not those kinds of skills.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;…that news organizations are hungrily seeking. She asked if I'd considered applying for opportunities outside of Omaha – perhaps grad school, perhaps something else.&lt;/p&gt;
-
-&lt;p&gt;I didn’t put a ton of consideration into the suggestion – I was living quite the comfortable life in Omaha and was hesitant to disrupt it. I had also been working outside the news industry for the last three or four years and wasn't sure if my journalism degree was still relevant.&lt;/p&gt;
-
-&lt;p&gt;The next day, Carol sent me an email entitled “cool fellowships at cool places,” containing a link to the &lt;a href="http://opennews.org/what/fellowships/" target="_blank"&gt;Knight-Mozilla fellowship&lt;/a&gt; program. It was surprising how perfect it sounded. From a skills and interests perspective, it seemed like a tailor-made opportunity. And, incredibly, it included a reasonable stipend and time commitment. &lt;/p&gt;
-
-&lt;p&gt;I had two days to apply. &lt;/p&gt;
-
-&lt;p&gt;NBD.&lt;/p&gt;
-
-&lt;p&gt;I drafted my responses to the application fairly quickly but spent most of those two days reading blog posts about the fellowship experience. Notable reading material included:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://veltman.tumblr.com/post/94827905007/opennews-t-minus-36-hours" target="_blank"&gt;This one&lt;/a&gt; via &lt;a href="http://twitter.com/@veltman target=" _blank"=""&gt;@veltman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://veltman.tumblr.com/post/56132893301/code-the-newsroom-and-self-doubt" target="_blank"&gt;This one&lt;/a&gt; also via &lt;a href="http://twitter.com/@veltman target=" _blank"=""&gt;@veltman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://erikaowens.com/blog/who-should-apply-knight-mozilla-fellowship-you" target="_blank"&gt;This one&lt;/a&gt; via &lt;a href="http://twitter.com/@erika_owens" target="_blank"&gt;@erika_owens&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://briantjacobs.com/john-cusack-on-becoming-a-2015-knight-mozilla-fellow/" target="_blank"&gt;This one&lt;/a&gt; via &lt;a href="http://twitter.com/@btjakes target=" _blank"=""&gt;@btjakes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I decided this was actually something I really really really wanted to do.&lt;/p&gt;
-
-&lt;p&gt;A few hours before the deadline (not a record, BTW), I hit the submit button and hoped for the best.&lt;/p&gt;
-
-&lt;p&gt;The waiting game began. I cycled between ultra-confidence and crippling self-doubt on a near-daily basis as I anticipated a response from OpenNews. When I was feeling level-headed, I estimated I would make it into the group of semifinalists but probably not any further than that. When I made it past that point, I had no more expectations. &lt;/p&gt;
-
-&lt;p&gt;The two months leading up to the final fellowship decision felt like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/03/positivity-chart-1.jpg" alt="Chart: Positivity over Time"&gt;
-&lt;span class="caption"&gt;I'm just trying to have fun here.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Here's a timeline of some tweet-sized feels:&lt;/p&gt;
-
-&lt;p&gt;&lt;span class="callout"&gt;&lt;strong&gt;Aug. 14&lt;/strong&gt; &lt;br&gt;Beginning to read about the fellowship. Very excited.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Aug. 16&lt;/strong&gt; &lt;br&gt;Application submitted. Feeling super confident because I thought my application materials turned out awesome.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 5&lt;/strong&gt; &lt;br&gt;Semifinalist notification. Happy but trying to stay realistic.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 10&lt;/strong&gt; &lt;br&gt;Prepping for first interview. Feeling confident; I usually interview pretty well.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 11&lt;/strong&gt; &lt;br&gt;Interviewed with OpenNews. Thought it went horribly. Had too much coffee and felt like I couldn’t keep my thoughts straight.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 19&lt;/strong&gt; &lt;br&gt;Finalist notification. Very pleasantly surprised. &lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Sept. 25&lt;/strong&gt; &lt;br&gt;Interview with CIR. Feeling pretty good about it.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 1&lt;/strong&gt; &lt;br&gt;Still feeling good. Blind hope is balancing any lack of confidence. Should receive a final decision tomorrow.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 2&lt;/strong&gt; &lt;br&gt;A day full of anxious excitement and anticipation. I am very jumpy.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 3&lt;/strong&gt; &lt;br&gt;Received news that a decision hasn’t been made yet. I'm convinced the fellowship was offered to another. Sad. Reevaluating all life decisions.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 6&lt;/strong&gt; &lt;br&gt;Received another email. Still no news. At least this isn’t a rejection. I'm still in the running. Feeling slightly better.&lt;/span&gt;&lt;span class="callout"&gt;&lt;strong&gt;Oct. 10&lt;/strong&gt; &lt;br&gt;Oh happy day! 2015 Knight-Mozilla fellow at the Center for Investigative Reporting. So excite!!&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;And that's the brief overview of my experience with the fellowship selection process. &lt;/p&gt;
-
-&lt;p&gt;One other thing to note – one reason my pre-semifinalist positivity remained high – is that I kept a close eye on the Google Analytics report for my personal website. I received very little traffic prior to applying for the fellowship, and visits to my site were almost entirely from Nebraska. After I applied, I started getting hits from other locations – New York, Chicago, D.C., London – places that definitely had a host news organization or other OpenNews presence. Occassionally, the ISP even said something super informative, like "National Public Radio." So I had a nice quantitative measure that my application likely made it past the first round of cuts, which took some of the edge off. &lt;/p&gt;
-
-&lt;p&gt;Gotta love data.&lt;/p&gt;</description><link>http://julia67.github.io/cool-fellowships-at-cool-places/</link><guid isPermaLink="false">19a22a94-044e-4ea8-a0d2-ae9de2293d21</guid><category>retrospective</category><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 06 Jan 2015 06:15:00 GMT</pubDate></item></channel></rss>
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/nicar/</link><guid isPermaLink="false">cb966cc8-b50b-498a-a796-b2600e2f39ee</guid><category>opennews</category><category>nicar</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 17 Mar 2015 23:04:00 GMT</pubDate></item></channel></rss>
