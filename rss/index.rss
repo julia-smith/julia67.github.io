@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 31 Jul 2015 19:10:20 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Fifth Month</title><description>&lt;p&gt;I’ve hit the halfway point. My sentiments:&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 31 Jul 2015 20:35:20 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Fifth Month</title><description>&lt;p&gt;I’ve hit the halfway point. My sentiments:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;I've started a lot of projects but haven't finished nearly as many. I think that's OK as long as there's still progress.&lt;/li&gt;
@@ -24,7 +24,7 @@
 
 &lt;p&gt;&lt;em&gt;This was &lt;a href="http://julia67.github.io/the-fifth-month/../the-third-month/#supersecretprojectno1"&gt;Super-Secret Project No. 1&lt;/a&gt; from previous posts.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/07/revolving-door.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.revealnews.org/article/a-revolving-door-in-the-nuclear-weapons-industry/" target="_blank"&gt;&lt;img src="http://julia67.github.io/content/images/2015/07/revolving-door.jpg" alt="" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Check it out:&lt;/strong&gt; &lt;a href="https://www.revealnews.org/article/a-revolving-door-in-the-nuclear-weapons-industry/"&gt;Interactive Graphic&lt;/a&gt;&lt;/p&gt;
 
@@ -32,21 +32,27 @@
 
 &lt;p&gt;&lt;strong&gt;Opportunities for improvement:&lt;/strong&gt; From a technical standpoint, I'm satisfied with the way this project turned out. I also wrote a separate post about some of the &lt;a href="http://julia67.github.io/the-fifth-month/../no-surprises-please/"&gt;ways we can improve our development, testing, and deployment processes&lt;/a&gt; – it's worth a read.&lt;/p&gt;
 
-&lt;h6 id="inprogresssupersecretprojectno4"&gt;In progress: Super-Secret Project No. 4&lt;/h6&gt;
+&lt;h6 id="inprogresssupersecretprojectsforreveal"&gt;In progress: Super-Secret Projects for Reveal&lt;/h6&gt;
 
-&lt;p&gt;Hint: It's about the drought. I'm mostly just helping a co-worker with SVG and UI stuff.&lt;/p&gt;
-
-&lt;h6 id="inprogresssupersecretprojectno5"&gt;In progress: Super-Secret Project No. 5&lt;/h6&gt;
-
-&lt;p&gt;Hint: This is a big project for &lt;a href="https://revealnews.org"&gt;Reveal&lt;/a&gt;. I'm minimally involved.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Project No. 4:&lt;/strong&gt; It's about the drought. I'm helping a data reporter with SVG and UI stuff.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project No. 5:&lt;/strong&gt; This is a big project for &lt;a href="https://revealnews.org"&gt;Reveal&lt;/a&gt;. I'm minimally involved – mostly helping out with JavaScript.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h6 id="onholdaccessiblesvggenerator"&gt;On-hold: Accessible SVG Generator&lt;/h6&gt;
 
-&lt;p&gt;I didn’t have much opportunity to work on this project this month, sadly.&lt;/p&gt;
+&lt;p&gt;I didn’t have much opportunity to work on this project this month, sadly. Hopefully I can pick it up again in The Seventh Month because The Sixth Month is already booked!&lt;/p&gt;
 
-&lt;!--&lt;hr /&gt;  
-##News
-Nothing to report this month.--&gt;</description><link>http://julia67.github.io/the-fifth-month/</link><guid isPermaLink="false">deb3b065-da74-492d-86ce-dd1255b905cb</guid><dc:creator>Julia Smith</dc:creator><pubDate>Mon, 20 Jul 2015 19:06:00 GMT</pubDate></item><item><title>No surprises please</title><description>&lt;blockquote&gt;
+&lt;hr&gt;  
+
+&lt;h2 id="news"&gt;News&lt;/h2&gt;
+
+&lt;p&gt;There's a couple cool things coming up in the next four weeks.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portland Code Convening:&lt;/strong&gt; The fellows (each with a colleague from the newsroom) will be spending a couple days in Portland working on some open source projects. Should be a good time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;#NEJSConf:&lt;/strong&gt; I'll be speaking about SVG animation at &lt;a href="https://nejsconf.com/"&gt;NEJS Conf: Javascript in the wild&lt;/a&gt;. I'm pretty excited about it!&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://julia67.github.io/the-fifth-month/</link><guid isPermaLink="false">deb3b065-da74-492d-86ce-dd1255b905cb</guid><dc:creator>Julia Smith</dc:creator><pubDate>Mon, 20 Jul 2015 19:06:00 GMT</pubDate></item><item><title>No surprises please</title><description>&lt;blockquote&gt;
   &lt;p&gt;This is a retrospective on a painful project launch.&lt;/p&gt;
 &lt;/blockquote&gt;
 
