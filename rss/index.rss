@@ -1,4 +1,16 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 04 Aug 2015 15:27:05 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome, fellow news nerds</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 11 Aug 2015 04:12:00 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Fellows Code Convening: Now on Source</title><description>&lt;p&gt;The 2015 Fellows met up in Portland, Oregon at the end of July to work on some of our open-source projects. We each brought a colleague from our host newsrooms and had a fabulous time coding things and trying as many Portland brews as possible in a three-day timespan.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/08/codeconvening.jpg" alt="" title=""&gt;&lt;span class="caption"&gt;Photo by &lt;a href="http://julia67.github.io//twitter.com/livlab"&gt;Livia Labate&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;My project, again, was &lt;a href="http://julia67.github.io//github.com/julia67/data-viz-for-all"&gt;Data Viz for All&lt;/a&gt; – the guidelines for accessible and mobile-friendly interactives that I started tackling a few months ago. &lt;/p&gt;
+
+&lt;p&gt;Today, &lt;a href="http://julia67.github.io//source.opennews.org"&gt;Source&lt;/a&gt; published &lt;a href="http://julia67.github.io//source.opennews.org/en-US/articles/building-data-viz-all/"&gt;my write-up&lt;/a&gt; of the work Eric Sagara and I did during the code convening. &lt;a href="http://julia67.github.io//source.opennews.org/en-US/articles/building-data-viz-all/"&gt;Read it here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our goal was to start building out a &lt;a href="http://julia67.github.io//github.com/julia67/dvfa-components"&gt;library of UI components&lt;/a&gt; that we could use as examples within the official DVfA documentation. After that, we plan to reuse those components as the basis for a &lt;a href="http://julia67.github.io//revealnews.org"&gt;Reveal&lt;/a&gt; news application styleguide.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Read more about the project on &lt;a href="http://julia67.github.io//source.opennews.org/en-US/articles/building-data-viz-all/"&gt;Source&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/portland-cc-now-on-source/</link><guid isPermaLink="false">e3637845-a80a-4e11-9b3b-8482560edfbe</guid><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 11 Aug 2015 04:02:15 GMT</pubDate></item><item><title>Welcome, fellow news nerds</title><description>&lt;blockquote&gt;
   &lt;p&gt;The &lt;a href="https://opennews.org/what/fellowships/"&gt;Knight-Mozilla fellowship&lt;/a&gt; is super awesome. If you've ever wanted to work in a newsroom, build cool things, and travel a lot – &lt;a href="https://opennews.org/what/fellowships/apply/"&gt;you should apply&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -1770,45 +1782,4 @@ traditional design principles should guide your structural decisions. line lengt
 
 &lt;p&gt;Overall, I'm quite happy with my fellowship experience so far, and I'm excited to start sharing information at a more rapid pace. I've done a lot of pre-work (researching the brand and various best practices, completing a lot of tutorials, trying out different tools, helping out as needed) and I feel like I'm about to hit my stride on all the style guide work I've been doing. Plus I'm about to start work on my first data viz project, and I am super excited to get something out in the open. (Shout out to &lt;a href="http://twitter.com/aboutaaron"&gt;Aaron&lt;/a&gt; for bringing me onto the project.)&lt;/p&gt;
 
-&lt;p&gt;Good things are on the way.&lt;/p&gt;</description><link>http://julia67.github.io/the-first-month/</link><guid isPermaLink="false">a9718317-5212-4cf7-80a3-09ba15b4ba32</guid><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Wed, 25 Mar 2015 21:36:57 GMT</pubDate></item><item><title>#NICAR15: Underserved Topics</title><description>&lt;blockquote&gt;
-  &lt;p&gt;This is Part 2 of my thoughts on NICAR 2015. If you want to read about specific sessions, see &lt;a href="http://julia67.github.io/nicar15-part-2-the-analysis/../nicar/"&gt;Part 1&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;During NICAR, I took some mental notes of topics that I thought deserved additional attention from the “news nerd” community. I’m hoping to use this list to inspire sessions proposals for conferences through the rest of the year.&lt;/p&gt;
-
-&lt;h2 id="1accessibilityperformance"&gt;1) Accessibility &amp;amp; Performance&lt;/h2&gt;
-
-&lt;p&gt;I thought many of the sessions could’ve put more emphasis (or could at least &lt;em&gt;mentioned&lt;/em&gt;) these two aspects of web development that are often ignored. I touched on this in my &lt;a href="http://julia67.github.io/nicar15-part-2-the-analysis/../nicar/"&gt;last post&lt;/a&gt;, and I’ll say it again:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;News organizations, as entities dedicated to informing the public, need to be conscious of the implicit biases that come from inaccessible content. Ignoring accessibility limits the reach of your reporting and discriminates against a &lt;em&gt;not insignificant&lt;/em&gt; number of people.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Accessibility and performance go hand-in-hand. Cool, flashy, dynamic elements are frequently also resource-heavy, slow, and inaccessible – but they don’t need to be that way. There are a bunch of relatively easy ways to make our interactives faster and more readable, and we need to incorporate these techniques into our development processes. Accessibility and performance shouldn’t be an afterthought, and I think it would be in the best interest of the community to talk about it more often. &lt;/p&gt;
-
-&lt;h2 id="2mobilefriendlydataviz"&gt;2) Mobile-Friendly Data Viz&lt;/h2&gt;
-
-&lt;p&gt;This is another topic that seems to get pushed aside. I’ve heard a lot of the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;“It’s not possible to make good interactives on mobile.”&lt;/li&gt;
-&lt;li&gt;“It’ll hurt our work on desktop.”&lt;/li&gt;
-&lt;li&gt;“It’s not worth the effort.”&lt;/li&gt;
-&lt;li&gt;“It’s too hard.”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That’s bullshit. &lt;/p&gt;
-
-&lt;p&gt;Sure, to make a news app work well on mobile requires &lt;em&gt;different&lt;/em&gt; methodology than is commonly utilized today – but that doesn’t necessarily mean a &lt;em&gt;worse&lt;/em&gt; process or an inferior product. In fact, I’d argue that trying to make mobile-friendly interactives will significantly better serve your audience. &lt;/p&gt;
-
-&lt;p&gt;I wrote about this in my fellowship application last August:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We need more engaging mobile news content – and a design pattern to present it. Online storytelling has made great strides, but the percentage of users who access content via their mobile device has increased significantly, and these newer forms of online storytelling aren’t keeping pace. Either performance on mobile is substandard, or the visual design and user experience is less than ideal. I’d like to work on a framework to better present and share data-driven content on the mobile web.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I don’t have a great solution to this problem yet – but it's definitely worth discussing in detail during events like NICAR, SRCCON, MozFest, etc.&lt;/p&gt;
-
-&lt;h2 id="3nativemobileapps"&gt;3) Native Mobile Apps&lt;/h2&gt;
-
-&lt;p&gt;I’ve heard very little talk about native mobile apps for news. I haven’t thought about it much from my end either, but I am curious why this topic doesn’t get much traction. My assumption is that developing and maintaining native mobile apps could very quickly get expensive for news orgs, so I assume cost is the limiting factor. But does it have to be? Would it ever be worth producing small, single-purpose native apps? I’m thinking about news games and monetization. Curious.&lt;/p&gt;</description><link>http://julia67.github.io/nicar15-part-2-the-analysis/</link><guid isPermaLink="false">d91cec66-a48e-414f-a435-9dc5ba507deb</guid><category>opennews</category><category>nicar</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Wed, 18 Mar 2015 23:05:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Good things are on the way.&lt;/p&gt;</description><link>http://julia67.github.io/the-first-month/</link><guid isPermaLink="false">a9718317-5212-4cf7-80a3-09ba15b4ba32</guid><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Wed, 25 Mar 2015 21:36:57 GMT</pubDate></item></channel></rss>
