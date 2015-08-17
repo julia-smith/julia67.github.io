@@ -921,6 +921,7 @@ body.nav-opened .menu-button .word {
 .page-description .tag {
     padding:0 14px;
     background-color:rgba(0,169,157,1);
+    display:inline-block;
 }
 
 .no-cover.main-header {
