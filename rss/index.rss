@@ -1,4 +1,114 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 11 Aug 2015 21:36:29 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Code Convening: Now on Source</title><description>&lt;p&gt;The 2015 Fellows met up in Portland, Oregon at the end of July to work on some of our open-source projects. We each brought a colleague from our host newsrooms and had a fabulous time coding things and trying as many Portland brews as possible in a three-day timespan.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 17 Aug 2015 00:23:37 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#NEJSConf: Animation basics with Snap.svg</title><description>&lt;blockquote&gt;
+  &lt;p&gt;This is my talk on SVG animation from &lt;a href="https://nejsconf.com/2015/julia67/"&gt;#NEJSConf&lt;/a&gt; in Omaha. You can walk through the &lt;a href="http://julia.nightbirdstudios.com/nejsconf/"&gt;presentation slides here&lt;/a&gt;. (They're also  &lt;a href="http://julia67.github.io//github.com/julia67/snap"&gt;on GitHub&lt;/a&gt;.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="whysvg"&gt;Why SVG&lt;/h2&gt;
+
+&lt;p&gt;Today we’re going to talk about SVG. More specifically, we're going to talk about how to animate SVG graphics with a really awesome little library called &lt;a href="http://julia67.github.io/nejsconf-snap-svg/"&gt;Snap&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;I’m not sure how many of you work with SVG regularly, but just in case you’re unfamiliar, here’s a quick refresher on why SVG is a totally viable thing to use in your web apps.&lt;/p&gt;
+
+&lt;p&gt;SVG stands for Scalable Vector Graphic, and it is exactly that. It’s a 2-d, vector-based image format, and it opens up a lot of possibilities for interesting interaction design.&lt;/p&gt;
+
+&lt;h6 id="resolutionindependent"&gt;Resolution Independent&lt;/h6&gt;
+
+&lt;p&gt;The first useful thing about SVG is that it’s resolution independent. It looks good at any size and will never appear fuzzy. &lt;br&gt;
+&lt;iframe src="http://julia-smith.com/nejsconf/#why-svg-1" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#why-svg-1"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h6 id="lightweight"&gt;Lightweight&lt;/h6&gt;
+
+&lt;p&gt;Because the images are defined as text elements and attributes, SVG images can be significantly smaller to download than you standard JPGs, PNGs or GIFs, and that opens a lot of doors for creating visually complex yet performant experiences for your users. &lt;br&gt;
+&lt;iframe src="http://julia-smith.com/nejsconf/#why-svg-2" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#why-svg-2"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, if you need the same image in different sizes (like a logo or icons), you’re in luck! With SVG you can use the same file for all purposes, which cuts down on bandwidth. Along the same lines, you can repurpose the same image file with different colors and treatments, which negates the need for raster sprites with all the possible hover states and retina sizes, etc. You don’t need to do that anymore and it’s wonderful.&lt;/p&gt;
+
+&lt;h6 id="styleable"&gt;Styleable&lt;/h6&gt;
+
+&lt;p&gt;Like I just mentioned, SVGs are styleable. You can access and modify different properties for paths, shapes, gradients, opacity, filters, text, clipping masks – all those good things. &lt;br&gt;
+&lt;iframe src="http://julia-smith.com/nejsconf/#why-svg-3" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#why-svg-3"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h6 id="interactive"&gt;Interactive&lt;/h6&gt;
+
+&lt;p&gt;You can attach event handlers to SVG elements with JavaScript, similar to the way you’re used to with HTML. Plus, SVG is based on a coordinate system so it’s easy to animate.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://julia-smith.com/nejsconf/#why-svg-4" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#why-svg-4"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;However, be aware that jQuery selectors and SVGs don't mix. How this plays out in practice is that if you’re trying to use jQuery to work with an SVG, you'll end up writing a lot more vanilla JavaScript than you probably bargained for. So don’t use jQuery with SVG. Just use Snap.&lt;/p&gt;
+
+&lt;h6 id="accessibility"&gt;Accessibility&lt;/h6&gt;
+
+&lt;p&gt;SVG is rendered to the page as markup, so all the text within the graphic is available to search engines and – as long as you configure it appropriately – it’s also available to assistive technologies like screen readers. Plus with the SVG 2.0 spec that’s coming out, we’ll have more universal support for tabindexes on SVG elements. I’m super excited about this because it opens all sorts of doors for exposing data via keyboard navigation. &lt;br&gt;
+&lt;iframe src="http://julia-smith.com/nejsconf/#why-svg-5" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#why-svg-5"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id="whyanimate"&gt;Why animate?&lt;/h2&gt;
+
+&lt;p&gt;So now that we know why we’re using SVG, the next question is: Why make the effort to animate things?&lt;/p&gt;
+
+&lt;p&gt;This is a question I’ve struggled with, having very conflicted opinions about when the extra code and computation for animations does or does not outweigh performance concerns. There’s a give-and-take with that decision-making process, but for now, I’d like to put performance hits on the backburner and just focus on the opportunities that animation offers to enhance the user experience. We'll go over the goals of animating on-screen elements, and then review a few best practices for animated interfaces.&lt;/p&gt;
+
+&lt;h6 id="itsabouttime"&gt;It's about time&lt;/h6&gt;
+
+&lt;p&gt;When you think about animations in interaction design, the key thing to keep in mind is that animations are time-based – and &lt;strong&gt;good animations smooth the transition of an element’s state in order to add meaning and value to the user's experience&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Things like physics, speed, and synchronization all come into play when designing animations. The more you can mimic true-to-life experiences, the more seamless and invisible the animation will be to your user – which is exactly what you want. The goal of animating an element is to make the screen function more like the real world. In real life, things don’t abruptly change state. An ice cube doesn’t go from solid to liquid in a split second. Rather, it melts, transitioning from one state to the next.&lt;/p&gt;
+
+&lt;p&gt;Without the transition an ice cube and a puddle of water seem like two completely different things – it’s the transition that ties them together. And the same goes for animated graphics and UI elements. When things change abruptly, your user gets lost. But by animating the change – for example, animating the scroll to an anchor link instead of directly jumping to it – then your user always knows how they came to be where they are, and context is preserved.&lt;/p&gt;
+
+&lt;p&gt;Here’s a basic example: &lt;br&gt;
+&lt;iframe src="http://julia-smith.com/nejsconf/#why-animate-1" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#why-animate-1"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Facebook’s Jake Blakely recently wrote an awesome post on &lt;a href="http://jake.ly/journal/animations.html"&gt;the “why” of animation design&lt;/a&gt;, some of which we’ve gone over already, but I’ll summarize again here:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Animations create more fluid transitions, which feels more natural to the user.  &lt;/li&gt;
+&lt;li&gt;Animations can provide visual feedback or context to an interaction. An example would be a progress bar or loading icon – something to let the user know that an action is happening.  &lt;/li&gt;
+&lt;li&gt;Animations can guide the user’s attentions. Our eyes are naturally drawn to motion, and animations can help the user know what to do next. An example is a submit button that changes color once the form is complete, which catches the user’s attention and lets them know which action to take next.  &lt;/li&gt;
+&lt;li&gt;Animations can elicit an emotional response. This is the really interesting thing about effective animations – because animations that are well executed – animations that seem fluid and natural and mimic the real world in some way – have real-world effects on humans. Humans can be delighted or disappointed or frustrated, all thanks to your UI.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="whysnapsvg"&gt;Why Snap.svg?&lt;/h2&gt;
+
+&lt;p&gt;Now that we know why we should use SVG and why we should animate things, the next question is: Why Snap? Why should we use Snap.svg to animate our vector graphics?&lt;/p&gt;
+
+&lt;p&gt;The quick answer is: &lt;strong&gt;because it’s super easy&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;But of course there’s a longer answer. Here’s some background on Snap: &lt;/p&gt;
+
+&lt;h6 id="snapreplacesraphael"&gt;Snap replaces Raphael&lt;/h6&gt;
+
+&lt;p&gt;Snap is essentially the replacement for Raphael.js,  the original go-to library for SVG animation. Raphael was really cool because it could support browsers as far back as IE6 with it’s VML fallback for environments that didn’t support SVG. Thankfully, most of us don’t need to support old IE anymore, so we can stop weighing down our apps with huge libraries that try to cater to every old IE quirk. Snap.svg supports IE9+, and it was written by the same guy, Dmitri Baranovskiy, who created Raphael back in the day. So it’s a very comprehensive solution.&lt;/p&gt;
+
+&lt;h6 id="snapispowerful"&gt;Snap is powerful&lt;/h6&gt;
+
+&lt;p&gt;The functionality goes far beyond what Raphael was able to do. Snap allows you to not only generate new SVGs, but it will actually work with existing SVGs that you created in Illustrator or Inkscape or some other way. It provides a robust API for manipulating SVG content, and the animations it supports are spectacular – smooth, performant, and they even work surprisingly well on mobile devices. The official Snap.svg website describes the animation API as “simple and intuitive” – but it actually is. A click is a click, a hover’s a hover, and &lt;code&gt;.animate()&lt;/code&gt; gets you into all sorts of fun.&lt;/p&gt;
+
+&lt;h6 id="snapisfreeandopensource"&gt;Snap is free and open source&lt;/h6&gt;
+
+&lt;p&gt;It’s also fairly lightweight. What's not to love?&lt;/p&gt;
+
+&lt;h2 id="howcanyougetstarted"&gt;How can you get started?&lt;/h2&gt;
+
+&lt;p&gt;Here are some slides:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://julia-smith.com/nejsconf/#snippet-1" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#snippet-1"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://julia-smith.com/nejsconf/#snippet-2" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#snippet-2"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://julia-smith.com/nejsconf/#snippet-3" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#snippet-3"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://julia-smith.com/nejsconf/#snippet-4" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#snippet-4"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://julia-smith.com/nejsconf/#snippet-5" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"&gt;&lt;/iframe&gt;&lt;span class="caption"&gt;&lt;a href="http://julia-smith.com/nejsconf/#snippet-5"&gt;Full screen&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;  
+      &lt;li&gt;&lt;a href="http://moxieusa.com/Blog/2015/March/Top%2010%20Reasons%20Why%20SVG%20Is%20the%20New%20Flash.aspx"&gt;Why SVG is awesome&lt;/a&gt; | Andy Makely&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://jake.ly/journal/animations.html"&gt;Animation best practices&lt;/a&gt; | Jake Blakely&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://www.google.com/design/spec/animation/authentic-motion.html"&gt;Authentic motion&lt;/a&gt; | Google&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://sarasoueidan.com/demos/interactive-svg-coordinate-system/index.html"&gt;Interactive SVG Coordinate System&lt;/a&gt; | Sara Soueidan&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://svg.dabbles.info/"&gt;SVG Dabbles&lt;/a&gt; | @ianscoding&lt;/li&gt;
+    &lt;/ul&gt;</description><link>http://julia67.github.io/nejsconf-snap-svg/</link><guid isPermaLink="false">15ce5e80-49e5-4557-97ab-a63777319226</guid><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 11 Aug 2015 20:45:00 GMT</pubDate></item><item><title>Code Convening: Now on Source</title><description>&lt;p&gt;The 2015 Fellows met up in Portland, Oregon at the end of July to work on some of our open-source projects. We each brought a colleague from our host newsrooms and had a fabulous time coding things and trying as many Portland brews as possible in a three-day timespan.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/08/codeconvening.jpg" alt="" title=""&gt;&lt;span class="caption"&gt;Photo by &lt;a href="http://julia67.github.io//twitter.com/livlab/status/624744909782650880"&gt;Livia Labate&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
 
@@ -1766,20 +1876,4 @@ traditional design principles should guide your structural decisions. line lengt
 
 &lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;A handful of performance resources, for those interested. &lt;a href="https://t.co/DCizODACh3"&gt;https://t.co/DCizODACh3&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/SNDMakes?src=hash"&gt;#SNDMakes&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julia Smith (@julia67) &lt;a href="https://twitter.com/julia67/status/586242052960161792"&gt;April 9, 2015&lt;/a&gt;&lt;/blockquote&gt;  
 
-&lt;p&gt;&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;br&gt;&lt;/p&gt;</description><link>http://julia67.github.io/sndmakes-a-lightning-talk/</link><guid isPermaLink="false">aad38c46-52eb-455f-885c-8f31ec9f5c55</guid><category>opennews</category><category>talks</category><category>snd</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Sun, 12 Apr 2015 18:01:00 GMT</pubDate></item><item><title>The First Month</title><description>&lt;p&gt;I've just wrapped up the first month (plus a week, because I'm slow) of my fellowship at the Center for Investigative Reporting.&lt;/p&gt;
-
-&lt;p&gt;It has been grand.&lt;/p&gt;
-
-&lt;p&gt;I've been working on a variety of projects – some for the newsroom, some for my own research – and I am consuming a crazy amount of new information. I have a decent grasp on python now. I've collected a lot of great info about style guides and front-end best practices that I'm condensing into documentation for the team. I've been developing a component-driven framework to help build consistent user interfaces for &lt;a href="http://revealnews.org"&gt;Reveal&lt;/a&gt;'s interactive news apps. And I've been banging my head against a wall trying to figure out what I should focus on for conference session proposals. Woo!&lt;/p&gt;
-
-&lt;p&gt;I also attended my first &lt;a href="http://ire.org/conferences/nicar2015/"&gt;NICAR&lt;/a&gt; and had – in all honesty – too good a time. It's been weeks now and I'm still having post-NICAR withdrawals.&lt;/p&gt;
-
-&lt;p&gt;But the most amazing thing about the fellowship so far has been witnessing the inner workings of an investigative news organization. I had very little exposure to the process behind data-driven journalism prior to the fellowship, so it's been eye-opening to see how everyone tracks down sources and data sets, cleans and verifies the data, and then turns their findings into awesome, compelling stories. I still haven't felt ready to pitch my own investigation, but thanks to the rest of the data team and some sessions at NICAR, I'm confident and excited to venture into that realm in the coming weeks.&lt;/p&gt;
-
-&lt;p&gt;Gotta get some bylines.&lt;/p&gt;
-
-&lt;p&gt;And beyond the work produced at CIR, the amount of passion, talent, and skill my coworkers have is really inspiring. Everyone has so much expertise and puts so much energy into their projects. (I realize it sounds like this should be a given, but I've worked at a few places where it seemed like most people were essentially checked out. Not so at CIR, which is pretty cool.)&lt;/p&gt;
-
-&lt;p&gt;Overall, I'm quite happy with my fellowship experience so far, and I'm excited to start sharing information at a more rapid pace. I've done a lot of pre-work (researching the brand and various best practices, completing a lot of tutorials, trying out different tools, helping out as needed) and I feel like I'm about to hit my stride on all the style guide work I've been doing. Plus I'm about to start work on my first data viz project, and I am super excited to get something out in the open. (Shout out to &lt;a href="http://twitter.com/aboutaaron"&gt;Aaron&lt;/a&gt; for bringing me onto the project.)&lt;/p&gt;
-
-&lt;p&gt;Good things are on the way.&lt;/p&gt;</description><link>http://julia67.github.io/the-first-month/</link><guid isPermaLink="false">a9718317-5212-4cf7-80a3-09ba15b4ba32</guid><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Wed, 25 Mar 2015 21:36:57 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;br&gt;&lt;/p&gt;</description><link>http://julia67.github.io/sndmakes-a-lightning-talk/</link><guid isPermaLink="false">aad38c46-52eb-455f-885c-8f31ec9f5c55</guid><category>opennews</category><category>talks</category><category>snd</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Sun, 12 Apr 2015 18:01:00 GMT</pubDate></item></channel></rss>
