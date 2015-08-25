@@ -1,4 +1,92 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 18 Aug 2015 22:20:41 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#NEJSConf: Animation basics with Snap.svg</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 25 Aug 2015 22:51:11 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Sixth Month</title><description>&lt;p&gt;The Sixth Month is over already? For real??&lt;/p&gt;
+
+&lt;p&gt;That's baffling. &lt;/p&gt;
+
+&lt;p&gt;Anyway. &lt;/p&gt;
+
+&lt;p&gt;I've had a bit of a breakthrough in the last four weeks. I wrote a &lt;a href="https://source.opennews.org/en-US/articles/building-data-viz-all/"&gt;Source post&lt;/a&gt;, gave a &lt;a href="http://julia67.github.io/the-sixth-month/../nejsconf-snap-svg"&gt;solo talk&lt;/a&gt; to a 200+ person audience, and finally &lt;em&gt;&lt;a href="http://julia67.github.io//julia-smith.com/animated-data-sonification"&gt;made something cool&lt;/a&gt;&lt;/em&gt; – so I'm feeling pretty productive and gaining some confidence when it comes to sharing the stuff I've been working on. &lt;/p&gt;
+
+&lt;p&gt;I've also been applying for a handful of things – grants, hack events, etc. – because I've started to realize that this fellowship isn't going to last forever (&lt;em&gt;sadness&lt;/em&gt;) and I need to make the most of the remaining four months and figure out what to do after it's over. &lt;/p&gt;
+
+&lt;p&gt;I think grad school is up next for me, but that leaves a six-month gap that I need to fill with either freelance work or possibly a grant-funded project. We'll see. &lt;em&gt;If anyone knows of some short-term opportunities, please &lt;a href="mailto:julia@julia-smith.com"&gt;let me know&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In the meantime, here's what I've been up to in the last month:&lt;/p&gt;
+
+&lt;h2 id="events"&gt;Events&lt;/h2&gt;
+
+&lt;h6 id="portlandcodeconvening"&gt;Portland Code Convening&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="http://julia67.github.io/the-sixth-month/../portland-cc-now-on-source/"&gt;Read all about it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="nebraskajavascriptconferencenejsconf"&gt;Nebraska JavaScript Conference (#NEJSConf)&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/08/zleatherman-nejsconf.jpg" alt=""&gt;
+&lt;span class="caption"&gt;Photo by &lt;a href="http://julia67.github.io//twitter.com/zachleat/status/629861052327530497"&gt;Zach Leatherman&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I was invited to speak at the first-annual &lt;a href="http://julia67.github.io//nejsconf.com/"&gt;NEJS Conf&lt;/a&gt;, which was held in Omaha on Aug. 7. The conference was much larger than I expected when I initially submitted my session proposal – turns out it was a single-track event with more than 200 attendees and some first-rate keynotes including &lt;a href="http://julia67.github.io//twitter.com/beep"&gt;Ethan Marcotte&lt;/a&gt; (AKA &lt;em&gt;the guy who single-handedly started the responsive web design movement&lt;/em&gt;). I may have been a little intimidated. &lt;/p&gt;
+
+&lt;p&gt;It was also the first time I had ever been invited to a "speakers dinner" – and this one happened to involve a limousine and steaks. Totally unnecessary. Still pretty awesome.&lt;/p&gt;
+
+&lt;p&gt;The event itself was great; everything went off without a hitch. It was held at the Omaha Zoo, so during breaks between speakers they brought in animals, including this adorable little guy named Garbonzo. So cute. &lt;/p&gt;
+
+&lt;p&gt;I was not in the best headspace before giving my talk, but it turned out OK. I walked through &lt;a href="http://julia67.github.io//julia-smith.com/nejsconf"&gt;these slides&lt;/a&gt; and then gave a demo of my &lt;a href="http://julia67.github.io//julia-smith.com/animated-data-sonification"&gt;mass shootings&lt;/a&gt; piece...which really took down the mood (&lt;em&gt;whoops&lt;/em&gt;) but was impressively effective at eliciting an emotional response from the audience.  I was excited about that. &lt;/p&gt;
+
+&lt;p&gt;Afterwards, Ethan said some really nice things and totally made my day.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://youtu.be/czlDCwi4VzY?t=2m59s" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/nejsconf"&gt;@nejsconf&lt;/a&gt;:&amp;#10;&amp;#10;I have done basically nothing with dataviz, but &lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt;’s &lt;a href="https://twitter.com/hashtag/nejsconf?src=hash"&gt;#nejsconf&lt;/a&gt; talk already has me wanting to check out Snap.svg.&lt;/p&gt;&amp;mdash; Ethan Marcotte (@beep) &lt;a href="https://twitter.com/beep/status/629738100168654848"&gt;August 7, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;blockquote class="twitter-tweet" data-conversation="none" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/nejsconf"&gt;@nejsconf&lt;/a&gt;:&amp;#10;&amp;#10;&lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt;’s animated, audio-enhanced timeline of mass shooting fatalities. Wow. &lt;a href="https://twitter.com/hashtag/nejsconf?src=hash"&gt;#nejsconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ethan Marcotte (@beep) &lt;a href="https://twitter.com/beep/status/629740976387436548"&gt;August 7, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;...I'm only a little star-struck. Ha.&lt;/p&gt;
+
+&lt;p&gt;It was also really awesome talking to a bunch of folks about the &lt;a href="https://opennews.org/what/fellowships/"&gt;Knight-Mozilla fellowship&lt;/a&gt; after the event. I hope some of them were conviced to apply! &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="projects"&gt;Projects&lt;/h2&gt;
+
+&lt;h6 id="inprogressanimateddatasonification"&gt;In Progress: Animated Data Sonification&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="http://julia67.github.io//julia-smith.com/animated-data-sonification"&gt;&lt;img src="http://julia67.github.io/content/images/2015/08/mass-shootings.jpg" alt="" title=""&gt;&lt;/a&gt;&lt;span class="caption"&gt;An interpretation of &lt;a href="http://julia67.github.io/the-sixth-month/www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data"&gt;Mother Jones' data&lt;/a&gt; on mass shootings in the United States since 1982.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check it out:&lt;/strong&gt; &lt;a href="http://julia67.github.io//julia-smith.com/animated-data-sonification"&gt;Demo&lt;/a&gt; | &lt;a href="http://julia67.github.io//github.com/julia67/animated-data-sonification"&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I am really happy with how this project is turning out. It's a totally custom visualiztion. It's minimal. It's emotive. It works well. And it gave me a reason to experiment with three things that had been on my bucket list for awhile: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://julia67.github.io//github.com/cirlabs/miditime/"&gt;MIDITime&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://julia67.github.io//snapsvg.io"&gt;Snap.svg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;HTML5 audio&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I still need to clean up the code and make some usability enhancements. I'd also love to make a mobile-specific (vertical) layout.&lt;/p&gt;
+
+&lt;p&gt;Erin Kissane asked me to write a &lt;a href="http://julia67.github.io//source.opennews.org/"&gt;Source&lt;/a&gt; post on it – so be on the lookout for that!&lt;/p&gt;
+
+&lt;h6 id="presentationanimationbasicswithsnapsvg"&gt;Presentation: Animation Basics with Snap.svg&lt;/h6&gt;
+
+&lt;p&gt;Check out &lt;a href="http://julia67.github.io//julia-smith.com/nejsconf"&gt;the Slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="inprogressdatavizforalldvfacomponents"&gt;In Progress: Data Viz for All &amp;amp; DVfA Components&lt;/h6&gt;
+
+&lt;p&gt;Check out &lt;a href="http://julia67.github.io//github.com/julia67/data-viz-for-all"&gt;DVfA&lt;/a&gt; and &lt;a href="http://julia67.github.io//github.com/julia67/dvfa-components"&gt;DVfA Components&lt;/a&gt; on GitHub. You can also read about the project on Source: &lt;a href="https://source.opennews.org/en-US/articles/building-data-viz-all/"&gt;Building on Data Viz for All&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="news"&gt;News&lt;/h2&gt;
+
+&lt;p&gt;Massively cool stuff coming up:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hacks/Hackers Buenos Aires Media Party 2015:&lt;/strong&gt; I'll be presenting on SVG animation and DVfA.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fellows Hack Week:&lt;/strong&gt; Working from Argentina!&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://julia67.github.io/the-sixth-month/</link><guid isPermaLink="false">363142ac-ba37-4509-a6bb-355554eed241</guid><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Wed, 19 Aug 2015 21:10:00 GMT</pubDate></item><item><title>#NEJSConf: Animation basics with Snap.svg</title><description>&lt;blockquote&gt;
   &lt;p&gt;This is my talk on SVG animation from &lt;a href="https://nejsconf.com/2015/julia67/"&gt;#NEJSConf&lt;/a&gt; in Omaha. You can walk through the &lt;a href="http://julia.nightbirdstudios.com/nejsconf/"&gt;presentation slides here&lt;/a&gt;. (They're also  &lt;a href="http://julia67.github.io//github.com/julia67/snap"&gt;on GitHub&lt;/a&gt;.)&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -108,7 +196,7 @@
       &lt;li&gt;&lt;a href="https://www.google.com/design/spec/animation/authentic-motion.html"&gt;Authentic motion&lt;/a&gt; | Google&lt;/li&gt;
       &lt;li&gt;&lt;a href="http://sarasoueidan.com/demos/interactive-svg-coordinate-system/index.html"&gt;Interactive SVG Coordinate System&lt;/a&gt; | Sara Soueidan&lt;/li&gt;
       &lt;li&gt;&lt;a href="http://svg.dabbles.info/"&gt;SVG Dabbles&lt;/a&gt; | @ianscoding&lt;/li&gt;
-    &lt;/ul&gt;</description><link>http://julia67.github.io/nejsconf-snap-svg/</link><guid isPermaLink="false">15ce5e80-49e5-4557-97ab-a63777319226</guid><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 11 Aug 2015 20:45:00 GMT</pubDate></item><item><title>Code Convening: Now on Source</title><description>&lt;p&gt;The 2015 Fellows met up in Portland, Oregon at the end of July to work on some of our open-source projects. We each brought a colleague from our host newsrooms and had a fabulous time coding things and trying as many Portland brews as possible in a three-day timespan.&lt;/p&gt;
+    &lt;/ul&gt;</description><link>http://julia67.github.io/nejsconf-snap-svg/</link><guid isPermaLink="false">15ce5e80-49e5-4557-97ab-a63777319226</guid><category>talks</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Tue, 11 Aug 2015 20:45:00 GMT</pubDate></item><item><title>Code Convening: Now on Source</title><description>&lt;p&gt;The 2015 Fellows met up in Portland, Oregon at the end of July to work on some of our open-source projects. We each brought a colleague from our host newsrooms and had a fabulous time coding things and trying as many Portland brews as possible in a three-day timespan.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/08/codeconvening.jpg" alt="" title=""&gt;&lt;span class="caption"&gt;Photo by &lt;a href="http://julia67.github.io//twitter.com/livlab/status/624744909782650880"&gt;Livia Labate&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
 
@@ -1075,6 +1163,10 @@ A few notes on deadlines: &lt;/p&gt;
 
 &lt;p&gt;I very much enjoyed being at a design event – I think sometimes the official news nerd conferences can be a little overwhelming because there are so many areas of concentration (reporting, data, coding, design, etc.), so sometimes it's nice to focus intently on one discipline.&lt;/p&gt;
 
+&lt;h6 id="codecontentmeetup"&gt;Code &amp;amp; Content Meetup&lt;/h6&gt;
+
+&lt;p&gt;There was a little meetup for news/tech types in San Francisco last week. It's always fun to meet new people with similar interests!&lt;/p&gt;
+
 &lt;hr&gt;
 
 &lt;h2 id="projects"&gt;Projects&lt;/h2&gt;
@@ -1815,65 +1907,4 @@ traditional design principles should guide your structural decisions. line lengt
 
 &lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
-&lt;p&gt;&lt;br&gt;Oh! I also gave a &lt;a href="http://julia67.github.io/sndmakes-emojis-and-more/../sndmakes-a-lightning-talk/"&gt;lightning talk&lt;/a&gt; during #SNDMakes on making performance-based design decisions. It was my first ever speaking engagement. I must say I was pretty intimidated to be speaking in front of such an amazing group, but I was pretty happy with how it turned out. The content was definitely the most technical (read: boring) of all the talks, but I still got a few laughs from the audience so I'll call it a win. 🎉&lt;/p&gt;</description><link>http://julia67.github.io/sndmakes-emojis-and-more/</link><guid isPermaLink="false">a168eb87-7421-4c34-8e7b-c1085dbab810</guid><category>opennews</category><category>snd</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Fri, 17 Apr 2015 00:45:00 GMT</pubDate></item><item><title>#SNDMakes: A lightning talk</title><description>&lt;blockquote&gt;
-  &lt;p&gt;This is my (essentially verbatim) lightning talk on Designing for Performance from &lt;a href="https://twitter.com/search?q=%23SNDMakes&amp;amp;src=tyah" target="_blank"&gt;#SNDMakes&lt;/a&gt; DC. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id="designingforperformance"&gt;Designing for Performance&lt;/h2&gt;
-
-&lt;p&gt;Hi, I’m going to chat for a minute about Designing for Performance – or as I like to call it: &lt;strong&gt;Keeping People Happy&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;We like to talk a lot about building robust, delightful user experiences. After all, we’ve all spent the last day and a half reimagining visual storytelling.&lt;/p&gt;
-
-&lt;p&gt;We're trying to make picture stories more contextual and engaging – and that’s awesome! But what we frequently forget to note is that the easiest way to ruin an awesome interactive experience for your user comes from one pesky, underemphasized problem: &lt;strong&gt;Performance...or lack thereof&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;So I’m going to go over a list of problematic performance issues and supply some strategies to help keep people happy. These are pretty basic tips, but a quick refresher never hurt!&lt;/p&gt;
-
-&lt;h2 id="problemarea1giganticimages"&gt;Problem Area 1: Gigantic Images&lt;/h2&gt;
-
-&lt;p&gt;As we all know, images are the biggest hit to website performance. There's a couple things you can do to help combat the problem.&lt;/p&gt;
-
-&lt;p&gt;First of all, &lt;strong&gt;reevaluate the design&lt;/strong&gt; to see if you really need them. Sometimes they’re necessary; sometimes they’re not. And if you definitely need the whole full-screen immersive experience, &lt;strong&gt;make sure you optimize&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Size your images for both screen width and device type. If your set-up allows you to &lt;strong&gt;serve scaled images&lt;/strong&gt;, you should absolutely do so.&lt;/li&gt;
-&lt;li&gt;Consider image quality. Don’t serve images that are a billion times more dense than they need to be. &lt;a href="https://kraken.io/web-interface" taret="_blank"&gt;Kraken.io&lt;/a&gt; has a free web interface to &lt;strong&gt;losslessly compress images&lt;/strong&gt;. You should use it. It works a heck of a lot better than just saving for web in Photoshop.&lt;/li&gt;
-&lt;li&gt;If you have a seriously image-heavy piece, &lt;strong&gt;preload your images&lt;/strong&gt;. &lt;/li&gt;
-&lt;li&gt;And &lt;strong&gt;don’t forget about caching&lt;/strong&gt;. Don’t make people download unchanged files over and over again.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="problemarea2fancypantsfonts"&gt;Problem Area 2: Fancy-pants Fonts&lt;/h2&gt;
-
-&lt;p&gt;Web fonts are also big and heavy and slow down your page.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The number one thing is to &lt;strong&gt;keep the number of web fonts to a minimum&lt;/strong&gt;. This includes different font weights. Loads web fonts just aren’t necessary. &lt;/li&gt;
-&lt;li&gt;Subset your font resources so you &lt;strong&gt;only deliver the glyphs you actually need&lt;/strong&gt; on a page.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Make sure your custom fonts are compressed&lt;/strong&gt; before you serve them. TrueType formats aren’t compressed by default, so you should GZIP those.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="problemarea3css"&gt;Problem Area 3: CSS&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Preprocessors are awesome&lt;/strong&gt;, but they can bloat your code pretty significantly, so be careful. &lt;/li&gt;
-&lt;li&gt;Always &lt;strong&gt;minify&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Remember to &lt;strong&gt;avoid CSS properties that repaint the screen&lt;/strong&gt; on scroll. These include:
-&lt;ul&gt;&lt;li&gt;CSS filters  &lt;/li&gt;
-&lt;li&gt;overzealous box-shadows and transforms&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A note on responsive: &lt;strong&gt;The fewer media queries you need the better.&lt;/strong&gt; If your project can get away with a single-column layout, perfect.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="problemarea4js"&gt;Problem Area 4: JS&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;This is a huge one that I’m not going to get into right now.&lt;/li&gt;
-&lt;li&gt;But I will say this: &lt;strong&gt;Audit your dependencies.&lt;/strong&gt; Make sure you’re not including unnecessary code on the page – and try to ensure the rest of your code is as efficient as possible.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="keytakeawayperformanceisafeature"&gt;Key Takeaway: Performance is a Feature&lt;/h2&gt;
-
-&lt;p&gt;Remember that performance is a feature, and it has a huge impact on user experience. A fast site leads to happy users – let's &lt;strong&gt;keep people happy&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;A handful of performance resources, for those interested. &lt;a href="https://t.co/DCizODACh3"&gt;https://t.co/DCizODACh3&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/SNDMakes?src=hash"&gt;#SNDMakes&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julia Smith (@julia67) &lt;a href="https://twitter.com/julia67/status/586242052960161792"&gt;April 9, 2015&lt;/a&gt;&lt;/blockquote&gt;  
-
-&lt;p&gt;&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;br&gt;&lt;/p&gt;</description><link>http://julia67.github.io/sndmakes-a-lightning-talk/</link><guid isPermaLink="false">aad38c46-52eb-455f-885c-8f31ec9f5c55</guid><category>opennews</category><category>talks</category><category>snd</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Sun, 12 Apr 2015 18:01:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;br&gt;Oh! I also gave a &lt;a href="http://julia67.github.io/sndmakes-emojis-and-more/../sndmakes-a-lightning-talk/"&gt;lightning talk&lt;/a&gt; during #SNDMakes on making performance-based design decisions. It was my first ever speaking engagement. I must say I was pretty intimidated to be speaking in front of such an amazing group, but I was pretty happy with how it turned out. The content was definitely the most technical (read: boring) of all the talks, but I still got a few laughs from the audience so I'll call it a win. 🎉&lt;/p&gt;</description><link>http://julia67.github.io/sndmakes-emojis-and-more/</link><guid isPermaLink="false">a168eb87-7421-4c34-8e7b-c1085dbab810</guid><category>opennews</category><category>snd</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Fri, 17 Apr 2015 00:45:00 GMT</pubDate></item></channel></rss>
