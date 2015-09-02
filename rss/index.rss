@@ -1,4 +1,50 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 26 Aug 2015 01:18:34 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Sixth Month</title><description>&lt;p&gt;The Sixth Month is over already? For real??&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 02 Sep 2015 19:47:31 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#HHBA Media Party 2015</title><description>&lt;p&gt;¡Hola de Buenos Aires! &lt;/p&gt;
+
+&lt;p&gt;The Hacks/Hackers BA &lt;a href="http://mediaparty.info/"&gt;Media Party&lt;/a&gt; was held last week at the &lt;a href="http://www.ciudadculturalkonex.org/"&gt;Ciudad Cultural Konex&lt;/a&gt; in Buenos Aires, Argentina. It was a super cool event and reminded me – again – that I need to learn how to speak Spanish.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://goo.gl/photos/wNSKRijpJkVFPgrEA" target="_blank"&gt;&lt;img src="http://julia67.github.io/content/images/2015/09/hhba.jpg" alt="" title=""&gt;&lt;/a&gt;&lt;span class="caption"&gt;Photos by Mitch Barry.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;A few of the fellows gave keynote talks and facilitated workshops – I did both. The keynotes were in the mornings during the single-track portion of the conference, and the multi-track workshops were held during the afternoons.&lt;/p&gt;
+
+&lt;h4 id="keynoteanimatingdataslideshttpjuliasmithcomhhbakeynote"&gt;Keynote: Animating Data (&lt;a href="http://julia-smith.com/hhba-keynote/"&gt;Slides&lt;/a&gt;)&lt;/h4&gt;
+
+&lt;p&gt;This goal of this talk was to illustrate how animation can enhance data visualization and then demo examples from different news organizations that have used animation really successfully in their projects.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;.&lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt; presenting on power of animating data to tell stories. (hey, losing ground! &lt;a href="http://t.co/DoR23n7txa"&gt;http://t.co/DoR23n7txa&lt;/a&gt;) &lt;a href="https://twitter.com/hashtag/hhba?src=hash"&gt;#hhba&lt;/a&gt; &lt;a href="http://t.co/dtrn3dk4tQ"&gt;pic.twitter.com/dtrn3dk4tQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Amanda Zamora (@amzam) &lt;a href="https://twitter.com/amzam/status/637274066664210432"&gt;August 28, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;Overall I thought it went pretty well. I was much more comfortable on stage this time (commpared to NEJSConf), and I was excited to have another opportunity to demo my &lt;a href="http://julia-smith.com/animated-data-sonification/"&gt;Mass Shootings&lt;/a&gt; project. It's been interesting to see people's reactions to it. Some seem to really like it and think it's a moving and tasteful way to represent the gravity of the data. Other people interpret the audio in an entirely different way than I intended – it seems they perceive the piano track as sounding "happy." I may write more on this later.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Creating an emotional response animating &lt;a href="https://twitter.com/hashtag/dataviz?src=hash"&gt;#dataviz&lt;/a&gt; Here: US mass shootings &lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/MediaParty?src=hash"&gt;#MediaParty&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/hhba?src=hash"&gt;#hhba&lt;/a&gt; &lt;a href="http://t.co/hHxMve3UXW"&gt;pic.twitter.com/hHxMve3UXW&lt;/a&gt;&lt;/p&gt;&amp;mdash; Maria Cruz (@marianarra_) &lt;a href="https://twitter.com/marianarra_/status/637274392393871360"&gt;August 28, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Fantastic animated and sonified &lt;a href="https://twitter.com/hashtag/dataviz?src=hash"&gt;#dataviz&lt;/a&gt; showing mass shootings in the U.S. by &lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt; &lt;a href="http://t.co/aWIo8XeMPd"&gt;http://t.co/aWIo8XeMPd&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/hhba?src=hash"&gt;#hhba&lt;/a&gt;&lt;/p&gt;&amp;mdash; Zara Rahman (@zararah) &lt;a href="https://twitter.com/zararah/status/637274803230130176"&gt;August 28, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;h4 id="workshopanimationbasicswithsnapsvgtutorialhttpsgithubcomjulia67snapbasicsslideshttpjuliasmithcomnejsconf"&gt;Workshop: Animation Basics with Snap.svg (&lt;a href="https://github.com/julia67/snap-basics"&gt;Tutorial&lt;/a&gt; | &lt;a href="http://julia-smith.com/nejsconf"&gt;Slides&lt;/a&gt;)&lt;/h4&gt;
+
+&lt;p&gt;Leading the workshop was a lot of fun. I did a quick run through my slides to review the "whys" of SVG and animation, and then we jumped into the hands-on portion of the event. &lt;/p&gt;
+
+&lt;p&gt;Walking everyone through my &lt;a href="https://github.com/julia67/snap-basics"&gt;tutorial repo&lt;/a&gt; went pretty smoothly. It ended up being a bit short, so I'll definitely add more to it before &lt;a href="https://2015.mozillafestival.org/"&gt;MozFest&lt;/a&gt;. But even though I ran out of planned examples, a handful of participants were really engaged with questions and ideas, so we ended up going through additional examples on the fly, which was really great and filled up the full two hours. I'm excited to give the workshop another go at MozFest in November.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Thanks for your workshop of Animation with Snap &lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt;&lt;/p&gt;&amp;mdash; Enzo Oliva (@enzoliva) &lt;a href="https://twitter.com/enzoliva/status/638436705352163328"&gt;August 31, 2015&lt;/a&gt;&lt;/blockquote&gt;  
+
+&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;h4 id="enoughaboutme"&gt;Enough about me&lt;/h4&gt;
+
+&lt;p&gt;The rest of the conference was awesome. &lt;a href="http://julia67.github.io//twitter.com/blejman"&gt;Mariano Blejman&lt;/a&gt; and team did a fabulous job organizing and coordinating the main event and all the dinners and afterparties. It was super cool seeing my fellow fellows onstage talking about &lt;a href="http://julia67.github.io//twitter.com/frnsys"&gt;building online communities&lt;/a&gt;, &lt;a href="http://julia67.github.io//twitter.com/kavyasukumar"&gt;why you shouldn't major in computer science&lt;/a&gt;, and &lt;a href="http://julia67.github.io//twitter.com/jjelosua"&gt;iterative learning through elections&lt;/a&gt;. The other talks were really interesting too. I especially enjoyed &lt;a href="http://julia67.github.io//twitter.com/JenniferBrandel"&gt;Jennifer Brandel&lt;/a&gt;'s talk about &lt;a href="http://www.wearehearken.com/"&gt;Hearken&lt;/a&gt;, "an audience-driven platform enabling newsrooms to engage the public throughout the reporting process." Really insightful stuff.&lt;/p&gt;
+
+&lt;p&gt;Plus it's so exciting to be in Argentina! This has been my first time in South America, and I am loving it. The food (carne! chorizo! dulce de leche!) is amazing. And my favorite thing thusfar has been the Media Party's closing event, which was held at La Catedral Tango Club. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/09/tango.jpg" alt="" title=""&gt;&lt;span class="caption"&gt;Dancing people are pretty.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The Media Party ended on Saturday, but the 2015 fellows are sticking around Argentina for the next couple days to code some things and spend some quality time together. &lt;/p&gt;
+
+&lt;p&gt;Good times.&lt;/p&gt;</description><link>http://julia67.github.io/hhba-media-party-2015/</link><guid isPermaLink="false">359d124b-18a0-4a4a-a0e6-72bdef71de24</guid><dc:creator>Julia Smith</dc:creator><pubDate>Wed, 02 Sep 2015 19:42:50 GMT</pubDate></item><item><title>The Sixth Month</title><description>&lt;p&gt;The Sixth Month is over already? For real??&lt;/p&gt;
 
 &lt;p&gt;That's baffling. &lt;/p&gt;
 
@@ -1888,26 +1934,4 @@ traditional design principles should guide your structural decisions. line lengt
 
 &lt;ul&gt;
 &lt;li&gt;A former client of mine needed some updates to their website, so I spent a decent chunk of my evenings revisiting Wordpress for them.  &lt;/li&gt;
-&lt;/ul&gt;</description><link>http://julia67.github.io/the-second-month/</link><guid isPermaLink="false">999200fc-907e-460b-8ef3-385788286bda</guid><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Mon, 20 Apr 2015 23:44:00 GMT</pubDate></item><item><title>#SNDMakes: Emojis and more</title><description>&lt;p&gt;I spent last week in Washington, D.C., at &lt;a href="http://www.snd.org/2015/04/60-participants-reimagine-photo-stories-during-sndmakes-at-snddc" target="_blank"&gt;#SNDMakes&lt;/a&gt;, a “boutique prototyping event” sponsored by the Society for News Design. I was lucky enough to be one of 60 designers, developers, and visual storytellers from newsrooms around the country who participated in the event. &lt;/p&gt;
-
-&lt;p&gt;My team designed &lt;a href="http://sixfoot6.com/emojinius/" target="_blank"&gt;EMOJINIUS&lt;/a&gt;, an emoji annotation system. We were exploring how we could add value to a story by making audience engagement easier and more visual – so we designed a Medium-style, in-line commenting solution that uses emoji instead of text comments.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Comments are often damaging rather than constructive. And sometimes you can say it better with an emoji. They’re fun and delightful — and have evolved into a legitimate visual language. There's an opportunity to lower the barrier for audience engagement, and create a safe experience for capturing and exposing even anonymous responses.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It was a lot of fun working with &lt;a href="http://twitter.com/buttersdesign" target="_blank"&gt;Ellen&lt;/a&gt;, &lt;a href="http://twitter.com/annemiaoli" target="_blank"&gt;Anne&lt;/a&gt;,  &lt;a href="http://twitter.com/sixfoot6" target="_blank"&gt;Ryan&lt;/a&gt;, and &lt;a href="http://twitter.com/oneillclaire" target="_blank"&gt;Claire&lt;/a&gt; on the project. Our team’s collective skillset was heavily slanted toward design and UX, so we spent a lot of time talking through scenarios and use cases, and less time developing a proof of concept. It was cool that the event had such a design focus – we didn't feel overly pressured to churn out a bunch of bad code.&lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;Emojithink with &lt;a href="https://twitter.com/sixfoot6"&gt;@sixfoot6&lt;/a&gt; &lt;a href="https://twitter.com/ButtersDesign"&gt;@ButtersDesign&lt;/a&gt; &lt;a href="https://twitter.com/oneillclaire"&gt;@oneillclaire&lt;/a&gt; &lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/sndmakes?src=hash"&gt;#sndmakes&lt;/a&gt; 🙅🙌 &lt;a href="http://t.co/B8DzsKh17h"&gt;pic.twitter.com/B8DzsKh17h&lt;/a&gt;&lt;/p&gt;&amp;mdash; Anne Li (@annemiaoli) &lt;a href="https://twitter.com/annemiaoli/status/586602307158179842"&gt;April 10, 2015&lt;/a&gt;&lt;/blockquote&gt;  
-
-&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;br&gt;After the #SNDMakes event wrapped up, I stuck around for the rest of the SNDDC workshop. I especially enjoyed &lt;a href="https://twitter.com/hellbox" target="_blank"&gt;Martin McClellan's&lt;/a&gt; &lt;a href="http://www.snd.org/dc2015/tiny-frames-mobile-first-design-inside-of-breaking-news/" target="_blank"&gt;session&lt;/a&gt; on the UX design process for the &lt;a href="https://twitter.com/BreakingNews" target="_blank"&gt;Breaking News&lt;/a&gt; mobile app. &lt;/p&gt;
-
-&lt;p&gt;It was cool to see some examples of news-oriented product design. Working on mobile apps is a thing I'd like to do more of in the future, and it's always great to get a glimpse of another group's processes.&lt;br&gt;&lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;Martin McClellan &lt;a href="https://twitter.com/hellbox"&gt;@hellbox&lt;/a&gt; goes behind the iterative design process on the &lt;a href="https://twitter.com/BreakingNews"&gt;@BreakingNews&lt;/a&gt; mobile app &lt;a href="https://twitter.com/hashtag/SNDDC?src=hash"&gt;#SNDDC&lt;/a&gt; &lt;a href="http://t.co/QR6SXTy62Q"&gt;pic.twitter.com/QR6SXTy62Q&lt;/a&gt;&lt;/p&gt;&amp;mdash; Dan Archer (@archcomix) &lt;a href="https://twitter.com/archcomix/status/586940934157402112"&gt;April 11, 2015&lt;/a&gt;&lt;/blockquote&gt;  
-
-&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;br&gt;Oh! I also gave a &lt;a href="http://julia67.github.io/sndmakes-emojis-and-more/../sndmakes-a-lightning-talk/"&gt;lightning talk&lt;/a&gt; during #SNDMakes on making performance-based design decisions. It was my first ever speaking engagement. I must say I was pretty intimidated to be speaking in front of such an amazing group, but I was pretty happy with how it turned out. The content was definitely the most technical (read: boring) of all the talks, but I still got a few laughs from the audience so I'll call it a win. 🎉&lt;/p&gt;</description><link>http://julia67.github.io/sndmakes-emojis-and-more/</link><guid isPermaLink="false">a168eb87-7421-4c34-8e7b-c1085dbab810</guid><category>opennews</category><category>snd</category><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Fri, 17 Apr 2015 00:45:00 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><link>http://julia67.github.io/the-second-month/</link><guid isPermaLink="false">999200fc-907e-460b-8ef3-385788286bda</guid><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Mon, 20 Apr 2015 23:44:00 GMT</pubDate></item></channel></rss>
