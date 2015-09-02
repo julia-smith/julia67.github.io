@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 02 Sep 2015 19:47:31 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#HHBA Media Party 2015</title><description>&lt;p&gt;¡Hola de Buenos Aires! &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 02 Sep 2015 19:50:53 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#HHBA Media Party 2015</title><description>&lt;p&gt;¡Hola de Buenos Aires! &lt;/p&gt;
 
 &lt;p&gt;The Hacks/Hackers BA &lt;a href="http://mediaparty.info/"&gt;Media Party&lt;/a&gt; was held last week at the &lt;a href="http://www.ciudadculturalkonex.org/"&gt;Ciudad Cultural Konex&lt;/a&gt; in Buenos Aires, Argentina. It was a super cool event and reminded me – again – that I need to learn how to speak Spanish.&lt;/p&gt;
 
@@ -24,7 +24,7 @@
 
 &lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
-&lt;h4 id="workshopanimationbasicswithsnapsvgtutorialhttpsgithubcomjulia67snapbasicsslideshttpjuliasmithcomnejsconf"&gt;Workshop: Animation Basics with Snap.svg (&lt;a href="https://github.com/julia67/snap-basics"&gt;Tutorial&lt;/a&gt; | &lt;a href="http://julia-smith.com/nejsconf"&gt;Slides&lt;/a&gt;)&lt;/h4&gt;
+&lt;h4 id="workshopanimationwithsnapsvgtutorialhttpsgithubcomjulia67snapbasicsslideshttpjuliasmithcomnejsconf"&gt;Workshop: Animation with Snap.svg (&lt;a href="https://github.com/julia67/snap-basics"&gt;Tutorial&lt;/a&gt; | &lt;a href="http://julia-smith.com/nejsconf"&gt;Slides&lt;/a&gt;)&lt;/h4&gt;
 
 &lt;p&gt;Leading the workshop was a lot of fun. I did a quick run through my slides to review the "whys" of SVG and animation, and then we jumped into the hands-on portion of the event. &lt;/p&gt;
 
