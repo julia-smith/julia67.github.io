@@ -1,0 +1,311 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hack Week Project: More fun with SVG animation</title>
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e0fa635db6">
+    <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7CRoboto:300,500,700">
+
+    <link rel="canonical" href="http://julia67.github.io/hack-week-project/">
+    
+    <meta property="og:site_name" content="musings">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Hack Week Project: More fun with SVG animation">
+    <meta property="og:description" content='After the HHBA Media Party, all of us Knight-Mozilla fellows stayed in a Buenos Aires for another week, working on side projects and exploring the city together. I used my "hacking" time to continue working with Snap.svg – my hope...'>
+    <meta property="og:url" content="http://julia67.github.io/hack-week-project/">
+    <meta property="article:published_time" content="2015-09-07T19:58:00.000Z">
+    <meta property="article:modified_time" content="2015-09-18T00:06:41.158Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hack Week Project: More fun with SVG animation">
+    <meta name="twitter:description" content='After the HHBA Media Party, all of us Knight-Mozilla fellows stayed in a Buenos Aires for another week, working on side projects and exploring the city together. I used my "hacking" time to continue working with Snap.svg – my hope...'>
+    <meta name="twitter:url" content="http://julia67.github.io/hack-week-project/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "musings",
+    "author": {
+        "@type": "Person",
+        "name": "Julia Smith",
+        "url": "http://julia67.github.io/author/julia",
+        "sameAs": null
+    },
+    "headline": "Hack Week Project: More fun with SVG animation",
+    "url": "http://julia67.github.io/hack-week-project/",
+    "datePublished": "2015-09-07T19:58:00.000Z",
+    "dateModified": "2015-09-18T00:06:41.158Z",
+    "description": "After the HHBA Media Party, all of us Knight-Mozilla fellows stayed in a Buenos Aires for another week, working on side projects and exploring the city together. I used my &quot;hacking&quot; time to continue working with Snap.svg – my hope..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.5">
+    <link rel="alternate" type="application/rss+xml" title="musings" href="http://julia67.github.io/rss/">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://julia67.github.io/">Home</a></li>
+            <li class="nav-about" role="presentation"><a href="http://julia67.github.io/julia-who/">About</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button" href="index.html#"><span class="burger">☰</span><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Hack Week Project: More fun with SVG animation</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-09-07">07 September 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>After the <a href="../hhba-media-party-2015/">HHBA Media Party</a>, all of us Knight-Mozilla fellows stayed in a Buenos Aires for another week, working on side projects and exploring the city together.</p>
+
+<p>I used my "hacking" time to continue working with <a href="http://snapsvg.io/docs">Snap.svg</a> – my hope was to complete a few more experiments that I could then incorporate into my workshop resources for <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CB0QFjAAahUKEwj84tPAn__HAhWLSZIKHY3gDl4&amp;url=https%3A%2F%2F2015.mozillafestival.org%2F&amp;usg=AFQjCNGo45gOnEhHvdxAEh8dn-LpSTpygw&amp;bvm=bv.102829193,d.aWw">MozFest</a>. </p>
+
+<p>One experiment was particularly fun to work on: an animated map of travel destinations.</p>
+
+<p><img src="../content/images/2015/09/travel-map.gif" alt="" title=""><span class="caption">Please excuse the massive GIF; I don't have a real demo up anywhere yet.</span></p>
+
+<p>I didn't have enough time to finish it (and the animation is quite unrefined at the moment) but it's still sorta fun.</p>
+
+<p>It takes a list of events (with dates and location information), plots them on a map, and animates the travel to-and-from the destination. </p>
+
+<p>So, how exactly does it move a star from one location to the next? <em>I'm so glad you asked.</em></p>
+
+<h2 id="howtomakeansvgstarshootsomewhere">How to make an SVG star shoot somewhere</h2>
+
+<p>This example will illustrate how to create and move a single star. I removed all sequencing functionality for simplicity's sake, so we're just going to look at how to make a star shape fly to New York City from San Francisco.</p>
+
+<p>If you're interested in the whole thing, check out the <a href="https://github.com/julia67/travel-map">project on GitHub</a>. Heads up, though – I'm passively working on it, so it'll be in various states of completion.</p>
+
+<h6 id="step0defineyourdata">Step 0: Define your data</h6>
+
+<p>You need two data files – one that contains individual event data and looks like something like this: </p>
+
+<pre><code>var data = [
+  {
+    "event": "Audio Hackathon",
+    "location": "New York City",
+    "startDate": "09-19-2015",
+    "endDate": "09-20-2015",
+    "from": "San Francisco",
+    "to": "Los Angeles"
+  }
+]
+</code></pre>
+
+<p>and another that contains coordinates for different locations, like this:</p>
+
+<pre><code>var locations = [
+  {
+    "location": "Los Angeles",
+    "x": 140,
+    "y": 132
+  },      
+  {
+    "location": "New York City",
+    "x": 244,
+    "y": 114
+  },
+  {
+    "location": "San Francisco",
+    "x": 135,
+    "y": 120
+  }
+]
+</code></pre>
+
+<p>The coordinates themselves are fairly arbitrary for this exercise – they're simply the XY coordinates for each city's location on the <a href="https://github.com/julia67/travel-map/raw/master/media/BlankMap-World6.svg">SVG file</a> we're using (they're not actual geocoordinates).</p>
+
+<h6 id="step1getsomelocationinformation">Step 1: Get some location information</h6>
+
+<p>As you can see in the events list, each event object includes a field for the primary destination (<code>"location": "New York City"</code>) as well as the cities we left  (<code>"from": "San Francisco"</code>) and return to (<code>"to": "Los Angeles"</code>). So the first thing we want to do is get the coordinates of each of these cities from the locations data (<code>var locations</code>).</p>
+
+<pre><code>var startX, startY, posX, posY, endX, endY;
+
+for (var i=0; i&lt;locations.length; i++){
+
+  // look for the entry with a matching starting `location` value
+  if (locations[i].location == data[0].from){
+    startX = locations[i].x;
+    startY = locations[i].y;
+  }
+
+  // look for the entry with a matching destination `location` value
+  if (locations[i].location == data[0].location){
+    destX = locations[i].x;
+    destY = locations[i].y;
+  }
+
+  // look for the entry with a matching ending `location` value
+  if (locations[i].location == data[0].to){
+    endX = locations[i].x;
+    endY = locations[i].y;
+  }
+
+}
+</code></pre>
+
+<h6 id="step2createaprettystarshape">Step 2: Create a pretty star shape</h6>
+
+<p>I made a star in Illustrator, saved it as an SVG, and copied the path data into my JS code.</p>
+
+<pre><code>var star = g.path('M 0.000 15.000,L 23.511 32.361,L 14.266 4.635,L 38.042 -12.361,L 8.817 -12.135,L 0.000 -40.000,L -8.817 -12.135,L -38.042 -12.361,L -14.266 4.635,L -23.511 32.361,L 0.000 15.000');
+</code></pre>
+
+<h6 id="step3definethestarsstartposition">Step 3: Define the star's start position</h6>
+
+<p>With <a href="http://snapsvg.io/docs">Snap.svg</a>, all transformations are represented by a matrix object, which is a collection of parameters that describe the transformation you want to perform on an element. The matrix object can than be further manipulated via methods like <code>clone()</code>, <code>invert()</code>, <code>rotate()</code>, <code>scale()</code>, <code>translate()</code>.</p>
+
+<pre><code>var startMatrix = new Snap.Matrix();
+
+startMatrix.translate(startX, startY);
+startMatrix.scale(.15, .15);
+
+star.attr({
+  transform: startMatrix,
+  class: 'event',
+  fill: '#00a99d'
+});
+</code></pre>
+
+<p>Here we created a new matrix and then passed the starting X and Y positions to the <code>translate</code> method. We used the <code>scale</code> method to make the star shape a reasonable size.</p>
+
+<p>After the matrix was defined, we declared it as an attribute to the star element.</p>
+
+<h6 id="step4definethedestinationandendpositions">Step 4: Define the destination and end positions</h6>
+
+<pre><code>var destMatrix = new Snap.Matrix(),
+    endMatrix = new Snap.Matrix();
+
+destMatrix.translate(destX, destY);
+destMatrix.scale(.15, .15);
+
+endMatrix.translate(endX, endY);
+endMatrix.scale(.15, .15);
+</code></pre>
+
+<p>Here we defined the Snap matrices for the destination XY coordinates and the end XY coordinates.</p>
+
+<h6 id="step5animatethematrixtransforms">Step 5: Animate the matrix transforms</h6>
+
+<p>Snap's animation method is pretty straightforward: you pass it the attributes you want to change, the duration of the animation, the type of easing you want, and then a callback function that fires when the animation is complete. </p>
+
+<pre><code>// move star to the destination position
+star.animate({
+  transform: destMatrix
+}, 1000, mina.easeinout, function(){
+
+  setTimeout(function(){
+    // move star to the end position
+    star.animate({
+      transform: endMatrix
+    }, 1000, mina.easeinout);
+  }, 500); //time between ariving and leaving destination
+
+});
+</code></pre>
+
+<p>Here, the first animation transforms the star from its starting position to its destination position. Once the first animation is complete, we trigger the final animation in the callback function.</p>
+
+<p><img src="../content/images/2015/09/one-star.gif" alt=""></p>
+
+<h6 id="fin">Fin</h6>
+
+<p>There you have it: a tiny star that starts in one position, flies somewhere else, and ends in a third spot. </p>
+
+<p><iframe src="http://giphy.com/embed/R6bDgXEXCLcIw" width="480" height="360" frameborder="0" class="giphy-embed" allowfullscreen></iframe></p><p></p>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/julia/">Julia Smith</a></h4>
+
+                    <p>Read <a href="../author/julia/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Hack%20Week%20Project%3A%20More%20fun%20with%20SVG%20animation&amp;url=http://julia67.github.io/hack-week-project/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://julia67.github.io/hack-week-project/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://julia67.github.io/hack-week-project/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://julia67.github.io">musings</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=e0fa635db6"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e0fa635db6"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e0fa635db6"></script>
+    <script type="text/javascript" src="../assets/js/pym.min.js?v=e0fa635db6"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54002010-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
