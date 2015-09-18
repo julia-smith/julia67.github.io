@@ -1,37 +1,38 @@
-
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>#NEJSConf: Animation basics with Snap.svg</title>
     <meta http-equiv="Cache-control" content="public">
-    <meta name="description" content="">
+    <meta name="description" content="" />
 
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e0fa635db6">
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=e0fa635db6" />
     <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />-->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7CRoboto:300,500,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,500,700" />
 
-    <link rel="canonical" href="http://julia67.github.io/nejsconf-snap-svg/">
+    <link rel="canonical" href="http://julia67.github.io/nejsconf-snap-svg/" />
     
-    <meta property="og:site_name" content="musings">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="#NEJSConf: Animation basics with Snap.svg">
-    <meta property="og:description" content="This is my talk on SVG animation from #NEJSConf in Omaha. You can walk through the presentation slides here. (They're also  on GitHub.) Why SVG Today we’re going to talk about SVG. More specifically, we're going to talk about...">
-    <meta property="og:url" content="http://julia67.github.io/nejsconf-snap-svg/">
-    <meta property="article:published_time" content="2015-08-11T20:45:00.000Z">
-    <meta property="article:modified_time" content="2015-08-25T21:30:04.500Z">
-    <meta property="article:tag" content="talks">
-    <meta property="article:tag" content="conf">
+    <meta property="og:site_name" content="musings" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="#NEJSConf: Animation basics with Snap.svg" />
+    <meta property="og:description" content="This is my talk on SVG animation from #NEJSConf in Omaha. You can walk through the presentation slides here. (They&#x27;re also  on GitHub.) Why SVG Today we’re going to talk about SVG. More specifically, we&#x27;re going to talk about..." />
+    <meta property="og:url" content="http://julia67.github.io/nejsconf-snap-svg/" />
+    <meta property="article:published_time" content="2015-08-11T20:45:00.000Z" />
+    <meta property="article:modified_time" content="2015-08-25T21:30:04.500Z" />
+    <meta property="article:tag" content="talks" />
+    <meta property="article:tag" content="conf" />
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="#NEJSConf: Animation basics with Snap.svg">
-    <meta name="twitter:description" content="This is my talk on SVG animation from #NEJSConf in Omaha. You can walk through the presentation slides here. (They're also  on GitHub.) Why SVG Today we’re going to talk about SVG. More specifically, we're going to talk about...">
-    <meta name="twitter:url" content="http://julia67.github.io/nejsconf-snap-svg/">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="#NEJSConf: Animation basics with Snap.svg" />
+    <meta name="twitter:description" content="This is my talk on SVG animation from #NEJSConf in Omaha. You can walk through the presentation slides here. (They&#x27;re also  on GitHub.) Why SVG Today we’re going to talk about SVG. More specifically, we&#x27;re going to talk about..." />
+    <meta name="twitter:url" content="http://julia67.github.io/nejsconf-snap-svg/" />
     
     <script type="application/ld+json">
 {
@@ -53,21 +54,21 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 0.5">
-    <link rel="alternate" type="application/rss+xml" title="musings" href="http://julia67.github.io/rss/">
+    <meta name="generator" content="Ghost 0.5" />
+    <link rel="alternate" type="application/rss+xml" title="musings" href="http://julia67.github.io/rss/" />
 </head>
 <body class="post-template tag-talks tag-conf nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
-    <a href="../nejsconf-snap-svg.21#" class="nav-close">
+    <a href="nejsconf-snap-svg.21#" class="nav-close">
         <span class="hidden">Close</span>
     </a>
     <ul>
             <li class="nav-home" role="presentation"><a href="http://julia67.github.io/">Home</a></li>
             <li class="nav-about" role="presentation"><a href="http://julia67.github.io/julia-who/">About</a></li>
     </ul>
-    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="rss/index.html">Subscribe</a>
 </div>
 <span class="nav-cover"></span>
 
@@ -80,7 +81,7 @@
 <header class="main-header post-head no-cover">
     <nav class="main-nav  clearfix">
         
-            <a class="menu-button" href="../nejsconf-snap-svg.21#"><span class="burger">☰</span><span class="word">Menu</span></a>
+            <a class="menu-button" href="nejsconf-snap-svg.21#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
     </nav>
 </header>
 
@@ -90,7 +91,7 @@
         <header class="post-header">
             <h1 class="post-title">#NEJSConf: Animation basics with Snap.svg</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="2015-08-11">11 August 2015</time>  on <a href="../tag/talks/">talks</a>, <a href="../tag/conf/">conf</a>
+                <time class="post-date" datetime="2015-08-11">11 August 2015</time>  on <a href="tag/talks/index.html">talks</a>, <a href="tag/conf/index.html">conf</a>
             </section>
         </header>
 
@@ -101,7 +102,7 @@
 
 <h2 id="whysvg">Why SVG</h2>
 
-<p>Today we’re going to talk about SVG. More specifically, we're going to talk about how to animate SVG graphics with a really awesome little library called <a href="../nejsconf-snap-svg.21">Snap</a>. </p>
+<p>Today we’re going to talk about SVG. More specifically, we're going to talk about how to animate SVG graphics with a really awesome little library called <a href="nejsconf-snap-svg.21">Snap</a>. </p>
 
 <p>I’m not sure how many of you work with SVG regularly, but just in case you’re unfamiliar, here’s a quick refresher on why SVG is a totally viable thing to use in your web apps.</p>
 
@@ -109,33 +110,33 @@
 
 <h6 id="resolutionindependent">Resolution Independent</h6>
 
-<p>The first useful thing about SVG is that it’s resolution independent. It looks good at any size and will never appear fuzzy. <br>
-<iframe src="http://julia-smith.com/nejsconf/#why-svg-1" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-1">Full screen</a></span></p>
+<p>The first useful thing about SVG is that it’s resolution independent. It looks good at any size and will never appear fuzzy. <br />
+<iframe src="http://julia-smith.com/nejsconf/#why-svg-1" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-1">Full screen</a></span></p>
 
 <h6 id="lightweight">Lightweight</h6>
 
-<p>Because the images are defined as text elements and attributes, SVG images can be significantly smaller to download than you standard JPGs, PNGs or GIFs, and that opens a lot of doors for creating visually complex yet performant experiences for your users. <br>
-<iframe src="http://julia-smith.com/nejsconf/#why-svg-2" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-2">Full screen</a></span></p>
+<p>Because the images are defined as text elements and attributes, SVG images can be significantly smaller to download than you standard JPGs, PNGs or GIFs, and that opens a lot of doors for creating visually complex yet performant experiences for your users. <br />
+<iframe src="http://julia-smith.com/nejsconf/#why-svg-2" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-2">Full screen</a></span></p>
 
 <p>Also, if you need the same image in different sizes (like a logo or icons), you’re in luck! With SVG you can use the same file for all purposes, which cuts down on bandwidth. Along the same lines, you can repurpose the same image file with different colors and treatments, which negates the need for raster sprites with all the possible hover states and retina sizes, etc. You don’t need to do that anymore and it’s wonderful.</p>
 
 <h6 id="styleable">Styleable</h6>
 
-<p>Like I just mentioned, SVGs are styleable. You can access and modify different properties for paths, shapes, gradients, opacity, filters, text, clipping masks – all those good things. <br>
-<iframe src="http://julia-smith.com/nejsconf/#why-svg-3" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-3">Full screen</a></span></p>
+<p>Like I just mentioned, SVGs are styleable. You can access and modify different properties for paths, shapes, gradients, opacity, filters, text, clipping masks – all those good things. <br />
+<iframe src="http://julia-smith.com/nejsconf/#why-svg-3" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-3">Full screen</a></span></p>
 
 <h6 id="interactive">Interactive</h6>
 
 <p>You can attach event handlers to SVG elements with JavaScript, similar to the way you’re used to with HTML. Plus, SVG is based on a coordinate system so it’s easy to animate.</p>
 
-<p><iframe src="http://julia-smith.com/nejsconf/#why-svg-4" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-4">Full screen</a></span></p>
+<p><iframe src="http://julia-smith.com/nejsconf/#why-svg-4" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-4">Full screen</a></span></p>
 
 <p>However, be aware that jQuery selectors and SVGs don't mix. How this plays out in practice is that if you’re trying to use jQuery to work with an SVG, you'll end up writing a lot more vanilla JavaScript than you probably bargained for. So don’t use jQuery with SVG. Just use Snap.</p>
 
 <h6 id="accessibility">Accessibility</h6>
 
-<p>SVG is rendered to the page as markup, so all the text within the graphic is available to search engines and – as long as you configure it appropriately – it’s also available to assistive technologies like screen readers. Plus with the SVG 2.0 spec that’s coming out, we’ll have more universal support for tabindexes on SVG elements. I’m super excited about this because it opens all sorts of doors for exposing data via keyboard navigation. <br>
-<iframe src="http://julia-smith.com/nejsconf/#why-svg-5" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-5">Full screen</a></span></p>
+<p>SVG is rendered to the page as markup, so all the text within the graphic is available to search engines and – as long as you configure it appropriately – it’s also available to assistive technologies like screen readers. Plus with the SVG 2.0 spec that’s coming out, we’ll have more universal support for tabindexes on SVG elements. I’m super excited about this because it opens all sorts of doors for exposing data via keyboard navigation. <br />
+<iframe src="http://julia-smith.com/nejsconf/#why-svg-5" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-svg-5">Full screen</a></span></p>
 
 <h2 id="whyanimate">Why animate?</h2>
 
@@ -151,8 +152,8 @@
 
 <p>Without the transition an ice cube and a puddle of water seem like two completely different things – it’s the transition that ties them together. And the same goes for animated graphics and UI elements. When things change abruptly, your user gets lost. But by animating the change – for example, animating the scroll to an anchor link instead of directly jumping to it – then your user always knows how they came to be where they are, and context is preserved.</p>
 
-<p>Here’s a basic example: <br>
-<iframe src="http://julia-smith.com/nejsconf/#why-animate-1" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-animate-1">Full screen</a></span></p>
+<p>Here’s a basic example: <br />
+<iframe src="http://julia-smith.com/nejsconf/#why-animate-1" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#why-animate-1">Full screen</a></span></p>
 
 <p>Facebook’s Jake Blakely recently wrote an awesome post on <a href="http://jake.ly/journal/animations.html">the “why” of animation design</a>, some of which we’ve gone over already, but I’ll summarize again here:</p>
 
@@ -187,15 +188,15 @@
 
 <p>Here are some slides:</p>
 
-<p><iframe src="http://julia-smith.com/nejsconf/#snippet-1" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-1">Full screen</a></span></p>
+<p><iframe src="http://julia-smith.com/nejsconf/#snippet-1" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-1">Full screen</a></span></p>
 
-<p><iframe src="http://julia-smith.com/nejsconf/#snippet-2" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-2">Full screen</a></span></p>
+<p><iframe src="http://julia-smith.com/nejsconf/#snippet-2" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-2">Full screen</a></span></p>
 
-<p><iframe src="http://julia-smith.com/nejsconf/#snippet-3" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-3">Full screen</a></span></p>
+<p><iframe src="http://julia-smith.com/nejsconf/#snippet-3" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-3">Full screen</a></span></p>
 
-<p><iframe src="http://julia-smith.com/nejsconf/#snippet-4" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-4">Full screen</a></span></p>
+<p><iframe src="http://julia-smith.com/nejsconf/#snippet-4" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-4">Full screen</a></span></p>
 
-<p><iframe src="http://julia-smith.com/nejsconf/#snippet-5" scrolling="no" width="100%" height="450" frameborder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-5">Full screen</a></span></p>
+<p><iframe src="http://julia-smith.com/nejsconf/#snippet-5" scrolling="no" width="100%" height="450" frameBorder="0" style="border:1px solid #ccc;margin-bottom:0;"></iframe><span class="caption"><a href="http://julia-smith.com/nejsconf/#snippet-5">Full screen</a></span></p>
 
 <h2 id="resources">Resources</h2>
 
@@ -213,9 +214,9 @@
 
 
             <section class="author">
-                <h4><a href="../author/julia/">Julia Smith</a></h4>
+                <h4><a href="author/julia/index.html">Julia Smith</a></h4>
 
-                    <p>Read <a href="../author/julia/">more posts</a> by this author.</p>
+                    <p>Read <a href="author/julia/index.html">more posts</a> by this author.</p>
                 <div class="author-meta">
                     
                     
@@ -225,13 +226,16 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/share?text=%23NEJSConf%3A%20Animation%20basics%20with%20Snap.svg&amp;url=http://julia67.github.io/nejsconf-snap-svg/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/share?text=%23NEJSConf%3A%20Animation%20basics%20with%20Snap.svg&amp;url=http://julia67.github.io/nejsconf-snap-svg/"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://julia67.github.io/nejsconf-snap-svg/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://julia67.github.io/nejsconf-snap-svg/"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://julia67.github.io/nejsconf-snap-svg/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://julia67.github.io/nejsconf-snap-svg/"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
@@ -244,17 +248,17 @@
 
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="http://julia67.github.io">musings</a> © 2015</section>
+            <section class="copyright"><a href="http://julia67.github.io">musings</a> &copy; 2015</section>
             <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
         </footer>
 
     </div>
 
-    <script src="../public/jquery.js?v=e0fa635db6"></script>
+    <script src="public/jquery.js?v=e0fa635db6"></script>
 
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e0fa635db6"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=e0fa635db6"></script>
-    <script type="text/javascript" src="../assets/js/pym.min.js?v=e0fa635db6"></script>
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=e0fa635db6"></script>
+    <script type="text/javascript" src="assets/js/index.js?v=e0fa635db6"></script>
+    <script type="text/javascript" src="assets/js/pym.min.js?v=e0fa635db6"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -266,3 +270,4 @@
 
     </script>
 </body>
+</html>
