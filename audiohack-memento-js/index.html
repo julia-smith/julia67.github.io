@@ -1,0 +1,171 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>#Audiohack: Timed data binding for HTML5 media with memento.js</title>
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e0fa635db6">
+    <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7CRoboto:300,500,700">
+
+    <link rel="canonical" href="http://julia67.github.io/audiohack-memento-js/">
+    
+    <meta property="og:site_name" content="musings">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="#Audiohack: Timed data binding for HTML5 media with memento.js">
+    <meta property="og:description" content="This American Life's Audio Hackathon was last weekend. It was a good time exploring different ways to enhance podcast creation, discovery, and consumption. My team worked on a web app that synchronizes social and multimedia content – photos, ads, tweets, videos,...">
+    <meta property="og:url" content="http://julia67.github.io/audiohack-memento-js/">
+    <meta property="article:published_time" content="2015-09-21T19:02:30.879Z">
+    <meta property="article:modified_time" content="2015-09-21T19:20:24.001Z">
+    <meta property="article:tag" content="conf">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="#Audiohack: Timed data binding for HTML5 media with memento.js">
+    <meta name="twitter:description" content="This American Life's Audio Hackathon was last weekend. It was a good time exploring different ways to enhance podcast creation, discovery, and consumption. My team worked on a web app that synchronizes social and multimedia content – photos, ads, tweets, videos,...">
+    <meta name="twitter:url" content="http://julia67.github.io/audiohack-memento-js/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "musings",
+    "author": {
+        "@type": "Person",
+        "name": "Julia Smith",
+        "url": "http://julia67.github.io/author/julia",
+        "sameAs": null
+    },
+    "headline": "#Audiohack: Timed data binding for HTML5 media with memento.js",
+    "url": "http://julia67.github.io/audiohack-memento-js/",
+    "datePublished": "2015-09-21T19:02:30.879Z",
+    "dateModified": "2015-09-21T19:20:24.001Z",
+    "keywords": "conf",
+    "description": "This American Life&#x27;s Audio Hackathon was last weekend. It was a good time exploring different ways to enhance podcast creation, discovery, and consumption. My team worked on a web app that synchronizes social and multimedia content – photos, ads, tweets, videos,..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.5">
+    <link rel="alternate" type="application/rss+xml" title="musings" href="http://julia67.github.io/rss/">
+</head>
+<body class="post-template tag-conf nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://julia67.github.io/">Home</a></li>
+            <li class="nav-about" role="presentation"><a href="http://julia67.github.io/julia-who/">About</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button" href="index.html#"><span class="burger">☰</span><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-conf">
+
+        <header class="post-header">
+            <h1 class="post-title">#Audiohack: Timed data binding for HTML5 media with memento.js</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-09-21">21 September 2015</time>  on <a href="../tag/conf/">conf</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>This American Life's <a href="http://audiohackathon.com/">Audio Hackathon</a> was last weekend. It was a good time exploring different ways to enhance podcast creation, discovery, and consumption.</p>
+
+<p>My team worked on a web app that synchronizes social and multimedia content – photos, ads, tweets, videos, maps, links, etc. – with an audio file. The basic idea was to make it easier for listeners to engage with external content referenced within a podcast episode. For example, if the host is talking about a specific celebrity tweet, this app could display said tweet at the specific time in the podcast when it's being referenced. It'd also be awesome for a show like <a href="http://serialpodcast.org/">Serial</a>, where the producers would be able to annotate the show with actual documents and additional details about the case – <em>synchronized show notes.</em></p>
+
+<p>But the really valuable result of this hackathon project is the JavaScript tool that we (ahem, <a href="https://twitter.com/vijithassar">Vijith</a>) wrote to handle time-based data binding for HTML5 media objects: <a href="https://github.com/vijithassar/memento">memento.js</a>.</p>
+
+<p>From the docs:</p>
+
+<blockquote>
+  <p>Memento.js binds data to regions of audio or video and allows you to quickly recall the results at any point during playback or scrubbing. Calling the <code>.data()</code> method on a memento object will retrieve the data corresponding to that point in time. Calling the <code>.data()</code> method repeatedly at different points in time will retrieve different data.</p>
+  
+  <p>Conceptually, memento can be thought of as a way to slave all JavaScript execution to the playback as defined by the bound media node. It doesn't meaningfully use JavaScript events, though. Instead, it wraps around a playable media node and a queryable data structure, and then uses timing information from the former to deliver dynamic data payloads from the latter that automatically change over time.</p>
+</blockquote>
+
+<p><a href="https://github.com/vijithassar/memento">Check it out</a>.</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/julia/">Julia Smith</a></h4>
+
+                    <p>Read <a href="../author/julia/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=%23Audiohack%3A%20Timed%20data%20binding%20for%20HTML5%20media%20with%20memento.js&amp;url=http://julia67.github.io/audiohack-memento-js/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://julia67.github.io/audiohack-memento-js/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://julia67.github.io/audiohack-memento-js/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://julia67.github.io">musings</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=e0fa635db6"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e0fa635db6"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e0fa635db6"></script>
+    <script type="text/javascript" src="../assets/js/pym.min.js?v=e0fa635db6"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54002010-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
