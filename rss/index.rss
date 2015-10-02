@@ -1,4 +1,51 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 21 Sep 2015 19:21:58 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>#Audiohack: Timed data binding for HTML5 media with memento.js</title><description>&lt;p&gt;This American Life's &lt;a href="http://audiohackathon.com/"&gt;Audio Hackathon&lt;/a&gt; was last weekend. It was a good time exploring different ways to enhance podcast creation, discovery, and consumption.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>musings</title><description>&lt;span class="tag"&gt;design&lt;/span&gt;&lt;span class="tag"&gt;code&lt;/span&gt;&lt;span class="tag"&gt;journalism&lt;/span&gt;&lt;span class="tag"&gt;data&lt;/span&gt;&lt;span class="tag"&gt;life&lt;/span&gt;</description><link>http://julia67.github.io/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 02 Oct 2015 19:30:24 GMT</lastBuildDate><atom:link href="http://julia67.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>The Seventh Month</title><description>&lt;p&gt;&lt;img src="http://julia67.github.io/content/images/2015/10/BuenosAires-sm.jpg" alt="" title=""&gt;&lt;span class="caption"&gt;The view from my hotel room in BA!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Month No. 7 included a trip to Buenos Aires, a workshop, a keynote, a hack week with my fellow fellows, some meetups, a wasted week due to a bad cold (ugh), and lots of planning for an exciting Month No. 8!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="events"&gt;Events&lt;/h2&gt;
+
+&lt;h6 id="thefutureofjournalisminawikipediaworldbrhackshackersbayareameetup"&gt;The Future of Journalism in a Wikipedia World&lt;br&gt;Hacks/Hackers Bay Area Meetup&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="http://www.meetup.com/hacksandhackers/events/224478596/"&gt;This event&lt;/a&gt; brought together a panel of journalists, academics, and "superusers" to discuss the impact, possibilities, and partnership opportunities between Wikipedia and the news industry. Much of the discussion centered on issues related to fact-checking and the credibility of information on Wikipedia. Another hot discussion topic regarded encouraging journalists, as subject-matter experts, to contribute their reporting to Wikipedia articles. Interesting stuff.&lt;/p&gt;
+
+&lt;h6 id="hackshackersbuenosaires2015mediaparty"&gt;Hacks/Hackers Buenos Aires 2015 Media Party&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="http://julia67.github.io/the-seventh-month/../hhba-media-party-2015"&gt;Read about it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="fellowshackweek"&gt;Fellows Hack Week!&lt;/h6&gt;
+
+&lt;p&gt;The hack week was a lot of fun. Check out this &lt;a href="http://julia67.github.io/the-seventh-month/../hack-week-project"&gt;super fun tutorial&lt;/a&gt; I put together on animating matrix transformations on SVG elements.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="projects"&gt;Projects&lt;/h2&gt;
+
+&lt;h6 id="publishedthelostthefound"&gt;Published: The Lost &amp;amp; The Found&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="https://lostandfound.revealnews.org/" target="_blank"&gt;&lt;img src="http://julia67.github.io/content/images/2015/10/Screen-Shot-2015-10-02-at-12-04-13-PM.png" alt="" title=""&gt;&lt;/a&gt;&lt;span class="caption"&gt;&lt;a href="https://lostandfound.revealnews.org/" target="_blank"&gt;Check out the project on revealnews.org!&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;This investigation – a deep dive on U.S. missing and unidentified persons – has been in the works at CIR for years. &lt;/p&gt;
+
+&lt;p&gt;"The Lost &amp;amp; The Found" web app has been in development in some form since March or so. It is an application that takes data from &lt;a href="http://www.namus.gov/"&gt;NAMUS.gov&lt;/a&gt; and repackages it into a simplified search interface so that users can more easily find potential matches among the missing and unidentified records.&lt;/p&gt;
+
+&lt;p&gt;My involvement in the project was mostly as a technical advisor. Early in the reporting process, I helped data journalist Emmanuel Martinez write a Python scraper to pull information from the NAMUS site; for the final product, I advised our Google fellow, Allison McCartney, on best practices for front-end web development and debugging. Huge props to Allison, Emmanuel, and our fearless leader Michael Corey for all their work on this project!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="news"&gt;News&lt;/h2&gt;
+
+&lt;p&gt;The next month will be an extraordinarily busy one! &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Audio Hackathon:&lt;/strong&gt; This American Life is putting on an a makers event to prototype new tools for podcasts. It's being held in Manhattan, and I'm super excited about it. I think there's a lot of room for innovation around audio on the web, and I'm looking forward to seeing what kinds of projects the teams come up with. I'm hoping to pitch a data sonification project, although that might be a stretch depending on the crowd. I'm also really happy that this event is in New York – I was hoping for a chance to get there during my fellowship.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ONA15:&lt;/strong&gt; The Online News Association's annual conference is at the end of September in Los Angeles. I haven't had a chance to attend in previous years, so I'm eager to see what it's all about. I think it'll provide good perspective and an opportunity to identify areas where tech for online journalism needs improvement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MIT Media Lab Open House:&lt;/strong&gt; I received a travel grant to go to the Media Lab's open house, so I'll be flying out to Boston immediately after ONA to check it out and connect with the Center for Civic Media. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code for America Summit:&lt;/strong&gt; And just in case I haven't tired of conferences after all that, I'll be attending the CFA Summit in Oakland at the beginning of October. I'm really interested in the overlap between the journalism and civic tech communities, and the speaker lineup for the event looks fabulous. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lots to learn!&lt;/p&gt;</description><link>http://julia67.github.io/the-seventh-month/</link><guid isPermaLink="false">b95fbb83-424f-430d-91d8-6b40e3e31f6e</guid><dc:creator>Julia Smith</dc:creator><pubDate>Wed, 23 Sep 2015 19:21:00 GMT</pubDate></item><item><title>#Audiohack: Timed data binding for HTML5 media with memento.js</title><description>&lt;p&gt;This American Life's &lt;a href="http://audiohackathon.com/"&gt;Audio Hackathon&lt;/a&gt; was last weekend. It was a good time exploring different ways to enhance podcast creation, discovery, and consumption.&lt;/p&gt;
 
 &lt;p&gt;My team worked on a web app that synchronizes social and multimedia content – photos, ads, tweets, videos, maps, links, etc. – with an audio file. The basic idea was to make it easier for listeners to engage with external content referenced within a podcast episode. For example, if the host is talking about a specific celebrity tweet, this app could display said tweet at the specific time in the podcast when it's being referenced. It'd also be awesome for a show like &lt;a href="http://serialpodcast.org/"&gt;Serial&lt;/a&gt;, where the producers would be able to annotate the show with actual documents and additional details about the case – &lt;em&gt;synchronized show notes.&lt;/em&gt;&lt;/p&gt;
 
@@ -1348,72 +1395,4 @@ A few notes on deadlines: &lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;More coverage of &lt;em&gt;Visualized: Political Data:&lt;/em&gt;  &lt;a href="https://twitter.com/search?src=typd&amp;amp;q=%23visualizedpd"&gt;Twitter&lt;/a&gt;, &lt;a href="http://www.azavea.com/blogs/atlas/2015/05/unicorns-ducks-and-things-that-are-big-a-recap-of-visualized-political-data/"&gt;Azavea report&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description><link>http://julia67.github.io/visualized-political-data/</link><guid isPermaLink="false">e7dc5fd7-736e-4844-87b9-e41507859188</guid><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Fri, 29 May 2015 00:46:11 GMT</pubDate></item><item><title>The Third Month</title><description>&lt;p&gt;I can hardly believe it: I stayed in California the entire month.&lt;/p&gt;
-
-&lt;p&gt;Fellowship Month No. 3 was mostly solid time in the office, which was a nice change of pace from the long conferences in March and April. &lt;/p&gt;
-
-&lt;p&gt;Here's what I was up to:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2 id="events"&gt;Events&lt;/h2&gt;
-
-&lt;h6 id="techrakingelevatingthenews"&gt;TechRaking: Elevating the News&lt;/h6&gt;
-
-&lt;p&gt;CIR hosted a &lt;a href="http://www.revealnews.org/events/techraking/techraking-elevating-the-news/"&gt;drone journalism event&lt;/a&gt; in Berkeley on April 22. The day started with a panel discussion on advancements in drone technology and legislative issues, and in the afternoon everyone broke into teams to develop proposals for projects that would utilize drone technology for journalistic efforts. &lt;/p&gt;
-
-&lt;p&gt;My team presented the winning concept for DroneHound, which would use drones to collect air samples in highly polluted areas and report the data with a mobile app. &lt;/p&gt;
-
-&lt;p&gt;More on the event: &lt;a href="http://www.revealnews.org/article/illegal-but-coming-soon-drones-meet-journalism-at-berkeley-techraking/"&gt;http://www.revealnews.org/article/illegal-but-coming-soon-drones-meet-journalism-at-berkeley-techraking/&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Great working with you all today! &lt;a href="https://twitter.com/hashtag/pawpound?src=hash"&gt;#pawpound&lt;/a&gt; &lt;a href="https://twitter.com/add"&gt;@add&lt;/a&gt; &lt;a href="https://twitter.com/morisy"&gt;@morisy&lt;/a&gt; &lt;a href="https://twitter.com/Digidave"&gt;@Digidave&lt;/a&gt; &lt;a href="https://twitter.com/julia67"&gt;@julia67&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/TechRaking?src=hash"&gt;#TechRaking&lt;/a&gt; thanks &lt;a href="https://twitter.com/CIRonline"&gt;@CIRonline&lt;/a&gt; &lt;a href="http://t.co/yDztc1wxH3"&gt;pic.twitter.com/yDztc1wxH3&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lakshmi Sarah (@lakitalki) &lt;a href="https://twitter.com/lakitalki/status/591084127257931776"&gt;April 23, 2015&lt;/a&gt;&lt;/blockquote&gt;  
-
-&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;  
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h6 id="smashingconf2015"&gt;SmashingConf 2015&lt;/h6&gt;
-
-&lt;p&gt;I went to Santa Monica at the tail end of April for &lt;a href="http://smashingconf.com/la-2015/"&gt;SmashingConf&lt;/a&gt;, one of Smashing Magazine's annual conferences. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://julia67.github.io/the-third-month/../smashingconf-notes/"&gt;I took a lot of notes&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;I thought all the talks were really engaging, which can be tricky for multi-day, single-track conferences. (That's a lot of sitting and listening.) &lt;a href="http://twitter.com/draplin"&gt;Aaron Draplin&lt;/a&gt; and &lt;a href="http://twitter.com/andybudd"&gt;Andy Budd's&lt;/a&gt; talks were probably my favorites. &lt;/p&gt;
-
-&lt;p&gt;I very much enjoyed being at a design event – I think sometimes the official news nerd conferences can be a little overwhelming because there are so many areas of concentration (reporting, data, coding, design, etc.), so sometimes it's nice to focus intently on one discipline.&lt;/p&gt;
-
-&lt;h6 id="codecontentmeetup"&gt;Code &amp;amp; Content Meetup&lt;/h6&gt;
-
-&lt;p&gt;There was a little meetup for news/tech types in San Francisco last week. It's always fun to meet new people with similar interests!&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2 id="projects"&gt;Projects&lt;/h2&gt;
-
-&lt;h6 id="supersecretprojectno1"&gt;Super-Secret Project No. 1&lt;/h6&gt;
-
-&lt;p&gt;This is the same project I started working on last month, and hopefully it will be done soon. It's been a real struggle from a process perspective (project management, expectations, communication, etc.) – which makes me wonder if there are things we can do to make the design process smoother going forward. Most of my suggestions would come from the dev processes we used at my past jobs, especially when I was on an in-house UX team. I'm just not sure of the best way to incorporate those ideas into the editorial process. I need to bounce ideas off others in the newsroom.&lt;/p&gt;
-
-&lt;h6 id="supersecretprojectno2"&gt;Super-Secret Project No. 2&lt;/h6&gt;
-
-&lt;p&gt;It's a map! Nothing fancy, but it was nice to have a quick project to build. I believe it'll be published in early June.&lt;/p&gt;
-
-&lt;h6 id="supersecretprojectno3"&gt;Super-Secret Project No. 3&lt;/h6&gt;
-
-&lt;p&gt;It's a map! This one is slightly more involved than the last. It's also set for publication in early June. &lt;/p&gt;
-
-&lt;p&gt;Perhaps next month I'll be able to share more details and the GitHub repos for all these. It's a little strange trying to work in the open when I'm not obliged to discuss unpublished projects.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2 id="news"&gt;News&lt;/h2&gt;
-
-&lt;h6 id="srccon"&gt;SRCCON&lt;/h6&gt;
-
-&lt;p&gt;One of my &lt;a href="http://srccon.org"&gt;SRCCON&lt;/a&gt; session proposals was accepted, which is great. I'll be leading a discussion on &lt;a href="http://srccon.org/sessions/#proposal-112035"&gt;Lo-Fi Data Viz&lt;/a&gt; along with &lt;a href="http://twitter.com/aboutaaron"&gt;Aaron Williams&lt;/a&gt; and &lt;a href="https://twitter.com/zhoyoyo"&gt;Youyou Zhou&lt;/a&gt;.  &lt;/p&gt;
-
-&lt;h6 id="newsroomupdate"&gt;Newsroom Update&lt;/h6&gt;
-
-&lt;p&gt;We just found out that Aaron is leaving CIR, which is sad for us! I expect my role will evolve a bit as a result.&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Hey! Some personal news. I&amp;#39;ll be joining the &lt;a href="https://twitter.com/sfchronicle"&gt;@sfchronicle&lt;/a&gt; as its data visualization editor starting in June. Ain&amp;#39;t that something?&lt;/p&gt;&amp;mdash; Aaron Williams (@aboutaaron) &lt;a href="https://twitter.com/aboutaaron/status/600431407735787520"&gt;May 18, 2015&lt;/a&gt;&lt;/blockquote&gt;  &lt;/p&gt;
-
-&lt;script async src="http://julia67.github.io//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><link>http://julia67.github.io/the-third-month/</link><guid isPermaLink="false">c8dfa080-1f15-44f3-bf0f-02bf417177db</guid><category>opennews</category><dc:creator>Julia Smith</dc:creator><pubDate>Thu, 21 May 2015 05:42:00 GMT</pubDate></item></channel></rss>
+&lt;/blockquote&gt;</description><link>http://julia67.github.io/visualized-political-data/</link><guid isPermaLink="false">e7dc5fd7-736e-4844-87b9-e41507859188</guid><category>conf</category><dc:creator>Julia Smith</dc:creator><pubDate>Fri, 29 May 2015 00:46:11 GMT</pubDate></item></channel></rss>
